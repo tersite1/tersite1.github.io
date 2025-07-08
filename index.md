@@ -71,46 +71,43 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 ## Personal Projects
 
 <div class="main-personal-projects">
-  <!-- DepthViz ----------------------------------------------------------- -->
-  <div class="personal-project-card">
-    <div class="project-name"><strong>DepthViz</strong></div>
-    <div class="project-description">A simple LiDAR scanner running on iPhone</div>
-
-    <!-- 버튼 컨테이너 -->
-    <div class="project-buttons">
-      <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
-        Project Page
-      </a>
-      <a href="https://apps.apple.com/app/depthviz/id123456789" target="_blank"
-         class="download-button ios-button">
-        Download (iOS)
-      </a>
+  <div class="personal-project-row">
+    <!-- DepthViz 프로젝트 -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>DepthViz</strong></div>
+      <div class="project-description">A simple lidar scanner working in iPhone</div>
+      <div class="project-buttons">
+        <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
+          Project Page
+        </a>
+        <a href="https://apps.apple.com/app/depthviz/id123456789" target="_blank" class="download-button ios-button">
+          Download (iOS)
+        </a>
+      </div>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
 
-    <div class="project-video-container">
-      <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY"
-              title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-
-
-<br>
-
-  <!-- Yonsei Drone -------------------------------------------------------- -->
-  <div class="personal-project-card">
-    <div class="project-name"><strong>Yonsei Drone</strong></div>
-    <div class="project-description">I'm still in Yonsei Drone, WOW!</div>
-    <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank"
-       class="project-button">
-      Project Page
-    </a>
-
-    <div class="project-video-container">
-      <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q"
-              title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+    <!-- Yonsei Drone 프로젝트 (Instagram 버튼 추가) -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>Yonsei Drone</strong></div>
+      <div class="project-description">I'm still in Yonsei Drone</div>
+      <div class="project-buttons">
+        <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
+          Project Page
+        </a>
+        <a href="https://www.instagram.com/yonsei_drone/" target="_blank" class="instagram-button">
+          Instagram
+        </a>
+      </div>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>
+
 
 
 
