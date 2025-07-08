@@ -198,20 +198,27 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* 이미지 및 동영상 크기 최적화 */
+/* 동영상 컨테이너 일관성 보장 */
 .personal-project-card .project-video-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 600px;
+  height: 300px;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   margin: 0 auto;
+  position: relative;
+  background-color: #000;
 }
 
 .personal-project-card .project-video-container iframe {
   width: 100%;
-  height: 250px;
+  height: 100%;
   border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
 }
 
 .personal-project-card .project-image {
@@ -232,19 +239,23 @@
 .sidebar-project .project-video-container {
   width: 100%;
   max-width: 232px;
+  height: 130px;
   margin: 1rem auto;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+  background-color: #000;
 }
 
 .sidebar-project .project-video-container iframe {
   width: 100%;
-  max-width: 232px;
-  height: 180px;
+  height: 100%;
   border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
-  margin: 0 auto;
 }
 
 .sidebar-project .project-image {
@@ -309,19 +320,19 @@
     display: none !important;
   }
   
-  .sidebar-project .project-video-container iframe {
-    height: 160px;
+  .sidebar-project .project-video-container {
+    height: 100px;
   }
 }
 
-/* 태블릿/모바일에서 메인 Personal Projects 스타일 조정 */
+/* 반응형 동영상 크기 조정 */
 @media (max-width: 768px) {
   .personal-project-row {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
   
-  .personal-project-card .project-video-container iframe {
+  .personal-project-card .project-video-container {
     height: 200px;
   }
 }
@@ -331,11 +342,11 @@
     padding: 1rem;
   }
   
-  .personal-project-card .project-video-container iframe {
+  .personal-project-card .project-video-container {
     height: 180px;
   }
   
-  .sidebar-project .project-video-container iframe {
-    height: 140px;
+  .sidebar-project .project-video-container {
+    height: 100px;
   }
 }
