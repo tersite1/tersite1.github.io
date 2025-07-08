@@ -79,7 +79,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
     <!-- DepthViz 프로젝트 -->
     <div class="personal-project-card">
       <div class="project-name"><strong>DepthViz</strong></div>
-      <div class="project-description">A simple lidar scanner working in iPhone</div>
+      <div class="project-description">A LiDAR scanner working on iPhone</div>
       <div class="project-buttons">
         <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
           Project Page
