@@ -669,10 +669,50 @@ footer {
   transition: all 0.3s ease;
 }
 
-@media (hover: hover) and (pointer: fine) {
+/* 모바일 터치 기기에서 hover 효과 비활성화 */
+@media (hover: none) and (pointer: coarse) {
   .social-icons a:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.2);
+    transform: none !important;
+    background-color: transparent !important;
+  }
+  
+  .personal-project-card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  
+  .project-button:hover,
+  .download-button:hover,
+  .instagram-button:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  
+  .icon-button:hover {
+    transform: none !important;
   }
 }
+
+/* 터치 액션 최적화 */
+.personal-project-card,
+.sidebar-project,
+.project-button,
+.download-button,
+.instagram-button,
+.social-icons a {
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* 스크롤 성능 최적화 */
+.main-personal-projects,
+.sidebar-projects {
+  -webkit-overflow-scrolling: touch;
+  will-change: auto;
+}
+
+
+
+
+
