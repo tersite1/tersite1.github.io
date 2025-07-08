@@ -136,15 +136,14 @@ papertitle {
   papertitle {color:#eeeff0;}
 }
 
-/* Personal Projects - 강제로 모든 환경에서 표시 */
+/* Personal Projects - 사용자 HTML 구조에 맞춤 */
 .main-personal-projects {
-  display: block !important;
-  visibility: visible !important;
   margin: 2rem 0;
+  display: block;
 }
 
 .personal-project-row {
-  display: grid !important;
+  display: grid;
   grid-template-columns: 1fr;
   gap: 3rem;
   margin-top: 1.5rem;
@@ -155,8 +154,6 @@ papertitle {
 }
 
 .personal-project-card {
-  display: block !important;
-  visibility: visible !important;
   padding: 3rem;
   background-color: #f8f9fa;
   border-radius: 1rem;
@@ -169,7 +166,7 @@ papertitle {
   box-sizing: border-box;
 }
 
-/* PC에서만 카드 hover 효과 적용 */
+/* PC에서만 카드 hover 효과 적용 - 터치 오류 방지 */
 @media (hover: hover) and (pointer: fine) {
   .personal-project-card:hover {
     transform: translateY(-3px);
@@ -178,7 +175,6 @@ papertitle {
 }
 
 .project-name {
-  display: block !important;
   font-size: 1.6rem;
   font-weight: 600;
   color: #043361;
@@ -186,7 +182,6 @@ papertitle {
 }
 
 .project-description {
-  display: block !important;
   font-size: 1.2rem;
   color: #6c757d;
   margin-bottom: 1.5rem;
@@ -196,26 +191,28 @@ papertitle {
   margin-right: auto;
 }
 
+/* 프로젝트 버튼 컨테이너 */
 .project-buttons {
-  display: flex !important;
+  display: flex;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
 
+/* 모든 프로젝트 버튼 공통 스타일 - 사용자 HTML의 모든 버튼 클래스 지원 */
 .project-button,
 .download-button,
 .instagram-button,
 .ios-button {
-  display: inline-block !important;
-  visibility: visible !important;
+  display: inline-block;
   padding: 0.8rem 1.5rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  border: 2px solid #043361;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
   min-width: 140px;
   text-align: center;
   box-sizing: border-box;
@@ -223,9 +220,10 @@ papertitle {
   line-height: 1.2;
   background-color: #043361;
   color: white !important;
+  border-color: #043361;
 }
 
-/* PC에서만 버튼 hover 효과 */
+/* PC에서만 버튼 hover 효과 적용 - 터치 오류 방지 */
 @media (hover: hover) and (pointer: fine) {
   .project-button:hover,
   .download-button:hover,
@@ -238,9 +236,8 @@ papertitle {
   }
 }
 
+/* 동영상 컨테이너 */
 .project-video-container {
-  display: block !important;
-  visibility: visible !important;
   width: 100%;
   max-width: 900px;
   height: 350px;
@@ -259,6 +256,7 @@ papertitle {
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 
 /* Dark Mode Support */
@@ -507,7 +505,7 @@ footer {
   text-align:center;
 }
 
-/* 모바일 반응형 */
+/* 모바일 반응형 - 카드 기능 완전 보존 */
 @media print, screen and (max-width: 960px) {
   .pub-row {display: flex; align-items: center;}
   div.wrapper {width:auto;margin:0;}
@@ -518,16 +516,10 @@ footer {
   header ul {position:absolute;right:50px;top:52px;}
   .image.avatar img {border-radius: 100%;width: 117px;padding:20px;}
   
-  /* 모바일에서도 카드 강제 표시 */
-  .main-personal-projects {
-    display: block !important;
-    visibility: visible !important;
-  }
-  
+  /* 모바일에서 프로젝트 카드 최적화 - 기능 유지 */
   .personal-project-card {
-    display: block !important;
-    visibility: visible !important;
     padding: 2rem;
+    margin-bottom: 2rem;
   }
   
   .project-name {
@@ -539,7 +531,6 @@ footer {
   }
   
   .project-buttons {
-    display: flex !important;
     flex-direction: column;
     gap: 0.75rem;
   }
@@ -548,13 +539,11 @@ footer {
   .download-button,
   .instagram-button,
   .ios-button {
-    display: block !important;
     width: 100%;
     min-width: auto;
   }
   
   .project-video-container {
-    display: block !important;
     height: 250px;
   }
   
