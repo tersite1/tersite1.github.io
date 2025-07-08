@@ -59,6 +59,35 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 
 
 
+## Personal Projects
+
+<div class="main-personal-projects">
+  <div class="personal-project-row">
+    <div class="personal-project-card">
+      <div class="project-name"><strong>DepthViz</strong></div>
+      <div class="project-description">A simple lidar scanner working in iPhone</div>
+      <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
+        Project Page
+      </a>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="personal-project-card">
+      <div class="project-name"><strong>Yonsei Drone</strong></div>
+      <div class="project-description">I'm still in Yonsei Drone</div>
+      <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
+        Project Page
+      </a>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/qPJIA2oedKo" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 ## Academic Services
