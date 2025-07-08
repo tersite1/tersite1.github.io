@@ -43,11 +43,12 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 
 ## Patents
 
-* LiDAR Micro Mobile Mapping System, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
-* Forest Carbon Sequestration Analysis System and Method, **Minsuk Jang** (KR Patent Application 10-2024-0153987)
-* Vertically Takeoff and Landing Unmanned Aerial Vehicle with Adjustable Center of Gravity, Minjun Kim, Junkyoo Park, Jungha Wang, **Minsuk Jang** (KR Patent Application 10-2024-0177539)
-* Method for Generating a High-Precision 3D Model from a Digital Elevation Model, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165631)
-* Machine Learning Clustering-Based Method for Algal Bloom Detection in Satellite Imagery, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165632)
+* *LiDAR Micro Mobile Mapping System*, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
+* *Forest Carbon Sequestration Analysis System and Method*, **Minsuk Jang** (KR Patent Application 10-2024-0153987)
+* *Vertically Takeoff and Landing Unmanned Aerial Vehicle with Adjustable Center of Gravity*, Minjun Kim, Junkyoo Park, Jungha Wang, **Minsuk Jang** (KR Patent Application 10-2024-0177539)
+* *Method for Generating a High-Precision 3D Model from a Digital Elevation Model*, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165631)
+* *Machine Learning Clustering-Based Method for Algal Bloom Detection in Satellite Imagery*, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165632)
+
 
   
 ## Awards & Honors
