@@ -2,7 +2,7 @@ main:
   - title: "LiTE ViT : Leaky Integrate-and-Fire Token Efficient Vision Transformer"
     authors: <strong>Minsuk Jang</strong>, Younghun Kim, Byeongjun Park and Changick Kim
     conference_short: IEIE
-    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2025.
+    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2025. (Oral)
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     image: ./assets/img/litevit.png
     notes: Best Paper
@@ -17,17 +17,15 @@ main:
   - title: "Building Automation Labeling Pipeline Utilizing Neural Raidance Fields"
     authors: <strong>Minsuk Jang</strong>, Taehyung Kim, and Shiho Kim
     conference_short: IEIE
-    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2024.
+    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2024. (Oral)
     pdf: https://github.com/tersite1/tersite1/files/15329640/NeRF.pdf
     code: https://github.com/tersite1/VisionCycle
     image: ./assets/img/nerf.png
-    notes: Oral Presentation
 
   - title: "A Method for Real Time Target Association in Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection"
     authors: Taehyung Kim, <strong>Minsuk Jang</strong> and Shiho Kim
     conference_short: IEIE
-    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2024.
+    conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2024. (Oral)
     pdf: https://github.com/tersite1/tersite1/files/15329640/NeRF.pdf
     page: https://github.com/kimthyung/A-Method-for-Real-Time-Target-Association-in-Smart-Vessel-s-Surround-Camera-System
-    notes: Oral Presentation
     image: ./assets/img/sift.png
