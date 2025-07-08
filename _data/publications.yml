@@ -10,9 +10,8 @@ main:
   - title: "SELFI: Selective Fusion of Identity for Generalizable Deepfake Detection"
     authors: Younghun Kim, <strong>Minsuk Jang</strong>, Myung-Joon Kwon, Wonjun Lee and Changick Kim
     conference_short: Arxiv
-    conference: Arxiv
+    conference: Arxiv (Under Review, Submitted at NeurIPS 2026))
     pdf: https://arxiv.org/pdf/2506.17592
-    notes: Under Review
     image: ./assets/img/selfi.png
 
   - title: "Building Automation Labeling Pipeline Utilizing Neural Raidance Fields"
