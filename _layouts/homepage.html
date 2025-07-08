@@ -59,7 +59,6 @@
 
         <br>
         <br>
-
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -85,12 +84,6 @@
         </a>
         {% endif %}
 
-        {% if site.instagram %}
-        <a style="margin: 0 5px 0 0" href="{{ site.instagram }}">
-          <i class="fab fa-instagram"></i>
-        </a>
-        {% endif %}
-
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
@@ -98,6 +91,11 @@
         {% endif %}
         </div>
         <br>
+
+      </header>
+      <section>
+
+      {{ content }}
 
       <br>
 
