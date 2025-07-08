@@ -8,19 +8,13 @@ I am an M.S. student at KAIST @[Computational Intelligence Laboratory](https://c
 
 I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzinnovation).
 
-
-
-
-
-
-
-
-
-
+<br>
+<br>
 ## Education
 * **[Mar. 2025 ~ Present]** : M.S. in Engineering @KAIST Computaional Intelligence Laboratory
 * **[Mar. 2021 ~ Feb. 2025]** : B.S. in  Civil Engineering @Yonsei University - **Graduated Cum Laude**.
-
+<br>
+<br>
 
 ## Research Interests
 
@@ -29,19 +23,22 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **3D Digital twin:** Creating comprehensive digital replicas by integrating UAV technology and remote sensing data for climate research applications, environmental monitoring, and atmospheric data analysis.
 [[IEIE'24]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890368) 
 
-
+<br>
+<br>
 ## Work Experience
 
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @[Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
-
+<br>
+<br>
 ## Projects
 
 * **[2024 ~ 2025]:** Stellarvision Inc - Construction of SAR Drone Digital Twin Platform
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
 
-
+<br>
+<br>
 ## News
 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
@@ -49,7 +46,8 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
   
 {% include_relative _includes/publications.md %}
 
-
+<br>
+<br>
 ## Patents
 
 * *LiDAR Micro Mobile Mapping System*, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
@@ -58,7 +56,8 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * *Method for Generating a High-Precision 3D Model from a Digital Elevation Model*, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165631)
 * *Machine Learning Clustering-Based Method for Algal Bloom Detection in Satellite Imagery*, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165632)
 
-
+<br>
+<br>
   
 ## Awards & Honors
 
@@ -72,7 +71,9 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **2nd Command Center Drone Challenge (Winner)** @ Republic of Korea Army (ROKA)
 * **Gyeonggi ESG Hackathon (Winner)** @ Gyeonggi-do Provincial Council
 * **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
-
+<br>
+<br><br>
+<br>
 
 ## Personal Projects
 
