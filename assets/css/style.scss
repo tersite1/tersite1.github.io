@@ -14,7 +14,7 @@
   font-size: 1.1rem;
   color: #043361;
   margin-bottom: 1.5rem;
-  font-weight: 599;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -70,7 +70,7 @@
 
 .project-video-container iframe {
   width: 100%;
-  height: 150px;
+  height: 180px;
   border: none;
 }
 
@@ -124,13 +124,13 @@
   }
   
   .project-video-container iframe {
-    height: 120px;
+    height: 160px;
   }
 }
 
 @media (max-width: 480px) {
   .project-video-container iframe {
-    height: 100px;
+    height: 140px;
   }
 }
 
@@ -141,18 +141,23 @@
 
 .personal-project-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .personal-project-card {
-  padding: 1.5rem;
+  padding: 2rem;
   background-color: #f8f9fa;
   border-radius: 0.75rem;
   border: 1px solid #e9ecef;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
 }
 
 .personal-project-card:hover {
@@ -334,4 +339,3 @@
     height: 140px;
   }
 }
-
