@@ -61,7 +61,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **Convergence Social Problem Solving Competition (Winner)** @ Yonsei University, Jan. 2024
 * **2nd Command Center Drone Challenge (Winner)** @ Republic of Korea Army (ROKA)
 * **Gyeonggi ESG Hackathon (Winner)** @ Gyeonggi-do Provincial Council
-* **KSCE Civil Engineering Model Building Competition (Winner)** @ Korea Society of Civil Engineers
+* **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
 
 
 
