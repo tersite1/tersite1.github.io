@@ -27,7 +27,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 ## News
 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
-
+* **[May. 2025]**: I have joined GLG as an advisory board member.
 
 
 ## Patents
