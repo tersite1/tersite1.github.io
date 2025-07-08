@@ -9,12 +9,12 @@ I am an M.S. student at KAIST @[Computational Intelligence Laboratory](https://c
 I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzinnovation).
 
 <br>
-<br>
+
 ## Education
 * **[Mar. 2025 ~ Present]** : M.S. in Engineering @KAIST Computaional Intelligence Laboratory
 * **[Mar. 2021 ~ Feb. 2025]** : B.S. in  Civil Engineering @Yonsei University - **Graduated Cum Laude**.
 <br>
-<br>
+
 
 ## Research Interests
 
@@ -24,13 +24,13 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 [[IEIE'24]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890368) 
 
 <br>
-<br>
+
 ## Work Experience
 
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @[Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 <br>
-<br>
+
 ## Projects
 
 * **[2024 ~ 2025]:** Stellarvision Inc - Construction of SAR Drone Digital Twin Platform
@@ -38,7 +38,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
 
 <br>
-<br>
+
 ## News
 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
@@ -47,7 +47,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 {% include_relative _includes/publications.md %}
 
 <br>
-<br>
+
 ## Patents
 
 * *LiDAR Micro Mobile Mapping System*, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
@@ -71,9 +71,10 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **2nd Command Center Drone Challenge (Winner)** @ Republic of Korea Army (ROKA)
 * **Gyeonggi ESG Hackathon (Winner)** @ Gyeonggi-do Provincial Council
 * **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
+* 
 <br>
-<br><br>
-<br>
+
+
 
 ## Personal Projects
 
@@ -100,6 +101,9 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
     </div>
   </div>
 
+
+<br>
+<br>
   <!-- Yonsei Drone -------------------------------------------------------- -->
   <div class="personal-project-card">
     <div class="project-name"><strong>Yonsei Drone</strong></div>
