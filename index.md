@@ -12,7 +12,7 @@ I also worked as an AI Engineer at Stellar Vision, a satellite imagery startup.
 
 Alongside my academic pursuits, I am the founder of [XYZ Innovation](https://www.linkedin.com/company/xyzinnovation), a startup focused on applying AI and robotics technologies to real-world challenges.
 
-These combined experiences have shaped my interests in autonomous systems, AI-generated content detection, and 3D digital-twin technologies.
+These combined experiences have shaped my research interests.
 
 
 
