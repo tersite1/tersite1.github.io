@@ -46,15 +46,16 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 ## Awards & Honors
 
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
-* **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)<strong>** @ Seoul Metropolitan Government, Dec. 2024
-* **Asan Nanum Foundation-Yonsei University Startup Competition <strong>(Excellence Prize)<strong>** @ Asan Nanum Foundation, Oct. 2024
-* **Jeju Satellite Data Challenge <Strong>(Grand Prize,Governor's Award)<strong>** @ Jeju Provincial Government, Sep. 2024
+* **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
+* **Asan Nanum Foundation-Yonsei University Startup Competition <strong>(Excellence Prize)</strong>** @ Asan Nanum Foundation, Oct. 2024
+* **Jeju Satellite Data Challenge <strong>(Grand Prize, Governor's Award)</strong>** @ Jeju Provincial Government, Sep. 2024
 * **ICEE Challenge 2024 (Winner)** @ Yonsei University, Jul. 2024
-* **Yonsei Student Council Idea Competition (Award Winner)** @ Yonsei University, Jul.2024
+* **Yonsei Student Council Idea Competition (Award Winner)** @ Yonsei University, Jul. 2024
 * **Convergence Social Problem Solving Competition (Winner)** @ Yonsei University, Jan. 2024
 * **2nd Command Center Drone Challenge (Winner)** @ Republic of Korea Army (ROKA)
 * **Gyeonggi ESG Hackathon (Winner)** @ Gyeonggi-do Provincial Council
 * **KSCE Civil Engineering Model Building Competition (Winner)** @ Korea Society of Civil Engineers
+
 
 
 
