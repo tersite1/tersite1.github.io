@@ -524,3 +524,59 @@ footer {
 .biblink {text-decoration:none; display: inline; margin-right: 0px}
 .fakelink {text-decoration: none; cursor: pointer}
 .bibref {font-size: 70%; margin-top: 10px; margin-left: 0px; display:none; font-family: monospace}
+
+
+
+/* Instagram 버튼 스타일 */
+.instagram-button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #E4405F;
+  color: white !important;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  border-color: #E4405F;
+}
+
+.instagram-button:hover {
+  background-color: #C13584;
+  border-color: #C13584;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(228, 64, 95, 0.3);
+}
+
+/* 사이드바 Instagram 버튼 크기 조정 */
+.sidebar-project .instagram-button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  min-width: 90px;
+}
+
+/* 메인 프로젝트 카드 Instagram 버튼 크기 조정 */
+.personal-project-card .instagram-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  min-width: 140px;
+}
+
+/* Dark Mode Instagram 버튼 */
+@media (prefers-color-scheme: dark) {
+  .instagram-button {
+    background-color: #E4405F;
+    border-color: #E4405F;
+  }
+  
+  .instagram-button:hover {
+    background-color: #C13584;
+    border-color: #C13584;
+    box-shadow: 0 2px 8px rgba(228, 64, 95, 0.4);
+  }
+}
+
