@@ -33,9 +33,10 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Projects
 
-* **[2024 ~ 2025]:** Stellarvision Inc - Construction of SAR Drone Digital Twin Platform
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
+* **[2024 ~ 2025]:** Stellarvision Inc - Construction of SAR Drone Digital Twin Platform
+
 
 ## News
 
