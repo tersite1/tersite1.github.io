@@ -85,6 +85,12 @@
         </a>
         {% endif %}
 
+        {% if site.instagram %}
+        <a style="margin: 0 5px 0 0" href="{{ site.instagram }}">
+          <i class="fab fa-instagram"></i>
+        </a>
+        {% endif %}
+
         {% if site.twitter %}
         <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
           <i class="fab fa-x-twitter"></i>
@@ -117,15 +123,23 @@
           <!-- Yonsei Drone 프로젝트 -->
           <div class="sidebar-project">
             <div class="project-name"><strong>Yonsei Drone</strong></div>
-            <div class="project-description">I'm still in Yonsei Drone, Wow!</div>
-            <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
-              Project Page
-            </a>
+            <div class="project-description">I'm still in Yonsei Drone</div>
+            <div class="project-buttons">
+              <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
+                Project Page
+              </a>
+              <a href="https://instagram.com/yonsei_drone_account" target="_blank" class="instagram-button">
+                Instagram
+              </a>
+            </div>
             <div class="project-video-container">
               <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
+        </div>
 
+      </header>
+      <section>
 
       {{ content }}
 
