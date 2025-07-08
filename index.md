@@ -81,7 +81,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
         Project Page
       </a>
       <div class="project-video-container">
-        <iframe src="https://www.youtube.com/embed/qPJIA2oedKo" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
