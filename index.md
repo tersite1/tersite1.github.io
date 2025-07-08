@@ -33,7 +33,6 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
 * **[May. 2025]**: I have joined [GLG (Gerson Lehrman Group)](https://glginsights.com/ko/?utm_source=google&utm_medium=paid&utm_campaign=GLG%20BRAND&utm_term=glg&gad_source=1&gad_campaignid=21845526237&gclid=CjwKCAjw4K3DBhBqEiwAYtG_9FFCdtJ4EJE-E1SPtnAW7iV62W9dxZ5IUlwkiPAfuqOmnNErZj6MAxoCgygQAvD_BwE) as an advisory board member.
   
-{% include_relative _includes/publications.md %}
 
 
 ## Patents
