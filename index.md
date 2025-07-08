@@ -23,7 +23,6 @@ layout: homepage
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
 
 
-{% include_relative _includes/publications.md %}
 
 ## Patents
 
@@ -44,9 +43,6 @@ layout: homepage
 * **[2024 ~ 2025]:** Stellarvision Inc - Development of Edge Computing Equipment for Deep Learning-based High-speed SAR Analysis
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
-
-
-{% include_relative _includes/publications.md %}
 
 
 ## Awards & Honors
@@ -72,15 +68,21 @@ layout: homepage
 
 * **Yonsei Student Council Idea Competition (Award Winner)** @ Yonsei University
 
+{% include_relative _includes/publications.md %}
+
+
+
 ## Academic Services
 
-
+To be updated
 
 * ### Conference Reviewer
   
+To be updated
 
 
 * ### Journal Reviewer
-    * **IEEE Transactions on Image Processing** @ 2025
-    * **IET Computer Vision** @ 2023
+* 
+To be updated
+
 
