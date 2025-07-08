@@ -5,6 +5,7 @@ layout: homepage
 ## About Me
 
 I am an M.S. student at KAIST @[Computional Intelligence Laboratory](https://cilabs.kaist.ac.kr/). 
+
 I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzinnovation).
 
 ## Education
