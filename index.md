@@ -14,7 +14,8 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 
 ## Work Experience
 
-* **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @ Stellarvision Inc.
+* **[Jul. 2024 ~ Feb. 2025]: ** AI Engineer @[Stellarvision Inc.](https://stellarvision.co.kr/en/)
+
 
 ## Research Interests
 
