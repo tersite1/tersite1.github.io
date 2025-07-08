@@ -1,6 +1,5 @@
 main:
 
-
   - title: "LiTE ViT : Leaky Integrate-and-Fire Token Efficient Vision Transformer"
     authors: <strong>Minsuk Jang<strong>, Younghun Kim, Byeongjun Park and Changick Kim
     conference_short: IEIE
@@ -34,3 +33,5 @@ main:
     page: https://github.com/kimthyung/A-Method-for-Real-Time-Target-Association-in-Smart-Vessel-s-Surround-Camera-System
     notes: Oral Presentation
     image: ./assets/img/sift.png
+
+    
