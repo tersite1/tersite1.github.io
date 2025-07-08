@@ -151,6 +151,127 @@ papertitle {
   papertitle {color:#eeeff0;}
 }
 
+/* Personal Projects 카드 스타일 */
+.personal-projects-container {
+  margin: 2rem 0;
+}
+
+.personal-projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 터치 디바이스에서 hover 효과 비활성화 */
+@media (hover: hover) and (pointer: fine) {
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  }
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  color: #043361;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 0.7rem 1.3rem;
+  background-color: #043361;
+  color: white !important;
+  border: 2px solid #043361;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* 터치 디바이스에서 hover 효과 비활성화 */
+@media (hover: hover) and (pointer: fine) {
+  .project-button:hover {
+    background-color: #069;
+    border-color: #069;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  }
+}
+
+.project-video {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.project-video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* 다크 모드 지원 */
+@media (prefers-color-scheme: dark) {
+  .project-card {
+    background-color: #2a2d3a;
+    border-color: #444;
+  }
+  
+  .project-card h3 {
+    color: rgb(62, 183, 240);
+  }
+  
+  .project-card p {
+    color: #b0b3b8;
+  }
+  
+  .project-button {
+    background-color: rgb(62, 183, 240);
+    color: #000 !important;
+    border-color: rgb(62, 183, 240);
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .project-button:hover {
+      background-color: rgb(52, 173, 230);
+      border-color: rgb(52, 173, 230);
+    }
+  }
+}
+
 .image {
   border-radius: 0.35em;
   border: 0;
@@ -375,7 +496,9 @@ html {
 
 /* 터치 디바이스 전용 스타일 */
 @media (pointer: coarse) {
-  .social-icons a {
+  .social-icons a,
+  .project-card,
+  .project-button {
     transition: none !important;
   }
 }
@@ -425,6 +548,38 @@ html {
     padding:20px;
   }
   
+  /* 모바일에서 Personal Projects 카드 최적화 */
+  .personal-projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    padding: 1.5rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+  
+  .project-card p {
+    font-size: 0.9rem;
+  }
+  
+  .project-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .project-button {
+    width: 100%;
+    min-width: auto;
+  }
+  
+  .project-video {
+    height: 200px;
+  }
+  
   #head1o2, #head2o2 {
     visibility: hidden;
   }
@@ -467,8 +622,29 @@ html {
     padding:20px;
   }
   
+  /* 작은 모바일에서 Personal Projects 최적화 */
+  .project-card {
+    padding: 1.2rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .project-video {
+    height: 180px;
+  }
+  
   #head1o2, #head2o2 {
     visibility: hidden;
+  }
+}
+
+/* 데스크톱에서 Personal Projects 카드 2열 표시 */
+@media screen and (min-width: 961px) {
+  .personal-projects-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
   }
 }
 
