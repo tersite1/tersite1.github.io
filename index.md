@@ -2,9 +2,14 @@
 layout: homepage
 ---
 
+## About Me
+
+I am an M.S. student at KAIST Computional Intelligence Laboratory. 
+I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzinnovation).
+
 ## Education
-* **[Mar. 2025 ~ Present]** : M.S. in Engineering @ KAIST Computaional Intelligence Laboratory
-* **[Mar. 2021 ~ Feb. 2025]** : B.S. in  Civil Engineering @ Yonsei University - **Graduated Cum Laude**.
+* **[Mar. 2025 ~ Present]** : M.S. in Engineering @KAIST Computaional Intelligence Laboratory
+* **[Mar. 2021 ~ Feb. 2025]** : B.S. in  Civil Engineering @Yonsei University - **Graduated Cum Laude**.
 
 ## Work Experience
 
