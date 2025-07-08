@@ -2,3 +2,26 @@
 ---
 
 @import "minimal-light";
+---
+---
+
+@import "minimal-light";
+
+// 아바타 사진 크기 조정
+.avatar {
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  max-height: 200px !important;
+  border-radius: 50%;
+}
+
+// 모바일에서의 아바타 크기 조정
+@media (max-width: 768px) {
+  .avatar {
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 150px !important;
+    max-height: 150px !important;
+  }
+}
