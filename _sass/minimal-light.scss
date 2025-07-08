@@ -1,3 +1,8 @@
+---
+---
+
+@import "minimal-light";
+
 .pub-row {
   display: flex; 
   align-items: center;}
@@ -594,4 +599,100 @@ footer {
   margin-left: 0px;
   display:none;
   font-family: monospace;
+}
+
+/* Sidebar Personal Projects Section */
+.sidebar-projects {
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.sidebar-projects h3 {
+  font-size: 1.1rem;
+  color: #043361;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.project-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-links li {
+  margin-bottom: 1rem;
+}
+
+.project-links li a {
+  display: block;
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+}
+
+.project-links li a:hover {
+  background-color: #e9ecef;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.project-name {
+  font-weight: 600;
+  color: #043361;
+  display: block;
+  font-size: 0.95rem;
+}
+
+.project-links small {
+  color: #6c757d;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .sidebar-projects {
+    border-top-color: #444;
+  }
+  
+  .sidebar-projects h3 {
+    color: rgb(62, 183, 240);
+  }
+  
+  .project-links li a {
+    background-color: #2a2d3a;
+    border-color: #444;
+  }
+  
+  .project-links li a:hover {
+    background-color: #3a3d4a;
+    box-shadow: 0 2px 8px rgba(255,255,255,0.1);
+  }
+  
+  .project-name {
+    color: rgb(62, 183, 240);
+  }
+  
+  .project-links small {
+    color: #b0b3b8;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 960px) {
+  .sidebar-projects {
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .project-links li a {
+    padding: 0.5rem;
+  }
 }
