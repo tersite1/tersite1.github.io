@@ -59,6 +59,36 @@
 
         <br>
         <br>
+
+        <!-- Personal Projects 섹션을 social-icons 위로 이동 -->
+        <div class="sidebar-projects">
+          <h3>Personal Projects</h3>
+          
+          <!-- DepthViz 프로젝트 -->
+          <div class="sidebar-project">
+            <div class="project-name"><strong>DepthViz</strong></div>
+            <div class="project-description">A simple lidar scanner working in iPhone</div>
+            <a href="https://your-depthviz-project-page-link.com" target="_blank" class="project-button">
+              Project Page
+            </a>
+            <div class="project-video-container">
+              <iframe src="https://www.youtube.com/embed/your-depthviz-video-id" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <!-- Yonsei Drone 프로젝트 -->
+          <div class="sidebar-project">
+            <div class="project-name"><strong>Yonsei Drone</strong></div>
+            <div class="project-description">I'm still in Yonsei Drone</div>
+            <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
+              Project Page
+            </a>
+            <div class="project-video-container">
+              <iframe src="https://www.youtube.com/embed/qPJIA2oedKo" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
         <div class="social-icons">
         {% if site.google_scholar %}
         <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
@@ -92,40 +122,10 @@
         </div>
         <br>
 
-        <!-- Personal Projects 섹션 추가 -->
-        <div class="sidebar-projects">
-          <h3>Personal Projects</h3>
-          
-          <!-- DepthViz 프로젝트 -->
-          <div class="sidebar-project">
-            <div class="project-name"><strong>DepthViz</strong></div>
-            <div class="project-description">A simple lidar scanner working in iPhone</div>
-            <a href="https://github.com/tersite1/DepthVizm" target="_blank" class="project-button">
-              Project Page
-            </a>
-            <div class="project-video-container">
-              <iframe src="https://www.youtube.com/watch?v=jtFA_WKWBDY&ab_channel=%EC%9D%BD%EA%B8%B0%EC%89%AC%EC%9A%B4%EB%A7%88%EC%9D%8C" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          
-          <!-- Yonsei Drone 프로젝트 -->
-          <div class="sidebar-project">
-            <div class="project-name"><strong>Yonsei Drone</strong></div>
-            <div class="project-description">I'm still in Yonsei Drone</div>
-            <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
-              Project Page
-            </a>
-            <div class="project-video-container">
-              <iframe src="https://www.youtube.com/embed/qPJIA2oedKo" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
-            </div>
-          </div>
-          </div>
-          
-          </header>
-          <section>
-          
-          {{ content }}
+      </header>
+      <section>
 
+      {{ content }}
 
       <br>
 
