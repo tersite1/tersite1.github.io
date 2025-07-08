@@ -16,7 +16,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 ## Research Interests
 
 * **AIGC(AI Generated Contents) Detection:** Developing robust detection models for wild datasets (TikTok, YouTube Shorts, etc.) with focus on generalization across diverse AI-generated content types and social media platforms. [[arxiv'25]](https://arxiv.org/abs/2506.17592)
-* **Spiking Neural Networks:** Investigating model compression and efficiency optimization using SNN architectures to reduce the performance gap between spiking and artificial neural networks while maintaining computational efficiency.[[IEIE'25]](https://www.linkedin.com/posts/jadenjang_neuromorphiccomputing-visiontransformer-ai-activity-7348206102817189889-3Umd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEruz8kBUKyMdf_xZCXG6yIDp-BUSGMewOA)(Best Paper) 
+* **Spiking Neural Networks:** Investigating model compression and efficiency optimization using SNN architectures to reduce the performance gap between spiking and artificial neural networks while maintaining computational efficiency.[[IEIE'25(Best Paper)]](https://www.linkedin.com/posts/jadenjang_neuromorphiccomputing-visiontransformer-ai-activity-7348206102817189889-3Umd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEruz8kBUKyMdf_xZCXG6yIDp-BUSGMewOA)
 * **3D Digital twin:** Creating comprehensive digital replicas by integrating UAV technology and remote sensing data for climate research applications, environmental monitoring, and atmospheric data analysis.
 [[IEIE'24]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890368) 
 
@@ -65,33 +65,47 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
 
 
-
 ## Personal Projects
 
 <div class="main-personal-projects">
+  <!-- DepthViz ----------------------------------------------------------- -->
   <div class="personal-project-card">
     <div class="project-name"><strong>DepthViz</strong></div>
-    <div class="project-description">A simple lidar scanner working on iPhone</div>
-    <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
-      Project Page
-    </a>
-    <div class="project-video-container">
-      <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+    <div class="project-description">A simple LiDAR scanner running on iPhone</div>
 
-
-    <div class="personal-project-card">
-      <div class="project-name"><strong>Yonsei Drone</strong></div>
-      <div class="project-description">I'm still in Yonsei Drone, WOW! </div>
-      <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
+    <!-- 버튼 컨테이너 -->
+    <div class="project-buttons">
+      <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
         Project Page
       </a>
-      <div class="project-video-container">
-        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <a href="https://apps.apple.com/app/depthviz/id123456789" target="_blank"
+         class="download-button ios-button">
+        Download (iOS)
+      </a>
+    </div>
+
+    <div class="project-video-container">
+      <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY"
+              title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
+
+  <!-- Yonsei Drone -------------------------------------------------------- -->
+  <div class="personal-project-card">
+    <div class="project-name"><strong>Yonsei Drone</strong></div>
+    <div class="project-description">I'm still in Yonsei Drone, WOW!</div>
+
+    <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank"
+       class="project-button">
+      Project Page
+    </a>
+
+    <div class="project-video-container">
+      <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q"
+              title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
 
 
 
