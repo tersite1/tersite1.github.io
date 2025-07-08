@@ -438,3 +438,224 @@
     max-width: 600px;
   }
 }
+
+
+/* Personal Projects Section - 사이드바용 */
+.sidebar-projects {
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.sidebar-projects h3 {
+  font-size: 1.1rem;
+  color: #043361;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sidebar-project {
+  margin-bottom: 2.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.75rem;
+  border: 1px solid #e9ecef;
+  text-align: center;
+  width: 100%;
+  max-width: 232px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #043361;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.85rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+/* 프로젝트 버튼 컨테이너 - 가로 배치 */
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+/* 모든 프로젝트 버튼 공통 스타일 - 동일한 크기와 색상 */
+.project-button,
+.download-button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #043361;
+  color: white !important;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 90px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.project-button:hover,
+.download-button:hover {
+  background-color: #069;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* 단일 버튼 스타일 (Yonsei Drone용) */
+.sidebar-project .project-button:not(.project-buttons .project-button) {
+  margin-bottom: 1rem;
+}
+
+.project-video-container {
+  width: 100%;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+}
+
+.sidebar-project .project-video-container {
+  height: 200px;
+}
+
+.project-video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* 메인 콘텐츠 Personal Projects - PC용 */
+.main-personal-projects {
+  margin: 2rem 0;
+}
+
+.personal-project-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.personal-project-card {
+  padding: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+  border: 1px solid #e9ecef;
+  text-align: center;
+}
+
+.personal-project-card .project-buttons {
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.personal-project-card .project-button,
+.personal-project-card .download-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  min-width: 140px;
+}
+
+.personal-project-card .project-video-container {
+  height: 350px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .sidebar-projects {
+    border-top-color: #444;
+  }
+  
+  .sidebar-projects h3 {
+    color: rgb(62, 183, 240);
+  }
+  
+  .sidebar-project {
+    background-color: #2a2d3a;
+    border-color: #444;
+  }
+  
+  .project-name {
+    color: rgb(62, 183, 240);
+  }
+  
+  .project-description {
+    color: #b0b3b8;
+  }
+  
+  .project-button,
+  .download-button {
+    background-color: rgb(62, 183, 240);
+    color: #000 !important;
+  }
+  
+  .project-button:hover,
+  .download-button:hover {
+    background-color: rgb(52, 173, 230);
+  }
+  
+  .personal-project-card {
+    background-color: #2a2d3a;
+    border-color: #444;
+  }
+}
+
+/* 반응형 미디어 쿼리 */
+/* PC 화면: 사이드바 Personal Projects 숨기기 */
+@media (min-width: 961px) {
+  .sidebar-projects {
+    display: none !important;
+  }
+  
+  .main-personal-projects {
+    display: block !important;
+  }
+}
+
+/* 모바일 화면: 메인 Personal Projects 숨기기 */
+@media (max-width: 960px) {
+  .main-personal-projects {
+    display: none !important;
+  }
+  
+  .sidebar-projects {
+    display: block !important;
+  }
+}
+
+/* 작은 모바일에서 버튼 배치 최적화 */
+@media (max-width: 480px) {
+  .project-buttons {
+    gap: 0.4rem;
+  }
+  
+  .project-button,
+  .download-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+    min-width: 80px;
+  }
+}
+
