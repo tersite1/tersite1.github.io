@@ -83,7 +83,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
         <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
           Project Page
         </a>
-        <a href="https://apps.apple.com/app/depthviz/id123456789" target="_blank" class="download-button ios-button">
+        <a href="https://apps.apple.com/kr/app/simplepointcloudscan/id1617511625" target="_blank" class="download-button ios-button">
           Download (iOS)
         </a>
       </div>
