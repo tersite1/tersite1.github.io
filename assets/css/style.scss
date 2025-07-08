@@ -159,7 +159,87 @@
   margin-right: auto;
 }
 
-.personal-project-card .project-button {
+/* 프로젝트 버튼 컨테이너 */
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* 모든 프로젝트 버튼 공통 스타일 - 완전히 동일하게 */
+.project-button,
+.download-button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Project Page 버튼 스타일 */
+.project-button {
+  background-color: #043361;
+  color: white !important;
+  border-color: #043361;
+}
+
+.project-button:hover {
+  background-color: #069;
+  border-color: #069;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* iOS 다운로드 버튼 스타일 */
+.download-button.ios-button {
+  background-color: #007AFF;
+  color: white !important;
+  border-color: #007AFF;
+}
+
+.download-button.ios-button:hover {
+  background-color: #0051D5;
+  border-color: #0051D5;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3);
+}
+
+/* 사이드바 버튼 크기 - 두 버튼 모두 동일 */
+.sidebar-project .project-button,
+.sidebar-project .download-button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  min-width: 90px;
+}
+
+.sidebar-project .project-buttons {
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 메인 프로젝트 카드 버튼 - 두 버튼 모두 동일 */
+.personal-project-card .project-button,
+.personal-project-card .download-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  min-width: 140px;
+}
+
+.personal-project-card .project-buttons {
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* 기존 단일 버튼 스타일 유지 (Yonsei Drone용) */
+.personal-project-card .project-button:not(.project-buttons .project-button) {
   display: inline-block;
   padding: 0.8rem 1.5rem;
   background-color: #043361;
@@ -170,12 +250,6 @@
   text-decoration: none;
   margin-bottom: 1.5rem;
   transition: all 0.3s ease;
-}
-
-.personal-project-card .project-button:hover {
-  background-color: #069;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
 }
 
 /* 동영상 컨테이너 완전 동일한 크기 보장 */
@@ -239,13 +313,26 @@
     color: #b0b3b8;
   }
   
-  .personal-project-card .project-button {
+  .project-button {
     background-color: rgb(62, 183, 240);
     color: #000 !important;
+    border-color: rgb(62, 183, 240);
   }
   
-  .personal-project-card .project-button:hover {
+  .project-button:hover {
     background-color: rgb(52, 173, 230);
+    border-color: rgb(52, 173, 230);
+  }
+  
+  .download-button.ios-button {
+    background-color: #0A84FF;
+    border-color: #0A84FF;
+  }
+  
+  .download-button.ios-button:hover {
+    background-color: #409CFF;
+    border-color: #409CFF;
+    box-shadow: 0 2px 8px rgba(10, 132, 255, 0.4);
   }
   
   .personal-project-card .project-video-container,
@@ -308,6 +395,22 @@
     padding: 1rem;
     width: 100%;
     max-width: 232px;
+  }
+  
+  /* 모바일 반응형 버튼 */
+  .project-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .sidebar-project .project-buttons {
+    gap: 0.5rem;
+  }
+  
+  .project-button,
+  .download-button {
+    width: 100%;
+    min-width: auto;
   }
 }
 
