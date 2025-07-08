@@ -92,7 +92,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
     <!-- Yonsei Drone 프로젝트 (Instagram 버튼 추가) -->
     <div class="personal-project-card">
       <div class="project-name"><strong>Yonsei Drone</strong></div>
-      <div class="project-description">I'm still in Yonsei Drone</div>
+      <div class="project-description">I'm still in Yonsei Drone, Wow! </div>
       <div class="project-buttons">
         <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
           Project Page
