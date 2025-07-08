@@ -11,10 +11,6 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **[Mar. 2025 ~ Present]** : M.S. in Engineering @KAIST Computaional Intelligence Laboratory
 * **[Mar. 2021 ~ Feb. 2025]** : B.S. in  Civil Engineering @Yonsei University - **Graduated Cum Laude**.
 
-## Work Experience
-
-* **[Jul. 2024 ~ Feb. 2025]: ** AI Engineer @[Stellarvision Inc.](https://stellarvision.co.kr/en/)
-  
 ## Research Interests
 
 * **AIGC(AI Generated Contents) Detection:** Developing robust detection models for wild datasets (TikTok, YouTube Shorts, etc.) with focus on generalization across diverse AI-generated content types and social media platforms. [[arxiv'25]](https://arxiv.org/abs/2506.17592)
@@ -22,19 +18,15 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 * **3D Digital twin:** Creating comprehensive digital replicas by integrating UAV technology and remote sensing data for climate research applications, environmental monitoring, and atmospheric data analysis.
 [[IEIE'24]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890368) 
 
+## Work Experience
+
+* **[Jul. 2024 ~ Feb. 2025]: ** AI Engineer @[Stellarvision Inc.](https://stellarvision.co.kr/en/)
+
 ## Projects
 
 * **[2024 ~ 2025]:** Stellarvision Inc - Development of Edge Computing Equipment for Deep Learning-based High-speed SAR Analysis
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
-
-## Patents
-
-* **[2024]** LiDAR Micro Mobile Mapping System, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
-* **[2024]** Forest Carbon Sequestration Analysis System and Method, **Minsuk Jang** (KR Patent Application 10-2024-0153987)
-* **[2024]** Vertically Takeoff and Landing Unmanned Aerial Vehicle with Adjustable Center of Gravity, Minjun Kim, Junkyoo Park, Jungha Wang, **Minsuk Jang** (KR Patent Application 10-2024-0177539)
-* **[2024]** Method for Generating a High-Precision 3D Model from a Digital Elevation Model, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165631)
-* **[2024]** Machine Learning Clustering-Based Method for Algal Bloom Detection in Satellite Imagery, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165632)
 
 ## News
 
@@ -44,6 +36,14 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 {% include_relative _includes/publications.md %}
 
 
+## Patents
+
+* **[2024]** LiDAR Micro Mobile Mapping System, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
+* **[2024]** Forest Carbon Sequestration Analysis System and Method, **Minsuk Jang** (KR Patent Application 10-2024-0153987)
+* **[2024]** Vertically Takeoff and Landing Unmanned Aerial Vehicle with Adjustable Center of Gravity, Minjun Kim, Junkyoo Park, Jungha Wang, **Minsuk Jang** (KR Patent Application 10-2024-0177539)
+* **[2024]** Method for Generating a High-Precision 3D Model from a Digital Elevation Model, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165631)
+* **[2024]** Machine Learning Clustering-Based Method for Algal Bloom Detection in Satellite Imagery, **Minsuk Jang**, Seungchul Lee (KR Patent Application 10-2024-0165632)
+  
 ## Awards & Honors
 
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
@@ -64,12 +64,5 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 
 To be updated
 
-* ### Conference Reviewer
-  
-To be updated
-
-
-* ### Journal Reviewer
-To be updated
 
 
