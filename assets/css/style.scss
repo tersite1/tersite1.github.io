@@ -136,14 +136,15 @@ papertitle {
   papertitle {color:#eeeff0;}
 }
 
-/* Personal Projects - PC에서 확실히 표시되도록 수정 */
+/* Personal Projects - 강제로 모든 환경에서 표시 */
 .main-personal-projects {
-  display: block !important;  /* PC에서 확실히 표시 */
+  display: block !important;
+  visibility: visible !important;
   margin: 2rem 0;
 }
 
 .personal-project-row {
-  display: grid;
+  display: grid !important;
   grid-template-columns: 1fr;
   gap: 3rem;
   margin-top: 1.5rem;
@@ -154,6 +155,8 @@ papertitle {
 }
 
 .personal-project-card {
+  display: block !important;
+  visibility: visible !important;
   padding: 3rem;
   background-color: #f8f9fa;
   border-radius: 1rem;
@@ -166,7 +169,7 @@ papertitle {
   box-sizing: border-box;
 }
 
-/* PC에서만 카드 hover 효과 적용 - 터치 오류 방지 */
+/* PC에서만 카드 hover 효과 적용 */
 @media (hover: hover) and (pointer: fine) {
   .personal-project-card:hover {
     transform: translateY(-3px);
@@ -174,14 +177,16 @@ papertitle {
   }
 }
 
-.personal-project-card .project-name {
+.project-name {
+  display: block !important;
   font-size: 1.6rem;
   font-weight: 600;
   color: #043361;
   margin-bottom: 1rem;
 }
 
-.personal-project-card .project-description {
+.project-description {
+  display: block !important;
   font-size: 1.2rem;
   color: #6c757d;
   margin-bottom: 1.5rem;
@@ -191,28 +196,26 @@ papertitle {
   margin-right: auto;
 }
 
-/* 프로젝트 버튼 컨테이너 */
 .project-buttons {
-  display: flex;
+  display: flex !important;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
 
-/* 모든 프로젝트 버튼 공통 스타일 - 완전히 동일 */
 .project-button,
 .download-button,
 .instagram-button,
 .ios-button {
-  display: inline-block;
+  display: inline-block !important;
+  visibility: visible !important;
   padding: 0.8rem 1.5rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
+  border: 2px solid #043361;
   min-width: 140px;
   text-align: center;
   box-sizing: border-box;
@@ -220,10 +223,9 @@ papertitle {
   line-height: 1.2;
   background-color: #043361;
   color: white !important;
-  border-color: #043361;
 }
 
-/* PC에서만 버튼 hover 효과 적용 - 터치 오류 방지 */
+/* PC에서만 버튼 hover 효과 */
 @media (hover: hover) and (pointer: fine) {
   .project-button:hover,
   .download-button:hover,
@@ -236,8 +238,9 @@ papertitle {
   }
 }
 
-/* 동영상 컨테이너 */
-.personal-project-card .project-video-container {
+.project-video-container {
+  display: block !important;
+  visibility: visible !important;
   width: 100%;
   max-width: 900px;
   height: 350px;
@@ -249,14 +252,13 @@ papertitle {
   background-color: #000;
 }
 
-.personal-project-card .project-video-container iframe {
+.project-video-container iframe {
   width: 100%;
   height: 100%;
   border: none;
   position: absolute;
   top: 0;
   left: 0;
-  object-fit: cover;
 }
 
 /* Dark Mode Support */
@@ -266,11 +268,11 @@ papertitle {
     border-color: #444;
   }
   
-  .personal-project-card .project-name {
+  .project-name {
     color: rgb(62, 183, 240);
   }
   
-  .personal-project-card .project-description {
+  .project-description {
     color: #b0b3b8;
   }
   
@@ -505,7 +507,7 @@ footer {
   text-align:center;
 }
 
-/* 모바일 반응형 - 카드 기능 완전 보존 */
+/* 모바일 반응형 */
 @media print, screen and (max-width: 960px) {
   .pub-row {display: flex; align-items: center;}
   div.wrapper {width:auto;margin:0;}
@@ -516,21 +518,28 @@ footer {
   header ul {position:absolute;right:50px;top:52px;}
   .image.avatar img {border-radius: 100%;width: 117px;padding:20px;}
   
-  /* 모바일에서 프로젝트 카드 최적화 - 기능 유지 */
-  .personal-project-card {
-    padding: 2rem;
-    margin-bottom: 2rem;
+  /* 모바일에서도 카드 강제 표시 */
+  .main-personal-projects {
+    display: block !important;
+    visibility: visible !important;
   }
   
-  .personal-project-card .project-name {
+  .personal-project-card {
+    display: block !important;
+    visibility: visible !important;
+    padding: 2rem;
+  }
+  
+  .project-name {
     font-size: 1.4rem;
   }
   
-  .personal-project-card .project-description {
+  .project-description {
     font-size: 1rem;
   }
   
   .project-buttons {
+    display: flex !important;
     flex-direction: column;
     gap: 0.75rem;
   }
@@ -539,11 +548,13 @@ footer {
   .download-button,
   .instagram-button,
   .ios-button {
+    display: block !important;
     width: 100%;
     min-width: auto;
   }
   
-  .personal-project-card .project-video-container {
+  .project-video-container {
+    display: block !important;
     height: 250px;
   }
   
@@ -564,15 +575,15 @@ footer {
     padding: 1.5rem;
   }
   
-  .personal-project-card .project-name {
+  .project-name {
     font-size: 1.2rem;
   }
   
-  .personal-project-card .project-description {
+  .project-description {
     font-size: 0.9rem;
   }
   
-  .personal-project-card .project-video-container {
+  .project-video-container {
     height: 200px;
   }
   
