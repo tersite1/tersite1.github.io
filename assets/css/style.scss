@@ -664,3 +664,15 @@ footer {
     min-width: auto;
   }
 }
+
+.social-icons a {
+  transition: all 0.3s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .social-icons a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+  }
+}
