@@ -4,8 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am an M.S. student at KAIST, currently in the [Computational Intelligence Laboratory](https://stellarvision.co.kr/en/) (Prof. Changick Kim). Prior to my graduate studies, I earned a B.S. in Engineering from Yonsei University, Seoul.Previously, I was a student intern at Seoul National University, working in both the Vehicle Intelligence Laboratory (Prof. Seungwoo Seo) and the Autonomous Robot Intelligence Laboratory (Prof. Seongwoo Kim).
-I also worked as an AI Engineer at Stellar Vision, a satellite imagery startup. Alongside my academic pursuits, I am the founder of [XYZ Innovation](https://www.linkedin.com/company/xyzinnovation), a startup focused on applying AI and robotics technologies to real-world challenges. These combined experiences have shaped my research interests.
+I am an M.S. student at KAIST, currently in the [Computational Intelligence Laboratory](https://stellarvision.co.kr/en/) (Prof. Changick Kim). Prior to my graduate studies, I earned a B.S. in Engineering from Yonsei University, Seoul. Previously, I was a student intern at Seoul National University, working in both the Vehicle Intelligence Laboratory (Prof. Seungwoo Seo) and the Autonomous Robot Intelligence Laboratory (Prof. Seongwoo Kim). I also worked as an AI Engineer at Stellar Vision, a satellite imagery startup. Alongside my academic pursuits, I am the founder of [XYZ Innovation](https://www.linkedin.com/company/xyzinnovation), a startup focused on applying AI and robotics technologies to real-world challenges. These combined experiences have shaped my research interests.
 
 
 
