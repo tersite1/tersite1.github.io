@@ -1,10 +1,7 @@
----
----
-
 @import "minimal-light";
 
 .pub-row {
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -21,16 +18,31 @@
   margin-right:1rem;
 }
 
-@media (prefers-color-scheme: dark) { 
+@media (prefers-color-scheme: dark) {
   .social-icons a {color: #3eb7f0 !important; }
 }
 
 .social-icons a:last-child{margin-right:0}
-.social-icons a:hover{background-color:white;color:black;transform: scale(1.2)}
+
+/* PC에서만 hover 효과 적용 */
+@media (hover: hover) and (pointer: fine) {
+  .social-icons a:hover{
+    background-color:white;
+    color:black;
+    transform: scale(1.2);
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   .social-icons a:last-child{margin-right:0}
-  .social-icons a:hover{background-color:#20212b;color:black;transform: scale(1.2)} 
+  
+  @media (hover: hover) and (pointer: fine) {
+    .social-icons a:hover{
+      background-color:#20212b;
+      color:black;
+      transform: scale(1.2);
+    }
+  }
 }
 
 .icon-button{
@@ -103,7 +115,6 @@ email {
 .icon-button .icon-facebook{color:#4286f4}
 .icon-button .icon-github{color:#000;}
 .icon-button .icon-linkedin{color:#0077B5}
-
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
 autocolor{color:#595959;}
@@ -125,11 +136,76 @@ papertitle {
     background-color: #20212b;
     color: #dadbdf;
   }
-
+  
   autocolor{color:#dadbdf;}
   lightonly {visibility: hidden;}
   darkonly {visibility: visible;}
   papertitle {color:#eeeff0;}
+}
+
+/* 단순한 Personal Projects 스타일 */
+.personal-projects {
+  margin: 2rem 0;
+}
+
+.project-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border: 1px solid #e9ecef;
+}
+
+.project-item h3 {
+  font-size: 1.2rem;
+  color: #043361;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.project-item p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #043361;
+  color: white !important;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* 다크 모드 지원 */
+@media (prefers-color-scheme: dark) {
+  .project-item {
+    background-color: #2a2d3a;
+    border-color: #444;
+  }
+  
+  .project-item h3 {
+    color: rgb(62, 183, 240);
+  }
+  
+  .project-item p {
+    color: #b0b3b8;
+  }
+  
+  .project-link {
+    background-color: rgb(62, 183, 240);
+    color: #000 !important;
+  }
 }
 
 .image {
@@ -195,7 +271,6 @@ h2 {
 p, ul, ol, table, pre, dl {margin:0 0 20px;}
 h1, h2, h3 {line-height:1.1;}
 h1 {font-size:28px;}
-
 a {color:#39c;text-decoration:none;}
 a:hover {color:#069;}
 
@@ -343,324 +418,144 @@ footer {
   text-align:center;
 }
 
-/* Personal Projects Section - 사이드바용 */
-.sidebar-projects {
-  margin-top: 2rem;
-  padding: 1.5rem 0;
-  border-top: 1px solid #e5e5e5;
-}
-
-.sidebar-projects h3 {
-  font-size: 1.1rem;
-  color: #043361;
-  margin-bottom: 1.5rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-.sidebar-project {
-  margin-bottom: 2.5rem;
-  padding: 1.5rem;
-  background-color: #f8f9fa;
-  border-radius: 0.75rem;
-  border: 1px solid #e9ecef;
-  text-align: center;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.project-name {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #043361;
-  margin-bottom: 0.5rem;
-}
-
-.project-description {
-  font-size: 0.85rem;
-  color: #6c757d;
-  margin-bottom: 1rem;
-  line-height: 1.4;
-}
-
-/* 메인 콘텐츠 영역 Personal Projects */
-.main-personal-projects {
-  margin: 2rem 0;
-}
-
-.personal-project-row {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
-  margin-top: 1.5rem;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
-}
-
-.personal-project-card {
-  padding: 3rem;
-  background-color: #f8f9fa;
-  border-radius: 1rem;
-  border: 1px solid #e9ecef;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto 3rem auto;
-  box-sizing: border-box;
-}
-
-.personal-project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
-}
-
-.personal-project-card .project-name {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #043361;
-  margin-bottom: 1rem;
-}
-
-.personal-project-card .project-description {
-  font-size: 1.2rem;
-  color: #6c757d;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* 프로젝트 버튼 컨테이너 */
-.project-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
-}
-
-/* 모든 프로젝트 버튼 공통 스타일 - 완전히 동일 */
-.project-button,
-.download-button,
-.instagram-button {
-  display: inline-block;
-  padding: 0.8rem 1.5rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  border: 2px solid transparent;
-  min-width: 140px;
-  text-align: center;
-  box-sizing: border-box;
-  height: 48px;
-  line-height: 1.2;
-  background-color: #043361;
-  color: white !important;
-  border-color: #043361;
-}
-
-.project-button:hover,
-.download-button:hover,
-.instagram-button:hover {
-  background-color: #069;
-  border-color: #069;
-  transform: translateY(-1px);
-  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
-}
-
-/* 사이드바 버튼 크기 동일 */
-.sidebar-project .project-button,
-.sidebar-project .download-button,
-.sidebar-project .instagram-button {
-  padding: 0.4rem 0.8rem;
-  font-size: 0.8rem;
-  min-width: 90px;
-  height: 32px;
-}
-
-.sidebar-project .project-buttons {
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-/* 동영상 컨테이너 */
-.personal-project-card .project-video-container {
-  width: 100%;
-  max-width: 900px;
-  height: 350px;
-  border-radius: 0.8rem;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
-  margin: 0 auto;
-  position: relative;
-  background-color: #000;
-}
-
-.personal-project-card .project-video-container iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-/* 사이드바 동영상 */
-.sidebar-project .project-video-container {
-  width: 100%;
-  margin: 1rem auto;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  position: relative;
-  background-color: #000;
-}
-
-.sidebar-project .project-video-container iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-  .sidebar-projects {border-top-color: #444;}
-  .sidebar-projects h3 {color: rgb(62, 183, 240);}
-  .sidebar-project {background-color: #2a2d3a;border-color: #444;}
-  .project-name {color: rgb(62, 183, 240);}
-  .project-description {color: #b0b3b8;}
-  .personal-project-card {background-color: #2a2d3a;border-color: #444;}
-  .personal-project-card .project-name {color: rgb(62, 183, 240);}
-  .personal-project-card .project-description {color: #b0b3b8;}
-  
-  .project-button,
-  .download-button,
-  .instagram-button {
-    background-color: rgb(62, 183, 240);
-    color: #000 !important;
-    border-color: rgb(62, 183, 240);
-  }
-  
-  .project-button:hover,
-  .download-button:hover,
-  .instagram-button:hover {
-    background-color: rgb(52, 173, 230);
-    border-color: rgb(52, 173, 230);
-  }
-}
-
-/* 기본 반응형 레이아웃 */
+/* 기본 반응형 - PC 레이아웃 유지, 모바일만 단순화 */
 @media print, screen and (max-width: 960px) {
-  .pub-row {display: flex; align-items: center;}
-  div.wrapper {width:auto;margin:0;}
-  header, section, footer {float:none;position:static;width:auto;}
-  header {padding-right:320px;}
-  section {border:1px solid #e5e5e5;border-width:1px 0;padding:20px 0;margin:0 0 20px;}
-  header a small {display:inline;}
-  header ul {position:absolute;right:50px;top:52px;}
-  .image.avatar img {border-radius: 100%;width: 117px;padding:20px;}
-  #head1o2, #head2o2 {visibility: hidden;}
-}
-
-@media print, screen and (max-width: 960px) {
-  body {word-wrap:break-word;padding:15px;}
-  .pub-row {display: flex; align-items: center;}
-  header {padding:0;}
-  pre, code {word-wrap:normal;}
-}
-
-@media print, screen and (max-width: 480px) {
-  .pub-row {display: block; align-items: center;}
-  body {padding:15px;}
-  header ul {width:99%;}
-  header li, header ul li + li + li {width:33%;}
-  .image.avatar img {border-radius: 100%;width: 130px;padding:20px;}
-  #head1o2, #head2o2 {visibility: hidden;}
-}
-
-@media print {
-  body {padding:0.4in;font-size:12pt;color:#444;}
-}
-
-.biblink {text-decoration:none;display: inline;margin-right: 0px;}
-.fakelink {text-decoration: none;cursor: pointer;}
-.bibref {font-size: 70%;margin-top: 10px;margin-left: 0px;display:none;font-family: monospace;}
-
-/* PC 화면: 사이드바 Personal Projects 숨기기 */
-@media (min-width: 961px) {
-  .sidebar-projects {display: none !important;}
-  .main-personal-projects {display: block !important;}
-}
-
-/* 모바일 화면: 사이드바 Personal Projects 확장 + 메인 숨김 */
-@media (max-width: 960px) {
-  /* 메인 Personal Projects 완전히 숨기기 */
-  .main-personal-projects {display: none !important;}
-  
-  /* 사이드바 Personal Projects 확실히 표시 + width 확장 */
-  .sidebar-projects {
-    display: block !important;
-    margin-top: 1rem;
-    padding: 1rem;
-    width: 100%;
-    max-width: none;
+  .pub-row {
+    display: flex;
+    align-items: center;
   }
   
-  /* 사이드바 프로젝트 카드 width 대폭 확장 */
-  .sidebar-project {
-    margin-bottom: 2.5rem;
-    padding: 1.5rem;
-    width: 100%;
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
+  div.wrapper {
+    width:auto;
+    margin:0;
   }
   
-  /* 사이드바 동영상 height 증가 */
-  .sidebar-project .project-video-container {
-    height: 250px;
-    max-width: none;
-  }
-}
-
-@media (max-width: 480px) {
-  /* 작은 모바일에서도 확장된 width 유지 */
-  .sidebar-project {
-    padding: 1.2rem;
-    width: 100%;
-    max-width: none;
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
   }
   
-  .sidebar-project .project-video-container {
-    height: 220px;
+  header {
+    padding-right:320px;
   }
   
-  /* 모바일 버튼 세로 배치 */
-  .project-buttons {
+  section {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+  
+  header a small {
+    display:inline;
+  }
+  
+  header ul {
+    position:absolute;
+    right:50px;
+    top:52px;
+  }
+  
+  .image.avatar img {
+    border-radius: 100%;
+    width: 117px;
+    padding:20px;
+  }
+  
+  /* 모바일에서 Personal Projects 단순화 */
+  .project-links {
     flex-direction: column;
-    gap: 0.75rem;
-  }
-  
-  .sidebar-project .project-buttons {
     gap: 0.5rem;
   }
   
-  .sidebar-project .project-button,
-  .sidebar-project .download-button,
-  .sidebar-project .instagram-button {
+  .project-link {
+    text-align: center;
     width: 100%;
-    min-width: auto;
   }
+  
+  #head1o2, #head2o2 {
+    visibility: hidden;
+  }
+  
+  body {
+    word-wrap:break-word;
+    padding:15px;
+  }
+  
+  header {
+    padding:0;
+  }
+  
+  pre, code {
+    word-wrap:normal;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+  .pub-row {
+    display: block;
+    align-items: center;
+  }
+  
+  body {
+    padding:15px;
+  }
+  
+  header ul {
+    width:99%;
+  }
+  
+  header li, header ul li + li + li {
+    width:33%;
+  }
+  
+  .image.avatar img {
+    border-radius: 100%;
+    width: 130px;
+    padding:20px;
+  }
+  
+  .project-item {
+    padding: 1rem;
+  }
+  
+  .project-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .project-item p {
+    font-size: 0.9rem;
+  }
+  
+  #head1o2, #head2o2 {
+    visibility: hidden;
+  }
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size:12pt;
+    color:#444;
+  }
+}
+
+.biblink {
+  text-decoration:none;
+  display: inline;
+  margin-right: 0px;
+}
+
+.fakelink {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bibref {
+  font-size: 70%;
+  margin-top: 10px;
+  margin-left: 0px;
+  display:none;
+  font-family: monospace;
 }
