@@ -70,7 +70,7 @@ I am also the founder of @[XYZ Innovation](https://www.linkedin.com/company/xyzi
 <div class="main-personal-projects">
   <div class="personal-project-card">
     <div class="project-name"><strong>DepthViz</strong></div>
-    <div class="project-description">A simple lidar scanner working in iPhone</div>
+    <div class="project-description">A simple lidar scanner working on iPhone</div>
     <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
       Project Page
     </a>
