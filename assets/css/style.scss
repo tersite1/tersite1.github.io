@@ -136,8 +136,9 @@ papertitle {
   papertitle {color:#eeeff0;}
 }
 
-/* Personal Projects - 기존 구조 완전 보존 */
+/* Personal Projects - PC에서 확실히 표시되도록 수정 */
 .main-personal-projects {
+  display: block !important;  /* PC에서 확실히 표시 */
   margin: 2rem 0;
 }
 
