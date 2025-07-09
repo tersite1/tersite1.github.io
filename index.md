@@ -116,7 +116,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 <!-- GreenWave 프로젝트 카드 -->
 <div class="personal-project-card">
   <div class="project-name"><strong>GreenWave</strong></div>
-  <div class="project-description">I awarded Big Prize in Jeju for Algal Bloom Detection! I bit Coupang and KAKAO, How?</div>
+  <div class="project-description">I awarded Big Prize in Jeju! I bit Coupang and KAKAO, How?</div>
   <div class="project-buttons">
     <a href="https://github.com/tersite1/GreenWave" target="_blank" class="project-button">
       Project Page
