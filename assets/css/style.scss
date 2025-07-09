@@ -589,3 +589,59 @@ footer {
 .biblink {text-decoration:none;display: inline;margin-right: 0px;}
 .fakelink {text-decoration: none;cursor: pointer;}
 .bibref {font-size: 70%;margin-top: 10px;margin-left: 0px;display:none;font-family: monospace;}
+
+
+
+/* News 버튼도 기존 버튼과 동일하게 스타일 적용 */
+.news-button {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 140px;
+  text-align: center;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: 1.2;
+  background-color: #043361;
+  color: white !important;
+  border-color: #043361;
+}
+
+/* hover 효과도 동일하게 */
+@media (hover: hover) and (pointer: fine) {
+  .news-button:hover {
+    background-color: #069;
+    border-color: #069;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  }
+}
+
+/* 이미지 컨테이너 스타일 */
+.project-image-container {
+  width: 100%;
+  max-width: 900px;
+  height: 350px;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  margin: 0 auto;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
