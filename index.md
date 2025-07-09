@@ -74,46 +74,55 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Personal Projects
 
+<!-- ─────────── Personal Projects (통일 버전) ─────────── -->
 <div class="main-personal-projects">
   <div class="personal-project-row">
-    <!-- DepthViz 프로젝트 -->
+
+    <!-- DepthViz -->
     <div class="personal-project-card">
       <div class="project-name"><strong>DepthViz</strong></div>
       <div class="project-description">A LiDAR scanner working on iPhone</div>
+
       <div class="project-buttons">
-        <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">
-          Project Page
-        </a>
-        <a href="https://apps.apple.com/kr/app/simplepointcloudscan/id1617511625" target="_blank" class="download-button ios-button">
-          Download (iOS)
-        </a>
+        <a href="https://github.com/tersite1/DepthViz"
+           target="_blank"
+           class="project-button">Project Page</a>
+        <a href="https://apps.apple.com/kr/app/simplepointcloudscan/id1617511625"
+           target="_blank"
+           class="download-button ios-button">Download&nbsp;(iOS)</a>
       </div>
+
       <div class="project-video-container">
-        <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY"
+                title="DepthViz Demo"
+                frameborder="0"
+                allowfullscreen></iframe>
       </div>
     </div>
 
-    <!-- Yonsei Drone 프로젝트 (Instagram 버튼 추가) -->
+    <!-- Yonsei Drone -->
     <div class="personal-project-card">
-      <div class="project-name"><strong>Yonsei Drone</strong></div>
-      <div class="project-description">I'm still in Yonsei Drone, Wow! </div>
+      <div class="project-name"><strong>Yonsei&nbsp;Drone</strong></div>
+      <div class="project-description">I'm still in Yonsei Drone, Wow!</div>
+
       <div class="project-buttons">
-        <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">
-          Project Page
-        </a>
-        <a href="https://www.instagram.com/yonsei_drone/" target="_blank" class="instagram-button">
-          Instagram
-        </a>
+        <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad"
+           target="_blank"
+           class="project-button">Project Page</a>
+        <a href="https://www.instagram.com/yonsei_drone/"
+           target="_blank"
+           class="instagram-button">Instagram</a>
       </div>
+
       <div class="project-video-container">
-        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q"
+                title="Yonsei Drone Demo"
+                frameborder="0"
+                allowfullscreen></iframe>
       </div>
     </div>
-  </div>
-</div>
 
-
-<!-- GreenWave 프로젝트 (News 버튼 포함) -->
+    <!-- GreenWave (통일된 카드) -->
     <div class="personal-project-card">
       <div class="project-name"><strong>GreenWave</strong></div>
       <div class="project-description">
@@ -123,25 +132,22 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
       <div class="project-buttons">
         <a href="https://github.com/tersite1/GreenWave"
            target="_blank"
-           class="project-button">
-          Project Page
-        </a>
-        <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=news&ssc=tab.news.all&query=Fluxmap+%EB%85%B9%EC%A1%B0"
+           class="project-button">Project Page</a>
+        <a href="https://search.naver.com/search.naver?where=news&query=Fluxmap+녹조"
            target="_blank"
-           class="news-button">
-          News
-        </a>
+           class="news-button">News</a>
       </div>
 
+      <!-- 이미지도 기존 높이·라운드 그대로 맞춰줌 -->
       <div class="project-image-container">
-        <img
-          src="assets/img/news.jpg"
-          alt="GreenWave 프로젝트 뉴스 이미지">
+        <img src="assets/img/news.jpg"
+             alt="GreenWave 프로젝트 뉴스 이미지">
       </div>
     </div>
 
   </div>
 </div>
+
 
 
 ## Academic Services
