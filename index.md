@@ -35,7 +35,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
-* **[2024 ~ 2025]:** Stellarvision Inc - Sensor Fusion(SAR, LiDAR) UAV based Digital Twin Platform for landslides
+* **[Jul. 2024 ~ Feb. 2025]:** Stellarvision Inc - Sensor Fusion(SAR, LiDAR) UAV based Digital Twin Platform for landslides
 
 
 ## News
