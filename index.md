@@ -113,6 +113,22 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 </div>
 
 
+<!-- GreenWave 프로젝트 카드 -->
+<div class="personal-project-card">
+  <div class="project-name"><strong>GreenWave</strong></div>
+  <div class="project-description">I awarded Big Prize in Jeju for Algal Bloom Detection! I bit Coupang and KAKAO, How?</div>
+  <div class="project-buttons">
+    <a href="https://github.com/tersite1/GreenWave" target="_blank" class="project-button">
+      Project Page
+    </a>
+    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=news&ssc=tab.news.all&query=Fluxmap+%EB%85%B9%EC%A1%B0&oquery=FLuxmap+%EB%85%B9%EC%A1%B0&tqi=jb3jwlqo15VssU2jiuNssssstIC-387549&ackey=mztyv44k" target="_blank" class="news-button">
+      News
+    </a>
+  </div>
+  <div class="project-image-container">
+    <img src="assets/img/news.jpg" alt="GreenWave 프로젝트 뉴스 이미지" style="width:100%; max-width:900px; border-radius:0.8rem; box-shadow:0 4px 15px rgba(0,0,0,0.12); background:#000;">
+  </div>
+</div>
 
 
 
