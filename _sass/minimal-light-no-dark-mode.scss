@@ -583,6 +583,7 @@ footer {
 .project-button,
 .download-button,
 .instagram-button,
+.news-button,
 .ios-button {
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -607,6 +608,7 @@ footer {
   .project-button:hover,
   .download-button:hover,
   .instagram-button:hover,
+  .news-button:hover,
   .ios-button:hover {
     background-color: #069;
     border-color: #069;
@@ -655,6 +657,7 @@ footer {
   .project-button,
   .download-button,
   .instagram-button,
+  .news-button,
   .ios-button {
     background-color: rgb(62, 183, 240);
     color: #000 !important;
@@ -665,6 +668,7 @@ footer {
     .project-button:hover,
     .download-button:hover,
     .instagram-button:hover,
+    .news-button:hover,
     .ios-button:hover {
       background-color: rgb(52, 173, 230);
       border-color: rgb(52, 173, 230);
@@ -695,6 +699,7 @@ footer {
   .project-button,
   .download-button,
   .instagram-button,
+  .news-button,
   .ios-button {
     width: 100%;
     min-width: auto;
