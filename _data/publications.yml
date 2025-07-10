@@ -3,7 +3,7 @@ main:
     authors: <strong>Minsuk Jang</strong>, Younghun Kim, Byeongjun Park and Changick Kim
     conference_short: IEIE
     conference: Institute of Electronics and Information Engineers Summer Conference <strong>(IEIE)</strong>, 2025. (Oral)
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    pdf: https://github.com/user-attachments/files/21153575/_LiTE.ViT.pdf
     image: ./assets/img/litevit.png
     notes: Best Paper
 
@@ -26,7 +26,7 @@ main:
     authors: <strong>Minsuk Jang</strong>, Halim Lee, and Jiwon Seo
     conference_short: KONI
     conference:  THE KOREAN NAVIGATION INSTITUTE Fall Conference <strong>(KONI)</strong>, 2024. (Oral)
-    pdf: https://github.com/tersite1/tersite1/files/15329640/koni.pdf
+    pdf: https://github.com/user-attachments/files/21153564/_NeRF.Google.Earth.pdf 
     image: ./assets/img/koni.png
 
   - title: "A Method for Real Time Target Association in Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection"
