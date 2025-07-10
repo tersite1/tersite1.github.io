@@ -22,6 +22,13 @@ main:
     code: https://github.com/tersite1/VisionCycle
     image: ./assets/img/nerf.png
 
+  - title: "Point Cloud Generation Using NeRF and Google Earth: Accuracy Evaluation Through Comparison with the KITTI Dataset"
+    authors: <strong>Minsuk Jang</strong>, Halim Lee, and Jiwon Seo
+    conference_short: KONI
+    conference:  THE KOREAN NAVIGATION INSTITUTE Fall Conference <strong>(KONI)</strong>, 2024. (Oral)
+    pdf: https://github.com/tersite1/tersite1/files/15329640/koni.pdf
+    image: ./assets/img/koni.png
+
   - title: "A Method for Real Time Target Association in Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection"
     authors: Taehyung Kim, <strong>Minsuk Jang</strong> and Shiho Kim
     conference_short: IEIE
