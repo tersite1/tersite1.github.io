@@ -32,8 +32,9 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Projects
 
+* **[Apr. 2025 ~ Present]:** IITP - Core Technologies for On-Device AI Inter-Object Collaborative Behavior
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
-* **[Jun. 2025 ~ Present]:** SOOMVI - Precise landing technology for drones
+* **[Jun. 2025 ~ Sep. 2025]:** SOOMVI - Precise landing technology for drones
 * **[Jul. 2024 ~ Feb. 2025]:** Stellarvision Inc - Sensor Fusion(SAR, LiDAR) UAV based Digital Twin Platform for landslides
 
 
