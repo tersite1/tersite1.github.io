@@ -1,4 +1,12 @@
 main:
+  - title: "SPARTA: Advancing Sparse Attention in Spiking Neural Networks via Spike-Timing-Based Prioritization"
+    authors: <strong>Minsuk Jang</strong>, and Changick Kim
+    conference_short: Arxiv
+    conference: Arxiv (Under Review, Submitted at AAAI 2026))
+    pdf: https://github.com/user-attachments/files/21559160/8732.pdf
+    image: ./assets/img/sparta.png
+    github: https://github.com/tersite1/SPARTA
+    notes: 
   - title: "LiTE ViT : Leaky Integrate-and-Fire Token Efficient Vision Transformer"
     authors: <strong>Minsuk Jang</strong>, Younghun Kim, Byeongjun Park and Changick Kim
     conference_short: IEIE
