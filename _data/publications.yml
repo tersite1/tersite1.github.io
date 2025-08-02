@@ -1,5 +1,5 @@
 main:
-  - title: "SPARTA: Advancing Sparse Attention in Spiking Neural Networks via Spike-Timing-Based Prioritization"
+  - title: "SPARTA : Advancing Sparse Attention in Spiking Neural Networks via Spike-Timing-Based Prioritization"
     authors: <strong>Minsuk Jang</strong>, and Changick Kim
     conference_short: Arxiv
     conference: Arxiv (Under Review, Submitted at AAAI 2026))
