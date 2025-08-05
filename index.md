@@ -20,7 +20,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 ## Research Interests
 
 * **AIGC(AI Generated Contents) Detection:** Developing robust detection models for wild datasets (TikTok, YouTube Shorts, etc.) with focus on generalization across diverse AI-generated content types and social media platforms. [[arxiv'25]](https://arxiv.org/abs/2506.17592)
-* **Spiking Neural Networks:** Investigating model compression and efficiency optimization using SNN architectures to reduce the performance gap between spiking and artificial neural networks while maintaining computational efficiency.[[IEIE'25(Best Paper)]](https://www.linkedin.com/posts/jadenjang_neuromorphiccomputing-visiontransformer-ai-activity-7348206102817189889-3Umd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEruz8kBUKyMdf_xZCXG6yIDp-BUSGMewOA)[[arxiv'25]](https://services.arxiv.org/html/submission/6674996/view) 
+* **Spiking Neural Networks:** Investigating model compression and efficiency optimization using SNN architectures to reduce the performance gap between spiking and artificial neural networks while maintaining computational efficiency.[[IEIE'25(Best Paper)]](https://www.linkedin.com/posts/jadenjang_neuromorphiccomputing-visiontransformer-ai-activity-7348206102817189889-3Umd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEruz8kBUKyMdf_xZCXG6yIDp-BUSGMewOA)[[arxiv'25]](https://arxiv.org/abs/2508.01646) 
 * **3D Digital Twin:** Creating comprehensive digital replicas by integrating UAV technology and remote sensing data for climate research applications, environmental monitoring, and atmospheric data analysis.
 [[IEIE'24]](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11890368) 
 
