@@ -6,6 +6,7 @@ main:
     pdf: https://github.com/user-attachments/files/21559160/8732.pdf
     image: ./assets/img/sparta.png
     code: https://github.com/tersite1/SPARTA
+    page: https://arxiv.org/abs/2508.01646
     notes: 
   - title: "LiTE ViT : Leaky Integrate-and-Fire Token Efficient Vision Transformer"
     authors: <strong>Minsuk Jang</strong>, Younghun Kim, Byeongjun Park and Changick Kim
