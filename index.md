@@ -39,7 +39,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## News
-* **[Jun. 2025]** I awarded the Governor's prize of Chungcheongdo! 
+* **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
 * **[May. 2025]**: I have joined [GLG (Gerson Lehrman Group)](https://glginsights.com/ko/?utm_source=google&utm_medium=paid&utm_campaign=GLG%20BRAND&utm_term=glg&gad_source=1&gad_campaignid=21845526237&gclid=CjwKCAjw4K3DBhBqEiwAYtG_9FFCdtJ4EJE-E1SPtnAW7iV62W9dxZ5IUlwkiPAfuqOmnNErZj6MAxoCgygQAvD_BwE) as an advisory board member.
   
@@ -58,7 +58,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
   
 ## Awards & Honors
 
-* **Governor’s Award** @ Chungcheongbuk-do Provincial Government, Jun. 2025
+* **Governor’s Award** @ Chungcheongnam-do Provincial Government, Jun. 2025
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
 * **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
 * **Asan Nanum Foundation-Yonsei University Startup Competition <strong>(Excellence Prize)</strong>** @ Asan Nanum Foundation, Oct. 2024
