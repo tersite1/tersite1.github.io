@@ -71,6 +71,9 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 * **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
   
 
+## Academic Services
+
+AAAI 2026 Conference Reviewer
 
 
 ## Personal Projects
@@ -150,10 +153,6 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 </div>
 
 
-
-## Academic Services
-
-To be updated.
 
 
 
