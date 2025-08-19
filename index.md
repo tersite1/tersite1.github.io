@@ -168,7 +168,7 @@ AAAI 2026 Conference Reviewer
 
       <!-- 이미지도 기존 높이·라운드 그대로 맞춰줌 -->
       <div class="project-image-container">
-        <img src="assets/img/xyz.jpg"
+        <img src="assets/img/xuz.png"
              alt="GreenWave 프로젝트 뉴스 이미지">
       </div>
     </div>
