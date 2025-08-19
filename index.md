@@ -39,6 +39,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## News
+* **[Jun. 2025]** XYZ Innovation Won World Robo Fest 2025!
 * **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
 * **[May. 2025]**: I have joined [GLG (Gerson Lehrman Group)](https://glginsights.com/ko/?utm_source=google&utm_medium=paid&utm_campaign=GLG%20BRAND&utm_term=glg&gad_source=1&gad_campaignid=21845526237&gclid=CjwKCAjw4K3DBhBqEiwAYtG_9FFCdtJ4EJE-E1SPtnAW7iV62W9dxZ5IUlwkiPAfuqOmnNErZj6MAxoCgygQAvD_BwE) as an advisory board member.
@@ -145,6 +146,29 @@ AAAI 2026 Conference Reviewer
       <!-- 이미지도 기존 높이·라운드 그대로 맞춰줌 -->
       <div class="project-image-container">
         <img src="assets/img/news.jpg"
+             alt="GreenWave 프로젝트 뉴스 이미지">
+      </div>
+    </div>
+
+        <!-- World Robo Festa (통일된 카드) -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>GreenWave</strong></div>
+      <div class="project-description">
+        XYZ Innovation Won World Robo Festa 2025.
+      </div>
+
+      <div class="project-buttons">
+        <a href="https://www.linkedin.com/company/xyzinnovation"
+           target="_blank"
+           class="project-button">Project Page</a>
+        <a href="https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%94%EB%93%9C%EB%A1%9C%EB%B3%B4%ED%8E%98%EC%8A%A4%ED%83%80+%EC%9E%A5%EB%AF%BC%EC%84%9D"
+           target="_blank"
+           class="news-button">News</a>
+      </div>
+
+      <!-- 이미지도 기존 높이·라운드 그대로 맞춰줌 -->
+      <div class="project-image-container">
+        <img src="assets/img/xyz.jpg"
              alt="GreenWave 프로젝트 뉴스 이미지">
       </div>
     </div>
