@@ -39,6 +39,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## News
+* **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
 * **[Jun. 2025]** XYZ Innovation Won World Robo Fest 2025!
 * **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
 * **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
