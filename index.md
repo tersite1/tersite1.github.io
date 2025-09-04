@@ -128,7 +128,7 @@ AAAI 2026 Conference Reviewer
       </div>
     </div>
 
-    <!-- GreenWave (통일된 카드) -->
+    <!-- World Robo Festa (통일된 카드) -->
     <div class="personal-project-card">
       <div class="project-name"><strong>GreenWave</strong></div>
       <div class="project-description">
