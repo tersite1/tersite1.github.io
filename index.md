@@ -153,7 +153,7 @@ AAAI 2026 Conference Reviewer
 
         <!-- World Robo Festa (통일된 카드) -->
     <div class="personal-project-card">
-      <div class="project-name"><strong>GreenWave</strong></div>
+      <div class="project-name"><strong>World Robo Festa</strong></div>
       <div class="project-description">
         XYZ Innovation Won World Robo Festa 2025.
       </div>
