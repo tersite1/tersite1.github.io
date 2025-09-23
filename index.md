@@ -39,6 +39,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## News
+* **[Sep. 2025]** Yonsei Drone awarded Joint 1st prize at [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)
 * **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
 * **[Jun. 2025]** XYZ Innovation Won World Robo Fest 2025!
 * **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
@@ -60,6 +61,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
   
 ## Awards & Honors
 
+* **Joint 1st <strong>([23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)</strong>** @ KASA, Sep. 2025
 * **Governor’s Award** @ Chungcheongnam-do Provincial Government, Jun. 2025
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
 * **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
