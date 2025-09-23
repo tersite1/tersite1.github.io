@@ -61,7 +61,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
   
 ## Awards & Honors
 
-* **Joint 1st <strong>([23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)</strong>** @ KASA, Sep. 2025
+* **Joint 1st <strong>[23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)</strong>** @ KASA, Sep. 2025
 * **Governor’s Award** @ Chungcheongnam-do Provincial Government, Jun. 2025
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
 * **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
