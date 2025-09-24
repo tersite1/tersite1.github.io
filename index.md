@@ -26,7 +26,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Work Experience
-* **[Jul. 2024 ~ Feb. 2025]:** AI Engineer at [Dailymeal](https://www.dailymeal.co.kr/)
+* **[Jul. 2024 ~ Current]:** AI Engineer at [Dailymeal](https://www.dailymeal.co.kr/)
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer at [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 
@@ -62,7 +62,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 ## Awards & Honors
 
 * **Joint 1st <strong>[23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)</strong>** @ KASA, Sep. 2025
-* **Governor’s Award** @ Chungcheongnam-do Provincial Government, Jun. 2025
+* **<strong>(Grand Prize, Governor's Award)</strong>d** @ Chungcheongnam-do Provincial Government, Jun. 2025
 * **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
 * **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
 * **Asan Nanum Foundation-Yonsei University Startup Competition <strong>(Excellence Prize)</strong>** @ Asan Nanum Foundation, Oct. 2024
