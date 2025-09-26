@@ -26,7 +26,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Work Experience
-* **[Jul. 2024 ~ Current]:** AI Engineer at [Dailymeal](https://www.dailymeal.co.kr/)
+* **[Jul. 2024 ~ Current]:** Platform Engineer at [Dailymeal](https://www.dailymeal.co.kr/)
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer at [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 
@@ -61,23 +61,30 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
   
 ## Awards & Honors
 
-* **Joint 1st <strong>[23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)</strong>** @ KASA, Sep. 2025
-* **<strong>(Grand Prize, Governor's Award)</strong>d** @ Chungcheongnam-do Provincial Government, Jun. 2025
-* **Best Paper Award** @ IEIE 2025 Summer Conference, May 2025
-* **Seoul Drone Utilization Competition <strong>(Seoul Mayor's Award)</strong>** @ Seoul Metropolitan Government, Dec. 2024
-* **Asan Nanum Foundation-Yonsei University Startup Competition <strong>(Excellence Prize)</strong>** @ Asan Nanum Foundation, Oct. 2024
-* **Jeju Satellite Data Challenge <strong>(Grand Prize, Governor's Award)</strong>** @ Jeju Provincial Government, Sep. 2024
-* **ICEE Challenge 2024 (Winner)** @ Yonsei University, Jul. 2024
-* **Yonsei Student Council Idea Competition (Award Winner)** @ Yonsei University, Jul. 2024
-* **Convergence Social Problem Solving Competition (Winner)** @ Yonsei University, Jan. 2024
-* **2nd Command Center Drone Challenge (Winner)** @ Republic of Korea Army (ROKA)
-* **Gyeonggi ESG Hackathon (Winner)** @ Gyeonggi-do Provincial Council
-* **KSCE Civil Engineering Model Competition (Winner)** @ Korea Society of Civil Engineers
-  
+* **Joint 1st Prize – [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)** @ KASA, **Sep. 2025**
+* **Grand Prize (Governor's Award) – World Robo Festa 2025** @ Chungcheongnam-do Provincial Government, **Jun. 2025**
+* **Best Paper Award – IEIE 2025 Summer Conference**, **May 2025**
+* **Seoul Mayor’s Award – Seoul Drone Utilization Competition** @ Seoul Metropolitan Government, **Dec. 2024**
+* **Excellence Prize – Asan Nanum Foundation Startup Competition** @ Asan Nanum Foundation, **Oct. 2024**
+* **Grand Prize (Governor’s Award) – Jeju Satellite Data Challenge** @ Jeju Provincial Government, **Sep. 2024**
+* Winner – ICEE Challenge 2024 @ Yonsei University, **Jul. 2024**
+* Winner – Yonsei Student Council Idea Competition @ Yonsei University, **Jul. 2024**
+* Winner – Convergence Social Problem Solving Competition @ Yonsei University, **Jan. 2024**
+* Winner – 2nd Command Center Drone Challenge @ Republic of Korea Army (ROKA)
+* Winner – Gyeonggi ESG Hackathon @ Gyeonggi-do Provincial Council
+* Winner – KSCE Civil Engineering Model Competition @ Korea Society of Civil Engineers
+
+
+
+
 
 ## Academic Services
 
 AAAI 2026 Conference Reviewer
+
+
+
+
 
 
 ## Personal Projects
