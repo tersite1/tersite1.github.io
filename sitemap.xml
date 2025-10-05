@@ -1,27 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 루트 -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- 기본 페이지 -->
   <url>
     <loc>https://tersite1.github.io/</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2025-10-05</lastmod>
     <priority>1.0</priority>
   </url>
-  <!-- 예: index.md → HTML 변환 페이지 -->
+
+  <!-- About 페이지 -->
   <url>
-    <loc>https://tersite1.github.io/index.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://tersite1.github.io/about/</loc>
+    <lastmod>2025-10-05</lastmod>
     <priority>0.8</priority>
   </url>
-  <!-- 예: nav 메뉴나 개별 페이지 -->
+
+  <!-- Projects -->
   <url>
-    <loc>https://tersite1.github.io/your-page.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://tersite1.github.io/projects/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <priority>0.8</priority>
   </url>
-  <!-- 블로그 글 예 -->
+
+  <!-- Publications -->
   <url>
-    <loc>https://tersite1.github.io/_posts/2025-10-05-sample-post.html</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://tersite1.github.io/publications/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- News -->
+  <url>
+    <loc>https://tersite1.github.io/news/</loc>
+    <lastmod>2025-10-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://tersite1.github.io/contact/</loc>
+    <lastmod>2025-10-05</lastmod>
     <priority>0.5</priority>
   </url>
+
 </urlset>
