@@ -1,10 +1,6 @@
 {
   "builds": [
-    {
-      "src": "_config.yml",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "_site" }
-    }
+    { "src": "_config.yml", "use": "@vercel/static-build", "config": { "distDir": "_site" } }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/$1" }
