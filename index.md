@@ -102,7 +102,7 @@ AAAI 2026 Conference Reviewer
         <a href="https://github.com/tersite1/DepthViz"
            target="_blank"
            class="project-button">Project Page</a>
-        <a href="https://apps.apple.com/kr/app/simplepointcloudscan/id1617511625"
+        <a href="https://apps.apple.com/app/depthviz/id6754522044"
            target="_blank"
            class="download-button ios-button">Download&nbsp;(iOS)</a>
       </div>
