@@ -3,7 +3,6 @@ main:
     authors: <strong>Minsuk Jang</strong>, Hyeonseo Jeong, Minseok Son, and Changick Kim
     conference_short: Arxiv
     conference: Arxiv (Under Review, Submitted at CVPR 2026)
-    pdf: https://github.com/user-attachments/files/21559160/8732.pdf
     image: ./assets/img/cinemae.png
     code: https://github.com/tersite1/CINEMAE
     page: https://arxiv.org/abs/2511.06325
@@ -11,7 +10,7 @@ main:
   - title: "SPARTA : Advancing Sparse Attention in Spiking Neural Networks via Spike-Timing-Based Prioritization"
     authors: <strong>Minsuk Jang</strong>, and Changick Kim
     conference_short: Arxiv
-    conference: Arxiv (Under Review, Submitted at AAAI 2026))
+    conference: Arxiv (Under Review, Submitted at AAAI 2026)
     pdf: https://github.com/user-attachments/files/21559160/8732.pdf
     image: ./assets/img/sparta.png
     code: https://github.com/tersite1/SPARTA
