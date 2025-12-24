@@ -81,6 +81,8 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Academic Services
 
+IEEE TCSVT Journal Reviewer
+
 AAAI 2026 Conference Reviewer
 
 
