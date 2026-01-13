@@ -32,7 +32,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Projects
 
-* **[Apr. 2025 ~ Apr.2026]:** NCSL - Development of Safety Evaluation Technology for Multimodal Generative AI
+* **[Mar. 2026 ~ Apr.2026]:** NCSL - Development of Safety Evaluation Technology for Multimodal Generative AI
 * **[Apr. 2025 ~ Present]:** IITP - Technologies for On-Device AI Inter-Object Collaborative Behavior
 * **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Apr. 2026]:** SOOMVI - Precise landing technology for drones
