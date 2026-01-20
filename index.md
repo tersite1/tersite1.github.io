@@ -53,6 +53,9 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Patents
 
+* *Apparatus and Method for Interior Simulation Using World Model Generation Based on Point Cloud and Diffusion Model*, **Minsuk Jang** (KR Patent Application 10-2026-0010171)
+* *AI-Based Integrated Management System and Method for Subscription Food Service Performing Backward Production Scheduling based on Delivery Time Window and Dynamic Route Optimization*, **Minsuk Jang** (KR Patent Application 10-2026-0010717)
+* *Apparatus and Method for AI-Based Commercial Area Prediction Using Structuring of Unstructured External Text and Spatio-temporal Impact Propagation*, **Minsuk Jang** (KR Patent Application 10-2026-0010395)
 * *LiDAR Micro Mobile Mapping System*, **Minsuk Jang** (KR Patent Application 10-2024-0130327)
 * *Forest Carbon Sequestration Analysis System and Method*, **Minsuk Jang** (KR Patent Application 10-2024-0153987)
 * *Vertically Takeoff and Landing Unmanned Aerial Vehicle with Adjustable Center of Gravity*, Minjun Kim, Junkyoo Park, Jungha Wang, **Minsuk Jang** (KR Patent Application 10-2024-0177539)
