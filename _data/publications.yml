@@ -1,5 +1,5 @@
 main:
-  - title: "TIMING MATTERS TOO: TEMPORAL ATTENTION GATING FOR SPIKING NEURAL NETWORKS"
+  - title: "Timing Matters Too: Temporal Attention Gating For Spiking Neural Networks"
     authors: <strong>Minsuk Jang</strong>, Kihyun Seol, Hyeonseo Jeong, and Changick Kim
     conference_short: Arxiv
     conference: Arxiv (Under Review, Submitted at ICIP 2026)
@@ -10,7 +10,7 @@ main:
     authors: <strong>Minsuk Jang*</strong>, Yoonchan Lee*, June-Kyoo Park*, Jihwan Shin*, Gwangmo Lee*, Minjun Kim*, Seohyeon Lim*, Keunhee Cho*, Hyukje Son*, and Sun-ho Song
     conference_short: KRoC 
     conference: KRoC (Korea robotics Society annual Conference) 2026
-    image: ./assets/img/vtolpng
+    image: ./assets/img/vtol.png
     pdf: https://github.com/user-attachments/files/25094264/vtol.pdf
     page: https://devcms2.yonsei.ac.kr/me/community/news.do?mode=view&articleNo=456983&article.offset=20&articleLimit=10
     note: "*These authors contributed equally to this work"
