@@ -7,6 +7,7 @@ main:
     pdf: https://github.com/user-attachments/files/25094264/vtol.pdf
     page: https://devcms2.yonsei.ac.kr/me/community/news.do?mode=view&articleNo=456983&article.offset=20&articleLimit=10
     note: "*These authors contributed equally to this work"
+    
   - title: "Masked AutoEncoders Are Latent Image Detectors"
     authors: <strong>Minsuk Jang</strong>, Hyeonseo Jeong, Minseok Son, and Changick Kim
     conference_short: Arxiv
