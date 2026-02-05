@@ -1,6 +1,14 @@
 main:
   - title: "Masked AutoEncoders Are Latent Image Detectors"
     authors: <strong>Minsuk Jang</strong>, Hyeonseo Jeong, Minseok Son, and Changick Kim
+    conference_short: KRoC
+    conference: KRoC
+    image: ./assets/img/vtolpng
+    pdf: https://github.com/user-attachments/files/25094264/vtol.pdf
+    page: https://devcms2.yonsei.ac.kr/me/community/news.do?mode=view&articleNo=456983&article.offset=20&articleLimit=10
+    
+  - title: "Masked AutoEncoders Are Latent Image Detectors"
+    authors: <strong>Minsuk Jang</strong>, Hyeonseo Jeong, Minseok Son, and Changick Kim
     conference_short: Arxiv
     conference: Arxiv (Under Review, Submitted at CVPR 2026)
     image: ./assets/img/cinemae.png
