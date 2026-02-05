@@ -7,7 +7,7 @@ main:
 
 
   - title: "Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue : Design and Demonstration"
-     authors: Minsuk Jang*, Yoonchan Lee*, June-Kyoo Park*, Jihwan Shin*, Gwangmo Lee*, Minjun Kim*, Seohyeon Lim*, Keunhee Cho*, Hyukje Son*, Sun-ho Song
+    authors: Minsuk Jang*, Yoonchan Lee*, June-Kyoo Park*, Jihwan Shin*, Gwangmo Lee*, Minjun Kim*, Seohyeon Lim*, Keunhee Cho*, Hyukje Son*, Sun-ho Song
     conference_short: KRoC
     conference: KRoC
     image: ./assets/img/vtolpng
