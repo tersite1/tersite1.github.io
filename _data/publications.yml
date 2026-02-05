@@ -1,4 +1,11 @@
 main:
+  - title: "TIMING MATTERS TOO: TEMPORAL ATTENTION GATING FOR SPIKING NEURAL NETWORKS"
+    authors: <strong>Minsuk Jang</strong>, Kihyun Seol, Hyeonseo Jeong, and Changick Kim
+    conference_short: Arxiv
+    conference: Arxiv (Under Review, Submitted at ICIP 2026)
+    image: ./assets/img/icip.png
+
+
   - title: "Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue : Design and Demonstration"
      authors: Minsuk Jang*, Yoonchan Lee*, June-Kyoo Park*, Jihwan Shin*, Gwangmo Lee*, Minjun Kim*, Seohyeon Lim*, Keunhee Cho*, Hyukje Son*, Sun-ho Song
     conference_short: KRoC
