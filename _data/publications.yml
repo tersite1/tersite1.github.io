@@ -1,4 +1,12 @@
 main:
+
+  - title: "Gaussian Indexing: Multi-granular Instantiation for Open-Vocabulary 3D Scene Understanding"
+    authors: Kihyun Seol, Hyeonseo Jeong, <strong>Minsuk Jang</strong> and Changick Kim
+    conference_short: Arxiv
+    conference: (Under Review, Submitted at ECCV 2026)
+    image: ./assets/img/eccv.png
+
+    
   - title: "Timing Matters Too: Temporal Attention Gating For Spiking Neural Networks"
     authors: <strong>Minsuk Jang</strong>, Kihyun Seol, Hyeonseo Jeong, and Changick Kim
     conference_short: Arxiv
