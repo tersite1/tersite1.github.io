@@ -70,6 +70,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 * **Seoul Mayor’s Award – Seoul Drone Utilization Competition** @ Seoul Metropolitan Government, **Dec. 2024**
 * **Excellence Prize – Asan Nanum Foundation Startup Competition** @ Asan Nanum Foundation, **Oct. 2024**
 * **Grand Prize (Governor’s Award) – Jeju Satellite Data Challenge** @ Jeju Provincial Government, **Sep. 2024**
+* Winner – Physical AI Hackathon @Cheonan, **May. 2025**
 * Winner – ICEE Challenge 2024 @ Yonsei University, **Jul. 2024**
 * Winner – Yonsei Student Council Idea Competition @ Yonsei University, **Jul. 2024**
 * Winner – Convergence Social Problem Solving Competition @ Yonsei University, **Jan. 2024**
