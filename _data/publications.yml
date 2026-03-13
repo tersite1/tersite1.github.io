@@ -1,7 +1,7 @@
 main:
 
   - title: "Gaussian Indexing: Multi-granular Instantiation for Open-Vocabulary 3D Scene Understanding"
-    authors: Seho Kim*, *Inyong Koo, <strong>Minsuk Jang</strong> and Changick Kim (*Indicates Equal Contribution)
+    authors: Seho Kim*, Inyong Koo*, <strong>Minsuk Jang</strong> and Changick Kim (*Indicates Equal Contribution)
     conference_short: Arxiv
     conference: (Under Review, Submitted at ECCV 2026)
     image: ./assets/img/eccv.png
