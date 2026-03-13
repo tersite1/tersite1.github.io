@@ -12,7 +12,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Education
-* **[Present]** : M.S. in Engineering @KAIST Computaional Intelligence Laboratory
+* **[Present]** : M.S. in Electrical Engineering @KAIST, CILAB
 * **[Feb. 2025]** : B.S. in  Civil Engineering, AI Convergence @Yonsei University
 
 ## Research Interests
