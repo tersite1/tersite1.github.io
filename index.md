@@ -24,7 +24,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Work Experience
-* **[Jul. 2024 ~ Current]:** Platform Engineer at [Dailymeal](https://www.dailymeal.co.kr/)
+* **[Jul. 2024 ~ Current]:** CTO at [Dailymeal](https://www.dailymeal.co.kr/)
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer at [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 
