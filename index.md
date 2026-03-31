@@ -38,6 +38,7 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## News
+* **[Nov. 2025]** I took 10th place on [흑백개발자:the해커톤](https://thehackathon.org/)!
 * **[Nov. 2025]** DepthViz is hitting #36 on iOS chart! 
 * **[Sep. 2025]** Yonsei Drone awarded Joint 1st prize at [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)!
 * **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
