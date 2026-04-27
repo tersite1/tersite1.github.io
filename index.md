@@ -30,16 +30,16 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Projects
-
-* **[Mar. 2026 ~ Apr.2026]:** NCSL - Development of Safety Evaluation Technology for Multimodal Generative AI
+* **[Apr. 2026 ~ Present]:** ETRI - Multimodal AI-based Digital Twin Model Automatic Generation Technology
+* **[Mar. 2026 ~ Present]:** NCSL - Development of Safety Evaluation Technology for Multimodal Generative AI
 * **[Apr. 2025 ~ Present]:** IITP - Technologies for On-Device AI Inter-Object Collaborative Behavior
-* **[Apr. 2025 ~ Present]:** LIG Nex1 - Underwater sonar image enhancement
+* **[Apr. 2025 ~ Jul.2026]:** LIG Nex1 - Underwater sonar image enhancement
 * **[Jun. 2025 ~ Apr. 2026]:** SOOMVI - Precise landing technology for drones
 * **[Jul. 2024 ~ Feb. 2025]:** Stellarvision Inc - Sensor Fusion(SAR, LiDAR) UAV based Digital Twin Platform for landslides
 
 
 ## News
-* **[Nov. 2025]** I took 10th place on [흑백개발자:the해커톤](https://thehackathon.org/)!
+* **[Nov. 2025]** I took 9th place on [흑백개발자:the해커톤](https://thehackathon.org/)!
 * **[Nov. 2025]** DepthViz is hitting #36 on iOS chart! 
 * **[Sep. 2025]** Yonsei Drone awarded Joint 1st prize at [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)!
 * **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
