@@ -1,5 +1,12 @@
 main:
 
+  - title: "Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection"
+    authors: <strong>Minsuk Jang</strong>, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim and Changick Kim
+    conference_short: NeurIPS
+    conference: Under Review at NeurIPS 2026
+    image: ./assets/img/aigv.png
+
+
   - title: "Detection-Driven Sonar Image Super-Resolution for Mine-Like Object Detection"
     authors: <strong>Minsuk Jang</strong>, Byeongjun Park, Seho Kim, Kangook Ko and Changick Kim
     conference_short: IEEE TGRS
