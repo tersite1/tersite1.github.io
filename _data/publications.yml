@@ -1,4 +1,9 @@
 main:
+  - title: "Gaussianization Residual-based AI-generated Image Detection"
+    authors: Minseok Son, Younghun Kim, <strong>Minsuk Jang</strong>, and Changick Kim
+    conference_short: TCSVT
+    conference: Under Review at IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+    image: ./assets/img/gaussianization.png
 
   - title: "Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection"
     authors: <strong>Minsuk Jang</strong>, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim and Changick Kim
