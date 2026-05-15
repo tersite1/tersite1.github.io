@@ -24,9 +24,9 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 
 ## Work Experience
-* **[Jul. 2024 ~ Current]:** CPO at [IDOLL Robotics](https://idoll.love/)
-* **[Jul. 2024 ~ Feb.2026]:** CTO at [Dailymeal](https://www.dailymeal.co.kr/)
-* **[Jul. 2024 ~ Feb. 2025]:** AI Engineer at [Stellarvision Inc.](https://stellarvision.co.kr/en/)
+* **[Jul. 2024 ~ Current]:** CTO @ [IDOLL Robotics](https://idoll.love/)
+* **[Jul. 2024 ~ Feb.2026]:** CTO @ [Dailymeal](https://www.dailymeal.co.kr/)
+* **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @ [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 
 ## Projects
@@ -193,7 +193,31 @@ AAAI 2026 Conference Reviewer
              alt="GreenWave 프로젝트 뉴스 이미지">
       </div>
     </div>
+    <!-- MAST -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>MAST</strong></div>
+      <div class="project-description">
+        MAST has been featured in the news! (From 0:51)
+      </div>
 
+      <div class="project-buttons">
+        <a href="https://arxiv.org/abs/2605.05895"
+           target="_blank"
+           class="project-button">arXiv</a>
+        <a href="https://github.com/tersite1"
+           target="_blank"
+           class="project-button">GitHub</a>
+        <a href="https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8561338"
+           target="_blank"
+           class="news-button">News</a>
+      </div>
+
+      <!-- 뉴스 화면 캡처 이미지를 여기에 삽입하세요 -->
+      <div class="project-image-container">
+        <img src="assets/img/mast_news.jpg"
+             alt="MAST 프로젝트 뉴스 보도 이미지">
+      </div>
+    </div>
   </div>
 </div>
 
