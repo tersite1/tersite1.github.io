@@ -214,7 +214,7 @@ AAAI 2026 Conference Reviewer
 
       <!-- 뉴스 화면 캡처 이미지를 여기에 삽입하세요 -->
       <div class="project-image-container">
-        <img src="assets/img/mast_news.jpg"
+        <img src="assets/img/mast_news.png"
              alt="MAST 프로젝트 뉴스 보도 이미지">
       </div>
     </div>
