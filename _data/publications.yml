@@ -1,4 +1,10 @@
 main:
+  - title: "MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Contro"
+    authors: Minsuk Jang, Heeseon Kim, Huicheol Yu, and Changick Kim
+    conference_short: Arxiv
+    conference: Under Review at ACL Rolling Review (ARR)
+    image: ./assets/img/mate.png
+    
   - title: "Gaussianization Residual-based AI-generated Image Detection"
     authors: Minseok Son, Younghun Kim, <strong>Minsuk Jang</strong>, and Changick Kim
     conference_short: TCSVT
@@ -7,7 +13,7 @@ main:
 
   - title: "Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection"
     authors: <strong>Minsuk Jang</strong>, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim and Changick Kim
-    conference_short: NeurIPS
+    conference_short: Raxiv
     conference: Under Review at NeurIPS 2026
     image: ./assets/img/aigv.png
 
