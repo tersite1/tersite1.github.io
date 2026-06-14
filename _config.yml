@@ -1,53 +1,72 @@
-# Basic Information 
-title: 🥑 Minsuk Jang
-position: M.S. Student
-affiliation: KAIST
-email: minsukjang@kaist.ac.kr 
+### Site Settings ###
+title               : Minsuk Jang
+description         : >-
+                      Minsuk Jang — M.S. student at KAIST (Computational Intelligence Lab).
+                      Civil engineer working on LiDAR-inertial SLAM, mobile mapping, UAV remote
+                      sensing, and 3D digital twins for real-world infrastructure.
+baseurl             : ""
+repository          : tersite1/tersite1.github.io
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : true                       # Opens external URLs in new tab
 
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: HI Minsuk Jang not Minseok Jang
-canonical: https://minimal-light-theme.yliu.me/
+### Plugins ###
+plugins:
+  - jemoji
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=2ARVuOcAAAAJ&hl=ko
-cv_link: assets/files/CV_minsuk.pdf
-github_link: https://github.com/tersite1
-linkedin: https://www.linkedin.com/in/jadenjang/
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/minsuk0.png
-favicon: ./assets/img/smile_favicon.png
-favicon_dark: ./assets/img/smile_favicon.png
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
 
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: false
+### Author Info ###
+author:
+  name              : Minsuk Jang
+  image             : /assets/img/minsuk0.png
+  email             : minsukjang@kaist.ac.kr
+  github            : tersite1
+  linkedin          : jadenjang
 
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: G-V6YLDPZ550
+### Posts (Awards) ###
+permalink: /awards/:title
 
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
 
-# The following files will be removed from the generated website.
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Analytics ###
+analytics:
+  enabled: true
+  google:
+    tracking_id: G-V6YLDPZ550
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
+
+
+### Exclude from processing ###
 exclude:
-  - Gemfile
-  - Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
   - LICENSE
-  - minimal-light.gemspec
-  - html_source_file/
+  - "*.log"
+  - _backup_minimal_light/

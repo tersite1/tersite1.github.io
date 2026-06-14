@@ -1,0 +1,15 @@
+- name: LiDAR-Inertial SLAM & Mobile Mapping
+  percentage: 95
+  color: info
+
+- name: 3D Reconstruction (NeRF, 3DGS, Photogrammetry)
+  percentage: 90
+  color: success
+
+- name: UAV / Drone Systems (pilot license)
+  percentage: 90
+  color: success
+
+- name: Remote Sensing (SAR, LiDAR sensor fusion)
+  percentage: 85
+  color: info
