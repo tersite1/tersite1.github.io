@@ -2,7 +2,7 @@
 layout: default
 title: CV
 permalink: /cv/
-weight: 5
+weight: 7
 ---
 
 <iframe src="/assets/files/CV_minsuk.pdf" width="100%" height="800px">

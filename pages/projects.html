@@ -1,9 +1,92 @@
 ---
 layout: default
-title: Research & Projects
+title: Projects
 permalink: /projects/
-weight: 2
+weight: 3
 ---
 
+<style>
+.proj-wrap { margin: 1.5rem 0 3rem; }
+.proj-section { margin: 2.6rem 0; }
+.proj-section-head { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 1.2rem; }
+.proj-accent-bar { width: 8px; height: 1.7rem; border-radius: 6px; background: var(--accent); display: inline-block; }
+.proj-section-head h2 { margin: 0; font-size: 1.5rem; font-weight: 700; }
+.proj-count {
+  font-size: 0.8rem; font-weight: 700; color: #fff; background: var(--accent);
+  border-radius: 999px; padding: 0.1rem 0.6rem; line-height: 1.6;
+}
+.proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+.proj-card {
+  display: flex; flex-direction: column; border-radius: 0.9rem; overflow: hidden;
+  background: #fff; border: 1px solid #e9ecef; text-decoration: none !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06); transition: transform .22s ease, box-shadow .22s ease;
+  border-top: 4px solid var(--accent);
+}
+.proj-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
+.proj-thumb {
+  height: 170px; background-size: cover; background-position: center; position: relative;
+}
+.proj-thumb--placeholder {
+  display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem;
+  background: linear-gradient(135deg, var(--accent), rgba(0,0,0,0.55));
+}
+.proj-thumb--placeholder span { color: #fff; font-weight: 700; font-size: 1.05rem; line-height: 1.35; text-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.proj-card-body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
+.proj-title { font-size: 1.05rem; font-weight: 700; color: #1a1a1a; margin: 0 0 0.45rem; line-height: 1.35; }
+.proj-desc { font-size: 0.9rem; color: #5c6066; margin: 0 0 0.9rem; line-height: 1.5; flex: 1; }
+.proj-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.proj-pill {
+  font-size: 0.72rem; font-weight: 600; color: var(--accent); background: rgba(0,0,0,0.03);
+  border: 1px solid var(--accent); border-radius: 999px; padding: 0.12rem 0.55rem; white-space: nowrap;
+}
+@media (prefers-color-scheme: dark) {
+  .proj-card { background: #1e2024; border-color: #2c2f33; }
+  .proj-title { color: #f1f1f1; }
+  .proj-desc { color: #a9adb3; }
+  .proj-pill { background: rgba(255,255,255,0.05); }
+}
+</style>
 
-{% include projects/index.html %}
+{% assign sec_keys   = "drone-club,hyundai-scholarship,government-funded,personal,startup" | split: "," %}
+{% assign sec_titles = "Drone Club,Hyundai Motors Scholarship,Government Funded,Personal,Startup" | split: "," %}
+{% assign sec_colors = "#2563eb,#0b2e63,#15803d,#7c3aed,#ea580c" | split: "," %}
+
+<div class="proj-wrap">
+{% for key in sec_keys %}
+  {% assign i = forloop.index0 %}
+  {% assign group = site.projects | where: "category", key %}
+  {% if group.size > 0 %}
+  <section class="proj-section" style="--accent: {{ sec_colors[i] }};">
+    <div class="proj-section-head">
+      <span class="proj-accent-bar"></span>
+      <h2>{{ sec_titles[i] }}</h2>
+      <span class="proj-count">{{ group.size }}</span>
+    </div>
+    <div class="proj-grid">
+      {% for project in group %}
+        {% if project.external_url %}{% assign url = project.external_url %}{% else %}{% assign url = project.url | relative_url %}{% endif %}
+        <a class="proj-card" href="{{ url }}" {% if project.external_url and site.open_new_tab %}target="_blank" rel="noopener"{% endif %}>
+          {% if project.image %}
+          <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}');"></div>
+          {% else %}
+          <div class="proj-thumb proj-thumb--placeholder"><span>{{ project.name }}</span></div>
+          {% endif %}
+          <div class="proj-card-body">
+            <h3 class="proj-title">{{ project.name }}</h3>
+            {% if project.description %}<p class="proj-desc">{{ project.description }}</p>{% endif %}
+            {% assign all_tags = project.tools %}
+            {% unless all_tags %}{% assign all_tags = "" | split: "" %}{% endunless %}
+            {% if project.extra_tags %}{% assign all_tags = all_tags | concat: project.extra_tags %}{% endif %}
+            {% if all_tags.size > 0 %}
+            <div class="proj-tags">
+              {% for tool in all_tags %}<span class="proj-pill">{{ tool }}</span>{% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+{% endfor %}
+</div>

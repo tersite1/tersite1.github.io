@@ -1,5 +1,6 @@
 ---
 name: MAST
+category: personal
 tools: [3D Vision, Research]
 image: /assets/img/mast_news.png
 description: MAST research, featured in national news (KBS).

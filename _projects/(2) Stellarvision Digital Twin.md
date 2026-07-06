@@ -1,5 +1,6 @@
 ---
 name: Drone SAR + LiDAR Digital Twin
+category: government-funded
 tools: [SAR, LiDAR, Sensor Fusion, NeRF, Digital Twin]
 image: /assets/img/teaser_example_2.png
 description: Digital twins generated from drone-mounted SAR imagery for landslide prevention, implemented with NeRF and exhibited at CES 2025.

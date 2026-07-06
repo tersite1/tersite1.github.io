@@ -1,6 +1,7 @@
 ---
 name: DepthViz — iOS LiDAR SLAM Scanner
-tools: [LiDAR SLAM, iOS, 3D Reconstruction, On-device AI]
+category: personal
+tools: [LiDAR SLAM, iOS, 3D Reconstruction, On-Device AI]
 image: /assets/img/teaser_example.png
 description: An on-device iOS LiDAR scanner I founded and exited — acquired by a construction firm. Reached #36 on the App Store.
 ---

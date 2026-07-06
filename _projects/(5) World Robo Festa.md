@@ -1,6 +1,7 @@
 ---
 name: World Robo Festa 2025 — Grand Prize
-tools: [Robotics, 3D Vision, Drones]
+category: startup
+tools: [Robotics, 3D Vision, Drone]
 image: /assets/img/xuz.png
 description: XYZ Innovation won the Grand Prize (Governor's Award) at World Robo Festa 2025.
 ---

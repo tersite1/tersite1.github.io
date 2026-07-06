@@ -1,0 +1,125 @@
+backend:
+  name: github
+  repo: tersite1/tersite1.github.io
+  branch: main
+
+# Where uploaded images are stored / referenced
+media_folder: "assets/img"
+public_folder: "/assets/img"
+
+# Show a friendlier editor; commit messages
+publish_mode: simple
+
+collections:
+  # ───────────── Awards (→ _posts) ─────────────
+  - name: awards
+    label: Awards
+    label_singular: Award
+    folder: _posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}}  ·  {{commit_date}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Tags, name: tags, widget: list, default: [], required: false }
+      - label: Badge Style
+        name: style
+        widget: select
+        options: [fill, border, text]
+        default: fill
+      - label: Badge Color
+        name: color
+        widget: select
+        options: [primary, success, danger, warning, info, light, dark]
+        default: primary
+      - { label: Short Description, name: description, widget: text }
+      - { label: Body, name: body, widget: markdown, required: false }
+
+  # ───────────── Projects (→ _projects cards) ─────────────
+  - name: projects
+    label: Projects
+    label_singular: Project
+    folder: _projects
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    summary: "{{name}}  ·  {{category}}"
+    fields:
+      - { label: Name, name: name, widget: string }
+      - label: Category
+        name: category
+        widget: select
+        options:
+          - { label: "Drone Club", value: drone-club }
+          - { label: "Hyundai Motors Scholarship", value: hyundai-scholarship }
+          - { label: "Government Funded", value: government-funded }
+          - { label: "Personal", value: personal }
+          - { label: "Startup", value: startup }
+      - label: Tags (common — pick from list)
+        name: tools
+        widget: select
+        multiple: true
+        required: false
+        options:
+          - 3D Mapping
+          - 3D Reconstruction
+          - 3D Vision
+          - 3D Visualization
+          - AI
+          - Aerospace
+          - Automation
+          - Autonomous Driving
+          - Autonomous SAR
+          - Autonomy
+          - Carbon MRV
+          - Clustering
+          - Computer Vision
+          - Control
+          - Data Labeling
+          - Digital Twin
+          - Disaster Mapping
+          - Drone
+          - Edge AI
+          - GIS
+          - iOS
+          - Landslide
+          - LiDAR
+          - LiDAR SLAM
+          - Machine Learning
+          - Multi-Agent
+          - Multimodal AI
+          - NeRF
+          - On-Device AI
+          - Patent
+          - Photogrammetry
+          - Point Cloud
+          - Precision Landing
+          - Registration
+          - Remote Sensing
+          - Research
+          - Research Scholar
+          - Robotics
+          - Route Optimization
+          - SAR
+          - Satellite Imagery
+          - Sensor Fusion
+          - Smart Helmet
+          - Software Architecture
+          - Sonar
+          - Startup
+          - Subscription Service
+          - Super-Resolution
+          - UAV
+          - UAV Design
+          - VTOL
+      - label: New / Custom Tags (type anything)
+        name: extra_tags
+        widget: list
+        required: false
+        default: []
+        hint: Add tags that are NOT in the dropdown above. These show on the card too.
+      - { label: Image, name: image, widget: image, required: false }
+      - { label: Short Description, name: description, widget: text }
+      - { label: External URL, name: external_url, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown, required: false }

@@ -1,5 +1,6 @@
 ---
 name: GreenWave — Satellite Algal Bloom Detection
+category: personal
 tools: [Remote Sensing, Machine Learning, Satellite Imagery]
 image: /assets/img/news.jpg
 description: ML-based algal bloom detection from satellite imagery. Grand Prize (Governor's Award) at the Jeju Satellite Data Challenge.
