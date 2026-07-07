@@ -1,0 +1,127 @@
+---
+layout: page
+title: Media
+permalink: /media/
+weight: 4
+---
+
+<style>
+.main-personal-projects { margin: 1.5rem 0; display: block; }
+.personal-project-row {
+  display: grid; grid-template-columns: 1fr; gap: 3rem; margin-top: 1rem;
+  max-width: 1200px; margin-left: auto; margin-right: auto; width: 100%;
+}
+.personal-project-card {
+  padding: 3rem; background-color: #f8f9fa; border-radius: 1rem; border: 1px solid #e9ecef;
+  text-align: center; transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%; max-width: 1200px; margin: 0 auto 3rem auto; box-sizing: border-box;
+}
+@media (hover: hover) and (pointer: fine) {
+  .personal-project-card:hover { transform: translateY(-3px); box-shadow: 0 6px 25px rgba(0,0,0,0.15); }
+}
+.project-name { font-size: 1.6rem; font-weight: 600; color: #043361; margin-bottom: 1rem; }
+.project-description {
+  font-size: 1.2rem; color: #6c757d; margin-bottom: 1.5rem; line-height: 1.6;
+  max-width: 800px; margin-left: auto; margin-right: auto;
+}
+.project-buttons { display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.project-button, .download-button, .instagram-button, .ios-button, .news-button {
+  display: inline-block; padding: 0.8rem 1.5rem; border-radius: 0.5rem; font-size: 1rem;
+  font-weight: 600; text-decoration: none !important; transition: all 0.3s ease; border: 2px solid transparent;
+  min-width: 140px; text-align: center; box-sizing: border-box; height: 48px; line-height: 1.2;
+  background-color: #043361; color: white !important; border-color: #043361;
+}
+@media (hover: hover) and (pointer: fine) {
+  .project-button:hover, .download-button:hover, .instagram-button:hover, .ios-button:hover, .news-button:hover {
+    background-color: #069; border-color: #069; transform: translateY(-1px); box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+  }
+}
+.project-video-container {
+  width: 100%; max-width: 900px; height: 350px; border-radius: 0.8rem; overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12); margin: 0 auto; position: relative; background-color: #000;
+}
+.project-video-container iframe { width: 100%; height: 100%; border: none; position: absolute; top: 0; left: 0; object-fit: cover; }
+.project-image-container { width: 100%; max-width: 900px; margin: 0 auto; border-radius: 0.8rem; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.12); }
+.project-image-container img { width: 100%; display: block; }
+@media (prefers-color-scheme: dark) {
+  .project-name { color: rgb(62, 183, 240); }
+  .project-description { color: #b0b3b8; }
+  .project-button, .download-button, .instagram-button, .ios-button, .news-button {
+    background-color: rgb(62, 183, 240); color: #000 !important; border-color: rgb(62, 183, 240);
+  }
+}
+</style>
+
+# **Media**
+
+<div class="main-personal-projects">
+  <div class="personal-project-row">
+
+    <!-- DepthViz -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>DepthViz</strong></div>
+      <div class="project-description">A LiDAR scanner working on iPhone</div>
+      <div class="project-buttons">
+        <a href="https://github.com/tersite1/DepthViz" target="_blank" class="project-button">Project Page</a>
+        <a href="https://apps.apple.com/app/depthviz/id6754522044" target="_blank" class="download-button ios-button">Download&nbsp;(iOS)</a>
+      </div>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/jtFA_WKWBDY" title="DepthViz Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Yonsei Drone -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>Yonsei&nbsp;Drone</strong></div>
+      <div class="project-description">I'm still in Yonsei Drone, Wow!</div>
+      <div class="project-buttons">
+        <a href="https://yonseidrone.notion.site/a9c169ae021445d0a5d95a083d69b1ad" target="_blank" class="project-button">Project Page</a>
+        <a href="https://www.instagram.com/yonsei_drone/" target="_blank" class="instagram-button">Instagram</a>
+      </div>
+      <div class="project-video-container">
+        <iframe src="https://www.youtube.com/embed/iyjVVylZR5Q" title="Yonsei Drone Demo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- GreenWave -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>GreenWave</strong></div>
+      <div class="project-description">I awarded Big Prize in Jeju! I beat Coupang and KAKAO, How?</div>
+      <div class="project-buttons">
+        <a href="https://github.com/tersite1/GreenWave" target="_blank" class="project-button">Project Page</a>
+        <a href="https://search.naver.com/search.naver?where=news&query=Fluxmap+녹조" target="_blank" class="news-button">News</a>
+      </div>
+      <div class="project-image-container">
+        <img src="/assets/img/news.jpg" alt="GreenWave 프로젝트 뉴스 이미지">
+      </div>
+    </div>
+
+    <!-- World Robo Festa -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>World Robo Festa</strong></div>
+      <div class="project-description">XYZ Innovation Won World Robo Festa 2025.</div>
+      <div class="project-buttons">
+        <a href="https://www.linkedin.com/company/xyzinnovation" target="_blank" class="project-button">Project Page</a>
+        <a href="https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query=%EC%9B%94%EB%93%9C%EB%A1%9C%EB%B3%B4%ED%8E%98%EC%8A%A4%ED%83%80+%EC%9E%A5%EB%AF%BC%EC%84%9D" target="_blank" class="news-button">News</a>
+      </div>
+      <div class="project-image-container">
+        <img src="/assets/img/xuz.png" alt="World Robo Festa 이미지">
+      </div>
+    </div>
+
+    <!-- MAST -->
+    <div class="personal-project-card">
+      <div class="project-name"><strong>MAST</strong></div>
+      <div class="project-description">MAST has been featured in the news! (From 0:51)</div>
+      <div class="project-buttons">
+        <a href="https://arxiv.org/abs/2605.05895" target="_blank" class="project-button">arXiv</a>
+        <a href="https://github.com/tersite1" target="_blank" class="project-button">GitHub</a>
+        <a href="https://news.kbs.co.kr/news/mobile/view/view.do?ncd=8561338" target="_blank" class="news-button">News</a>
+      </div>
+      <div class="project-image-container">
+        <img src="/assets/img/mast_news.png" alt="MAST 프로젝트 뉴스 보도 이미지">
+      </div>
+    </div>
+
+  </div>
+</div>

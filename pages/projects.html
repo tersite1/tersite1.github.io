@@ -6,40 +6,51 @@ weight: 3
 ---
 
 <style>
-.proj-wrap { margin: 1.5rem 0 3rem; }
-.proj-section { margin: 2.6rem 0; }
-.proj-section-head { display: flex; align-items: center; gap: 0.7rem; margin-bottom: 1.2rem; }
-.proj-accent-bar { width: 8px; height: 1.7rem; border-radius: 6px; background: var(--accent); display: inline-block; }
-.proj-section-head h2 { margin: 0; font-size: 1.5rem; font-weight: 700; }
-.proj-count {
-  font-size: 0.8rem; font-weight: 700; color: #fff; background: var(--accent);
-  border-radius: 999px; padding: 0.1rem 0.6rem; line-height: 1.6;
+.proj-wrap { margin: 1.2rem 0 3rem; }
+.proj-head { display: flex; align-items: baseline; gap: .6rem; margin-bottom: 1rem; }
+.proj-head h1 { margin: 0; font-size: 1.6rem; font-weight: 800; }
+.proj-head .proj-total { font-size: .8rem; font-weight: 700; color: #fff; background: #043361; border-radius: 999px; padding: .1rem .6rem; }
+
+/* Tag filter bar */
+.pfilter { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.5rem; }
+.pfilter-btn {
+  font-size: .74rem; font-weight: 600; padding: .28rem .72rem; border-radius: 999px; cursor: pointer;
+  border: 1px solid #cbd5e1; background: #fff; color: #334155; transition: all .15s ease;
 }
-.proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+.pfilter-btn:hover { border-color: #043361; color: #043361; }
+.pfilter-btn.active { background: #043361; color: #fff; border-color: #043361; }
+
+/* Compact 4-up grid */
+.proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; }
 .proj-card {
-  display: flex; flex-direction: column; border-radius: 0.9rem; overflow: hidden;
+  display: flex; flex-direction: column; border-radius: .7rem; overflow: hidden;
   background: #fff; border: 1px solid #e9ecef; text-decoration: none !important;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06); transition: transform .22s ease, box-shadow .22s ease;
-  border-top: 4px solid var(--accent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06); transition: transform .2s ease, box-shadow .2s ease;
+  border-top: 3px solid var(--accent);
 }
-.proj-card:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(0,0,0,0.15); }
-.proj-thumb {
-  height: 170px; background-size: cover; background-position: center; position: relative;
-}
+.proj-card:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0,0,0,0.14); }
+.proj-thumb { height: 110px; background-size: cover; background-position: center; position: relative; }
 .proj-thumb--placeholder {
-  display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem;
+  display: flex; align-items: center; justify-content: center; text-align: center; padding: .6rem;
   background: linear-gradient(135deg, var(--accent), rgba(0,0,0,0.55));
 }
-.proj-thumb--placeholder span { color: #fff; font-weight: 700; font-size: 1.05rem; line-height: 1.35; text-shadow: 0 1px 4px rgba(0,0,0,.35); }
-.proj-card-body { padding: 1rem 1.1rem 1.2rem; display: flex; flex-direction: column; flex: 1; }
-.proj-title { font-size: 1.05rem; font-weight: 700; color: #1a1a1a; margin: 0 0 0.45rem; line-height: 1.35; }
-.proj-desc { font-size: 0.9rem; color: #5c6066; margin: 0 0 0.9rem; line-height: 1.5; flex: 1; }
-.proj-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-.proj-pill {
-  font-size: 0.72rem; font-weight: 600; color: var(--accent); background: rgba(0,0,0,0.03);
-  border: 1px solid var(--accent); border-radius: 999px; padding: 0.12rem 0.55rem; white-space: nowrap;
+.proj-thumb--placeholder span { color: #fff; font-weight: 700; font-size: .82rem; line-height: 1.3; text-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.proj-card-body { padding: .65rem .7rem .8rem; display: flex; flex-direction: column; flex: 1; }
+.proj-title { font-size: .9rem; font-weight: 700; color: #1a1a1a; margin: 0 0 .35rem; line-height: 1.28; }
+.proj-desc {
+  font-size: .76rem; color: #5c6066; margin: 0 0 .6rem; line-height: 1.4; flex: 1;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
+.proj-tags { display: flex; flex-wrap: wrap; gap: .28rem; }
+.proj-pill {
+  font-size: .62rem; font-weight: 600; color: var(--accent); background: rgba(0,0,0,0.03);
+  border: 1px solid var(--accent); border-radius: 999px; padding: .06rem .42rem; white-space: nowrap;
+}
+.proj-empty { color: #94a3b8; font-size: .9rem; padding: 2rem 0; text-align: center; display: none; }
 @media (prefers-color-scheme: dark) {
+  .pfilter-btn { background: #1e2024; border-color: #2c2f33; color: #c7cad0; }
+  .pfilter-btn:hover { border-color: #5aa9ff; color: #5aa9ff; }
+  .pfilter-btn.active { background: #2b6cb0; color: #fff; border-color: #2b6cb0; }
   .proj-card { background: #1e2024; border-color: #2c2f33; }
   .proj-title { color: #f1f1f1; }
   .proj-desc { color: #a9adb3; }
@@ -47,46 +58,84 @@ weight: 3
 }
 </style>
 
-{% assign sec_keys   = "drone-club,hyundai-scholarship,government-funded,personal,startup" | split: "," %}
-{% assign sec_titles = "Drone Club,Hyundai Motors Scholarship,Government Funded,Personal,Startup" | split: "," %}
-{% assign sec_colors = "#2563eb,#0b2e63,#15803d,#7c3aed,#ea580c" | split: "," %}
+{%- comment -%} Collect all unique tags across projects {%- endcomment -%}
+{% assign all_project_tags = "" | split: "" %}
+{% for project in site.projects %}
+  {% assign ptags = project.tools %}
+  {% unless ptags %}{% assign ptags = "" | split: "" %}{% endunless %}
+  {% if project.extra_tags %}{% assign ptags = ptags | concat: project.extra_tags %}{% endif %}
+  {% assign all_project_tags = all_project_tags | concat: ptags %}
+{% endfor %}
+{% assign unique_tags = all_project_tags | uniq | sort_natural %}
 
 <div class="proj-wrap">
-{% for key in sec_keys %}
-  {% assign i = forloop.index0 %}
-  {% assign group = site.projects | where: "category", key %}
-  {% if group.size > 0 %}
-  <section class="proj-section" style="--accent: {{ sec_colors[i] }};">
-    <div class="proj-section-head">
-      <span class="proj-accent-bar"></span>
-      <h2>{{ sec_titles[i] }}</h2>
-      <span class="proj-count">{{ group.size }}</span>
-    </div>
-    <div class="proj-grid">
-      {% for project in group %}
-        {% if project.external_url %}{% assign url = project.external_url %}{% else %}{% assign url = project.url | relative_url %}{% endif %}
-        <a class="proj-card" href="{{ url }}" {% if project.external_url and site.open_new_tab %}target="_blank" rel="noopener"{% endif %}>
-          {% if project.image %}
-          <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}');"></div>
-          {% else %}
-          <div class="proj-thumb proj-thumb--placeholder"><span>{{ project.name }}</span></div>
-          {% endif %}
-          <div class="proj-card-body">
-            <h3 class="proj-title">{{ project.name }}</h3>
-            {% if project.description %}<p class="proj-desc">{{ project.description }}</p>{% endif %}
-            {% assign all_tags = project.tools %}
-            {% unless all_tags %}{% assign all_tags = "" | split: "" %}{% endunless %}
-            {% if project.extra_tags %}{% assign all_tags = all_tags | concat: project.extra_tags %}{% endif %}
-            {% if all_tags.size > 0 %}
-            <div class="proj-tags">
-              {% for tool in all_tags %}<span class="proj-pill">{{ tool }}</span>{% endfor %}
-            </div>
-            {% endif %}
+  <div class="proj-head">
+    <h1>Projects</h1>
+    <span class="proj-total">{{ site.projects.size }}</span>
+  </div>
+
+  <div class="pfilter">
+    <button class="pfilter-btn active" data-tag="__all__">All</button>
+    {% for tag in unique_tags %}
+    <button class="pfilter-btn" data-tag="{{ tag | downcase }}">{{ tag }}</button>
+    {% endfor %}
+  </div>
+
+  <div class="proj-grid">
+    {% for project in site.projects %}
+      {% case project.category %}
+        {% when 'drone-club' %}{% assign accent = '#2563eb' %}
+        {% when 'hyundai-scholarship' %}{% assign accent = '#0b2e63' %}
+        {% when 'government-funded' %}{% assign accent = '#15803d' %}
+        {% when 'personal' %}{% assign accent = '#7c3aed' %}
+        {% when 'startup' %}{% assign accent = '#ea580c' %}
+        {% else %}{% assign accent = '#043361' %}
+      {% endcase %}
+      {% assign all_tags = project.tools %}
+      {% unless all_tags %}{% assign all_tags = "" | split: "" %}{% endunless %}
+      {% if project.extra_tags %}{% assign all_tags = all_tags | concat: project.extra_tags %}{% endif %}
+      {% capture tagstr %}{% for t in all_tags %}{{ t | downcase }}|{% endfor %}{% endcapture %}
+      {% if project.external_url %}{% assign url = project.external_url %}{% else %}{% assign url = project.url | relative_url %}{% endif %}
+      <a class="proj-card" href="{{ url }}" data-tags="{{ tagstr }}" style="--accent: {{ accent }};" {% if project.external_url and site.open_new_tab %}target="_blank" rel="noopener"{% endif %}>
+        {% if project.image %}
+        <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}');"></div>
+        {% else %}
+        <div class="proj-thumb proj-thumb--placeholder"><span>{{ project.name }}</span></div>
+        {% endif %}
+        <div class="proj-card-body">
+          <h3 class="proj-title">{{ project.name }}</h3>
+          {% if project.description %}<p class="proj-desc">{{ project.description }}</p>{% endif %}
+          {% if all_tags.size > 0 %}
+          <div class="proj-tags">
+            {% for tool in all_tags %}<span class="proj-pill">{{ tool }}</span>{% endfor %}
           </div>
-        </a>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-{% endfor %}
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="proj-empty">No projects match this tag.</div>
 </div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.pfilter-btn');
+  var cards = document.querySelectorAll('.proj-card');
+  var empty = document.querySelector('.proj-empty');
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var tag = btn.getAttribute('data-tag');
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var shown = 0;
+      cards.forEach(function (card) {
+        var tags = (card.getAttribute('data-tags') || '').split('|');
+        var match = (tag === '__all__') || tags.indexOf(tag) !== -1;
+        card.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+      if (empty) empty.style.display = shown === 0 ? 'block' : 'none';
+    });
+  });
+})();
+</script>
