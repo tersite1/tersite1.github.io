@@ -24,7 +24,22 @@ permalink: /
   .hero-btn { border-color: #5aa9ff; color: #5aa9ff !important; }
   .hero-btn.primary { background: #2b6cb0; color: #fff !important; border-color: #2b6cb0; }
 }
+.uc-banner { max-width: 820px; margin: 1.6rem auto 0; padding: 1.5rem 1.2rem; text-align: center;
+  background: repeating-linear-gradient(45deg, #fff8e1, #fff8e1 16px, #fdecc8 16px, #fdecc8 32px);
+  border: 3px dashed #e0a800; border-radius: 1rem; }
+.uc-banner .uc-title { font-size: 2rem; font-weight: 900; color: #8a5a00; letter-spacing: .03em; margin: 0; line-height: 1.2; }
+.uc-banner .uc-sub { font-size: 1rem; color: #7a5a00; margin: .5rem 0 0; }
+@media (prefers-color-scheme: dark) {
+  .uc-banner { background: repeating-linear-gradient(45deg, #2a2410, #2a2410 16px, #35301a 16px, #35301a 32px); border-color: #b8860b; }
+  .uc-banner .uc-title { color: #ffd466; }
+  .uc-banner .uc-sub { color: #d9c48a; }
+}
 </style>
+
+<div class="uc-banner">
+  <p class="uc-title">🚧 UNDER CONSTRUCTION · TBD 🚧</p>
+  <p class="uc-sub">This site is being updated — projects &amp; content are being added.</p>
+</div>
 
 <div class="hero">
   <img class="hero-avatar" src="/assets/img/minsuk0.png" alt="Minsuk Jang" />
