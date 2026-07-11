@@ -35,6 +35,7 @@ weight: 3
   background: linear-gradient(135deg, var(--accent), rgba(0,0,0,0.55));
 }
 .proj-thumb--placeholder span { color: #fff; font-weight: 700; font-size: .82rem; line-height: 1.3; text-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.proj-vid { width: 100%; height: 100%; object-fit: cover; display: block; }
 .proj-card-body { padding: .65rem .7rem .8rem; display: flex; flex-direction: column; flex: 1; }
 .proj-title { font-size: .9rem; font-weight: 700; color: #1a1a1a; margin: 0 0 .35rem; line-height: 1.28; }
 .proj-desc {
@@ -42,23 +43,40 @@ weight: 3
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 .proj-tags { display: flex; flex-wrap: wrap; gap: .28rem; }
-/* Tag chips — squared, solid color fill for high visibility */
 .proj-pill {
   font-size: .62rem; font-weight: 700; color: #fff; background: var(--tc, #043361);
   border-radius: 4px; padding: .1rem .45rem; white-space: nowrap; letter-spacing: .01em;
 }
 .proj-empty { color: #94a3b8; font-size: .9rem; padding: 2rem 0; text-align: center; display: none; }
+
+/* Government-funded projects — text only */
+.gov-fund { margin-top: 2.6rem; padding-top: 1.4rem; border-top: 1px solid #e5e7eb; }
+.gov-title { font-size: 1.2rem; font-weight: 700; margin: 0 0 .8rem; }
+.gov-list { list-style: none; padding: 0; margin: 0; }
+.gov-list li { padding: .55rem 0; border-bottom: 1px solid #f0f0f0; line-height: 1.5; }
+.gov-list li:last-child { border-bottom: none; }
+.gov-list strong { color: #1a1a1a; }
+.gov-desc { color: #6b7280; font-size: .88rem; }
+
 @media (prefers-color-scheme: dark) {
   .pfilter-btn { background: #1e2024; }
   .proj-card { background: #1e2024; border-color: #2c2f33; }
   .proj-title { color: #f1f1f1; }
   .proj-desc { color: #a9adb3; }
+  .gov-fund { border-color: #2c2f33; }
+  .gov-list li { border-color: #26282c; }
+  .gov-list strong { color: #f1f1f1; }
+  .gov-desc { color: #9aa0a6; }
 }
 </style>
 
-{%- comment -%} Collect all unique tags across projects {%- endcomment -%}
+{%- comment -%} Cards exclude government-funded line items (shown as text below) {%- endcomment -%}
+{% assign card_projects = site.projects | where_exp: "p", "p.gov_funded != true" %}
+{% assign gov_projects = site.projects | where: "gov_funded", true %}
+
+{%- comment -%} Collect unique tags across card projects {%- endcomment -%}
 {% assign all_project_tags = "" | split: "" %}
-{% for project in site.projects %}
+{% for project in card_projects %}
   {% assign ptags = project.tools %}
   {% unless ptags %}{% assign ptags = "" | split: "" %}{% endunless %}
   {% if project.extra_tags %}{% assign ptags = ptags | concat: project.extra_tags %}{% endif %}
@@ -70,7 +88,7 @@ weight: 3
 <div class="proj-wrap">
   <div class="proj-head">
     <h1>Projects</h1>
-    <span class="proj-total">{{ site.projects.size }}</span>
+    <span class="proj-total">{{ card_projects.size }}</span>
   </div>
 
   <div class="pfilter">
@@ -88,7 +106,7 @@ weight: 3
   </div>
 
   <div class="proj-grid">
-    {% for project in site.projects %}
+    {% for project in card_projects %}
       {% case project.category %}
         {% when 'drone-club' %}{% assign accent = '#2563eb' %}
         {% when 'hyundai-scholarship' %}{% assign accent = '#0b2e63' %}
@@ -103,7 +121,9 @@ weight: 3
       {% capture tagstr %}{% for t in all_tags %}{{ t | downcase }}|{% endfor %}{% endcapture %}
       {% if project.external_url %}{% assign url = project.external_url %}{% else %}{% assign url = project.url | relative_url %}{% endif %}
       <a class="proj-card" href="{{ url }}" data-tags="{{ tagstr }}" style="--accent: {{ accent }};" {% if project.external_url and site.open_new_tab %}target="_blank" rel="noopener"{% endif %}>
-        {% if project.image %}
+        {% if project.video %}
+        <div class="proj-thumb"><video class="proj-vid" src="{{ project.video | relative_url }}" autoplay muted loop playsinline{% if project.image %} poster="{{ project.image | relative_url }}"{% endif %}></video></div>
+        {% elsif project.image %}
         <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}');"></div>
         {% else %}
         <div class="proj-thumb proj-thumb--placeholder"><span>{{ project.name }}</span></div>
@@ -128,6 +148,17 @@ weight: 3
     {% endfor %}
   </div>
   <div class="proj-empty">No projects match this tag.</div>
+
+  {% if gov_projects.size > 0 %}
+  <div class="gov-fund">
+    <h2 class="gov-title">Projects Funded by Government</h2>
+    <ul class="gov-list">
+      {% for p in gov_projects %}
+      <li><strong>{{ p.name }}</strong>{% if p.description %} <span class="gov-desc">{{ p.description }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 </div>
 
 <script>

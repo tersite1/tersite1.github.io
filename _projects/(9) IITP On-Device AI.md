@@ -1,6 +1,7 @@
 ---
 name: IITP — On-Device Collaborative AI
 category: government-funded
+gov_funded: true
 tools: [On-Device AI, Multi-Agent, Robotics]
 description: Technologies for on-device AI inter-object collaborative behavior. (Apr. 2025 ~ Present)
 ---

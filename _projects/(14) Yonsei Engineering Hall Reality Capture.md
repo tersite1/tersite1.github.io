@@ -1,10 +1,13 @@
 ---
-name: Yonsei Engineering Hall Reality Capture & Cross-Modal Point Cloud Registration
+name: 3D Reconstruction of Yonsei Engineering Building
 category: personal
-tools: [LiDAR, NeRF, Point Cloud, 3D Reconstruction, Registration]
-description: Reality capture of Yonsei Engineering Hall with cross-modal (LiDAR–NeRF) point cloud registration.
+tools: [NeRF, 3D Reconstruction, Point Cloud, Registration]
+video: /assets/img/yonsei-eng.mp4
+image: /assets/img/yonsei-eng.jpg
+external_url: /assets/img/yonsei-eng.mp4
+description: Complete 3D reconstruction of the Yonsei engineering building using NeRF and direct mobile scanning, fused through point-cloud registration.
 ---
 
-## Yonsei Engineering Hall Reality Capture & Cross-Modal Point Cloud Registration
+## 3D Reconstruction of Yonsei Engineering Building
 
-Captured Yonsei Engineering Hall and aligned LiDAR and NeRF-derived point clouds via cross-modal registration.
+Reconstructed the Yonsei engineering building end to end: built NeRF-based 3D models, captured the structure by direct mobile scanning, and registered the two into a single complete 3D reconstruction model.

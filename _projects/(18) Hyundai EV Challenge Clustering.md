@@ -1,10 +1,11 @@
 ---
-name: "Hyundai Scholars EV Challenge: LiDAR-Based Obstacle Clustering"
+name: "Jeju International EV Autonomous Driving Competition: LiDAR Clustering"
 category: hyundai-scholarship
 tools: [LiDAR, Point Cloud, Clustering, Autonomous Driving, Robotics]
-description: LiDAR point-cloud obstacle clustering for autonomous driving, built for the Hyundai Scholars EV Challenge.
+image: /assets/img/jeju-ev.png
+description: LiDAR point-cloud obstacle clustering for autonomous driving at the Jeju International EV Autonomous Driving Competition.
 ---
 
-## Hyundai Scholars EV Challenge: LiDAR-Based Obstacle Clustering
+## Jeju International EV Autonomous Driving Competition: LiDAR Clustering
 
-LiDAR-based obstacle detection and clustering for an autonomous EV, developed during the Hyundai Scholars EV Challenge.
+LiDAR-based obstacle detection and point-cloud clustering for an autonomous EV, developed for the Jeju International EV Autonomous Driving Competition.
