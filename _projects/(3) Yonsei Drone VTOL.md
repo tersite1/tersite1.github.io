@@ -3,8 +3,7 @@ order: 8
 name: Quad-Tiltrotor VTOL Search & Rescue Drone
 category: drone-club
 tools: [VTOL, UAV Design, Autonomous SAR, Aerospace]
-video: /assets/img/p-vtol.mp4
-image: /assets/img/p-vtol.png
+image: /assets/img/p-vtol.gif
 description: Joint 1st Place at the 23rd AAM Tech Challenge (KASA). A quad-tiltrotor VTOL for autonomous search and rescue, where I led the software.
 ---
 

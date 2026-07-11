@@ -71,6 +71,16 @@ weight: 1
 
 I am an M.S. student at KAIST, currently in the [Computational Intelligence Laboratory](https://cilabs.kaist.ac.kr/) (Prof. Changick Kim). I earned a B.S. in Civil Engineering from Yonsei University, Seoul, and was a student intern at Seoul National University, working in both the [Vehicle Intelligence Laboratory](https://vi.snu.ac.kr/) (Prof. Seungwoo Seo) and the [Autonomous Robot Intelligence Laboratory](https://vi.snu.ac.kr/) (Prof. Seongwoo Kim). I worked as an AI Engineer at [Stellarvision](https://stellarvision.co.kr/en/), a satellite imagery startup. Also, I am founder of [XYZ Innovation](https://www.linkedin.com/company/xyzinnovation), a company focused on applying 3D Vision and Drone technologies to real-world challenges. These combined experiences have shaped my research interests.
 
+## News
+* **[Nov. 2025]** I took 9th place on [흑백개발자:the해커톤](https://thehackathon.org/)!
+* **[Nov. 2025]** DepthViz is hitting #36 on iOS chart! 
+* **[Sep. 2025]** Yonsei Drone awarded Joint 1st prize at [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)!
+* **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
+* **[Jun. 2025]** XYZ Innovation Won World Robo Fest 2025!
+* **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
+* **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
+* **[May. 2025]**: I have joined [GLG (Gerson Lehrman Group)](https://glginsights.com/ko/) as an advisory board member.
+
 ## Education
 * **[Present]** : M.S. in Electrical Engineering @KAIST, CILAB
 * **[Feb. 2025]** : B.S. in  Civil Engineering, AI Convergence @Yonsei University
@@ -89,6 +99,13 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @ [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 
+## Research Experience
+* **[Feb. 2025 ~ Present]:** Graduate Research Assistant @ [Computational Intelligence Lab, KAIST](https://cilabs.kaist.ac.kr/) (Prof. Changick Kim)
+* **[Jul. ~ Sep. 2024]:** Undergraduate Research Assistant @ [Intelligent Unmanned Systems Lab, Yonsei](https://www.gnss.kr/) (Prof. Jiwon Seo)
+* **[Apr. ~ Jul. 2024]:** Undergraduate Research Assistant @ [Vehicle Intelligence Lab, SNU](https://vi.snu.ac.kr/intro.php) (Prof. Seoungwoo Seo)
+* **[Jan. ~ Mar. 2024]:** Undergraduate Research Assistant @ [Autonomous Robot Intelligence Lab, SNU](https://arisnu.squarespace.com) (Prof. Seoung Woo Kim)
+
+
 ## Projects
 * **[Apr. 2026 ~ Present]:** ETRI - Multimodal AI-based Digital Twin Model Automatic Generation Technology
 * **[Mar. 2026 ~ Present]:** NCSL - Development of Safety Evaluation Technology for Multimodal Generative AI
@@ -98,15 +115,6 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 * **[Jul. 2024 ~ Feb. 2025]:** Stellarvision Inc - Sensor Fusion(SAR, LiDAR) UAV based Digital Twin Platform for landslides
 
 
-## News
-* **[Nov. 2025]** I took 9th place on [흑백개발자:the해커톤](https://thehackathon.org/)!
-* **[Nov. 2025]** DepthViz is hitting #36 on iOS chart! 
-* **[Sep. 2025]** Yonsei Drone awarded Joint 1st prize at [23th AAM Tech Challenge](https://www.knnews.co.kr/m2/mView.php?idxno=1469998)!
-* **[Aug. 2025]** I nominated as winner of IPESK next generation engineering researcher award.
-* **[Jun. 2025]** XYZ Innovation Won World Robo Fest 2025!
-* **[Jun. 2025]** I awarded the Governor's prize of Chungcheongnamdo! 
-* **[Jun. 2025]** I awarded Best Paper at IEIE 2025 summer Conference.
-* **[May. 2025]**: I have joined [GLG (Gerson Lehrman Group)](https://glginsights.com/ko/) as an advisory board member.
 
 ## Publications
 
