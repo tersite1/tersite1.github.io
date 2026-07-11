@@ -24,6 +24,9 @@ weight: 2
   .rtheme-body p { color: #c7cad0; }
   .rtheme-body h3 { color: #7fb4ff; }
 }
+.r-divider { border: none; border-top: 2px solid #e5e7eb; margin: 2.6rem 0 1.4rem; }
+.r-interest { font-size: 1.02rem; color: #4a4a4a; margin: 0 0 1.4rem; }
+@media (prefers-color-scheme: dark) { .r-divider { border-top-color: #2c2f33; } .r-interest { color: #c7cad0; } }
 </style>
 
 # **Research**
@@ -39,7 +42,7 @@ I like to build end to end, from field sensing systems to the learning algorithm
 <div class="rtheme">
   <div class="rtheme-fig"><img src="/assets/img/koni.png" alt="3D reconstruction" /></div>
   <div class="rtheme-body">
-    <h3><span class="rtheme-num">01</span>3D: LiDAR &amp; Gaussian Splatting</h3>
+    <h3><span class="rtheme-num">01</span>3D (Gaussian Splatting, LiDAR)</h3>
     <p>Real-time 3D reconstruction from LiDAR and cameras: LiDAR-inertial odometry, mobile mapping, and
     neural representations such as NeRF and <strong>3D Gaussian Splatting</strong>. I shipped these ideas as
     <strong>DepthViz</strong>, an on-device iOS LiDAR-SLAM scanner, and study lightweight odometry and
@@ -79,14 +82,18 @@ I like to build end to end, from field sensing systems to the learning algorithm
   </div>
 </div>
 
+<hr class="r-divider" />
+
+## Real-World Problems
+
+<p class="r-interest">More than any single method, this is the area I care about most: research that leaves the lab and solves an actual problem in the field.</p>
+
 <div class="rtheme">
   <div class="rtheme-fig"><img src="/assets/img/tgrs.png" alt="Real-world remote sensing" /></div>
   <div class="rtheme-body">
-    <h3><span class="rtheme-num">04</span>Real-World Problems</h3>
-    <p>Research where the benchmark is the real world, not just a dataset. Detection-driven
-    <strong>super-resolution for sonar imagery (IEEE TGRS)</strong> for mine-like object detection,
-    UAV SAR and LiDAR digital twins for landslide and disaster mapping, and remote sensing for
-    environmental monitoring. I want work that ships to the field and solves an actual problem.</p>
+    <p>Detection-driven <strong>super-resolution for sonar imagery (IEEE TGRS)</strong> for mine-like
+    object detection, UAV SAR and LiDAR digital twins for landslide and disaster mapping, and remote
+    sensing for environmental monitoring. I want work where the benchmark is the real world, not just a dataset.</p>
     <div class="rtheme-links">
       <a href="/publications/">Related papers ↗</a>
       <a href="/projects/">Projects ↗</a>
