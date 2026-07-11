@@ -10,6 +10,12 @@ permalink: /
 .hero-sub { color: #5c6066; font-size: 1.05rem; margin-bottom: .2rem; }
 .hero-statement { font-size: 1.1rem; color: #2c2c2c; line-height: 1.65; margin: 1.1rem auto 0; max-width: 650px; }
 @media (prefers-color-scheme: dark) { .hero-statement { color: #d7dade; } }
+.affil { max-width: 730px; margin: 1.4rem auto 0; }
+.affil-group { margin-bottom: .55rem; }
+.affil-label { font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #9aa3b0; margin-bottom: .2rem; }
+.affil-items { font-size: .85rem; color: #55606b; line-height: 1.6; }
+.affil-items .pi { color: #8a93a0; }
+@media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } }
 
 /* Under construction banner */
 .uc-banner { max-width: 820px; margin: 1.6rem auto 0; padding: 1.5rem 1.2rem; text-align: center;
@@ -79,11 +85,27 @@ permalink: /
   <h1>Minsuk Jang</h1>
   <div class="hero-sub">AI Researcher &nbsp;·&nbsp; Civil Engineering Background</div>
   <p class="hero-statement">
-    I'm an <strong>AI researcher with a civil engineering background</strong>, currently pursuing my
-    M.S. in Electrical Engineering at KAIST. Having worked across a range of research labs and companies,
-    I now focus on <strong>3D, agentic AI, and physical AI</strong> — driven to
-    <strong>solve real-world problems</strong>.
+    I'm an <strong>AI researcher with a background in civil engineering</strong>. After a B.S. in Civil
+    Engineering at Yonsei University, I'm now pursuing my M.S. in Electrical Engineering at KAIST, in the
+    Computational Intelligence Laboratory (Prof. Changick Kim). Having worked across research labs and
+    companies, I focus on <strong>3D, agentic AI, and physical AI</strong>, with one goal throughout:
+    building systems that solve real problems in the real world.
   </p>
+  <div class="affil">
+    <div class="affil-group">
+      <div class="affil-label">Research Labs</div>
+      <div class="affil-items">
+        Computational Intelligence Lab, KAIST <span class="pi">(Prof. Changick Kim)</span> ·
+        Intelligent Unmanned Systems Lab, Yonsei <span class="pi">(Prof. Jiwon Seo)</span> ·
+        Vehicle Intelligence Lab, SNU <span class="pi">(Prof. Seoungwoo Seo)</span> ·
+        Autonomous Robot Intelligence Lab, SNU <span class="pi">(Prof. Seoung Woo Kim)</span>
+      </div>
+    </div>
+    <div class="affil-group">
+      <div class="affil-label">Industry</div>
+      <div class="affil-items">IDOLL Robotics · Stellarvision · XYZ Innovation · Hyundai Motor Company</div>
+    </div>
+  </div>
 </div>
 
 <div class="dv2">
