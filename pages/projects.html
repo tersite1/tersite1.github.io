@@ -9,16 +9,16 @@ weight: 3
 .proj-wrap { margin: 1.2rem 0 3rem; }
 .proj-head { display: flex; align-items: baseline; gap: .6rem; margin-bottom: 1rem; }
 .proj-head h1 { margin: 0; font-size: 1.6rem; font-weight: 800; }
-.proj-head .proj-total { font-size: .8rem; font-weight: 700; color: #fff; background: #043361; border-radius: 999px; padding: .1rem .6rem; }
+.proj-head .proj-total { font-size: .8rem; font-weight: 700; color: #fff; background: #043361; border-radius: 5px; padding: .1rem .55rem; }
 
-/* Tag filter bar */
-.pfilter { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.5rem; }
+/* Tag filter bar — squared, color-coded by domain group */
+.pfilter { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 1.5rem; }
 .pfilter-btn {
-  font-size: .74rem; font-weight: 600; padding: .28rem .72rem; border-radius: 999px; cursor: pointer;
-  border: 1px solid #cbd5e1; background: #fff; color: #334155; transition: all .15s ease;
+  font-size: .74rem; font-weight: 700; padding: .3rem .72rem; border-radius: 6px; cursor: pointer;
+  border: 1.5px solid var(--tc, #64748b); background: #fff; color: var(--tc, #64748b); transition: all .15s ease;
 }
-.pfilter-btn:hover { border-color: #043361; color: #043361; }
-.pfilter-btn.active { background: #043361; color: #fff; border-color: #043361; }
+.pfilter-btn:hover { filter: brightness(.9); }
+.pfilter-btn.active { background: var(--tc, #64748b); color: #fff; }
 
 /* Compact 4-up grid */
 .proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 1rem; }
@@ -42,19 +42,17 @@ weight: 3
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 .proj-tags { display: flex; flex-wrap: wrap; gap: .28rem; }
+/* Tag chips — squared, solid color fill for high visibility */
 .proj-pill {
-  font-size: .62rem; font-weight: 600; color: var(--accent); background: rgba(0,0,0,0.03);
-  border: 1px solid var(--accent); border-radius: 999px; padding: .06rem .42rem; white-space: nowrap;
+  font-size: .62rem; font-weight: 700; color: #fff; background: var(--tc, #043361);
+  border-radius: 4px; padding: .1rem .45rem; white-space: nowrap; letter-spacing: .01em;
 }
 .proj-empty { color: #94a3b8; font-size: .9rem; padding: 2rem 0; text-align: center; display: none; }
 @media (prefers-color-scheme: dark) {
-  .pfilter-btn { background: #1e2024; border-color: #2c2f33; color: #c7cad0; }
-  .pfilter-btn:hover { border-color: #5aa9ff; color: #5aa9ff; }
-  .pfilter-btn.active { background: #2b6cb0; color: #fff; border-color: #2b6cb0; }
+  .pfilter-btn { background: #1e2024; }
   .proj-card { background: #1e2024; border-color: #2c2f33; }
   .proj-title { color: #f1f1f1; }
   .proj-desc { color: #a9adb3; }
-  .proj-pill { background: rgba(255,255,255,0.05); }
 }
 </style>
 
@@ -67,6 +65,7 @@ weight: 3
   {% assign all_project_tags = all_project_tags | concat: ptags %}
 {% endfor %}
 {% assign unique_tags = all_project_tags | uniq | sort_natural %}
+{% assign curated = "LiDAR,LiDAR SLAM,3D Reconstruction,Point Cloud,Photogrammetry,Remote Sensing,SAR,UAV,Drone,Digital Twin,Sensor Fusion,NeRF,Computer Vision,Robotics,Machine Learning" | split: "," %}
 
 <div class="proj-wrap">
   <div class="proj-head">
@@ -75,10 +74,17 @@ weight: 3
   </div>
 
   <div class="pfilter">
-    <button class="pfilter-btn active" data-tag="__all__">All</button>
-    {% for tag in unique_tags %}
-    <button class="pfilter-btn" data-tag="{{ tag | downcase }}">{{ tag }}</button>
-    {% endfor %}
+    <button class="pfilter-btn active" data-tag="__all__" style="--tc: #334155;">All</button>
+    {% for tag in curated %}{% if unique_tags contains tag %}
+      {% case tag %}
+        {% when 'LiDAR' or 'LiDAR SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
+        {% when 'Remote Sensing' or 'SAR' or 'Photogrammetry' %}{% assign tc = '#15803d' %}
+        {% when '3D Reconstruction' or 'NeRF' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
+        {% when 'UAV' or 'Drone' or 'Robotics' or 'Computer Vision' or 'Machine Learning' %}{% assign tc = '#ea580c' %}
+        {% else %}{% assign tc = '#334155' %}
+      {% endcase %}
+    <button class="pfilter-btn" data-tag="{{ tag | downcase }}" style="--tc: {{ tc }};">{{ tag }}</button>
+    {% endif %}{% endfor %}
   </div>
 
   <div class="proj-grid">
@@ -105,11 +111,18 @@ weight: 3
         <div class="proj-card-body">
           <h3 class="proj-title">{{ project.name }}</h3>
           {% if project.description %}<p class="proj-desc">{{ project.description }}</p>{% endif %}
-          {% if all_tags.size > 0 %}
           <div class="proj-tags">
-            {% for tool in all_tags %}<span class="proj-pill">{{ tool }}</span>{% endfor %}
+            {% for tool in all_tags %}{% if curated contains tool %}
+              {% case tool %}
+                {% when 'LiDAR' or 'LiDAR SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
+                {% when 'Remote Sensing' or 'SAR' or 'Photogrammetry' %}{% assign tc = '#15803d' %}
+                {% when '3D Reconstruction' or 'NeRF' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
+                {% when 'UAV' or 'Drone' or 'Robotics' or 'Computer Vision' or 'Machine Learning' %}{% assign tc = '#ea580c' %}
+                {% else %}{% assign tc = '#043361' %}
+              {% endcase %}
+              <span class="proj-pill" style="--tc: {{ tc }};">{{ tool }}</span>
+            {% endif %}{% endfor %}
           </div>
-          {% endif %}
         </div>
       </a>
     {% endfor %}

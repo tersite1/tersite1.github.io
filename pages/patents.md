@@ -10,12 +10,12 @@ weight: 5
 .pat-intro strong { color: #043361; }
 .pat-legend { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0 0 1.8rem; font-size: .82rem; color: #5c6066; }
 .pat-legend span { display: inline-flex; align-items: center; gap: .35rem; }
-.pat-dot { width: .7rem; height: .7rem; border-radius: 50%; display: inline-block; }
+.pat-dot { width: .7rem; height: .7rem; border-radius: 2px; display: inline-block; }
 .pat-group { margin: 1.8rem 0; }
 .pat-group-head { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.8rem; }
 .pat-accent-bar { width: 7px; height: 1.4rem; border-radius: 6px; background: #043361; display: inline-block; }
 .pat-group-head h2 { margin: 0; font-size: 1.25rem; font-weight: 700; }
-.pat-group-head .pat-n { font-size: .78rem; font-weight: 700; color: #fff; background: #043361; border-radius: 999px; padding: .08rem .55rem; }
+.pat-group-head .pat-n { font-size: .78rem; font-weight: 700; color: #fff; background: #043361; border-radius: 5px; padding: .08rem .5rem; }
 .pat-item {
   padding: .85rem 1.1rem; margin-bottom: .6rem; border: 1px solid #e9ecef; border-left: 4px solid #043361;
   border-radius: .55rem; background: #f8f9fa; line-height: 1.5;
@@ -25,7 +25,7 @@ weight: 5
 .pat-meta strong { color: #3a3a3a; }
 .pat-badge {
   display: inline-block; font-size: .7rem; font-weight: 700; color: #fff; background: #0d9488;
-  border-radius: 999px; padding: .08rem .5rem; margin-left: .5rem; vertical-align: middle;
+  border-radius: 5px; padding: .1rem .5rem; margin-left: .5rem; vertical-align: middle;
 }
 .pat-badge.reg { background: #15803d; }
 .pat-badge.app { background: #64748b; }

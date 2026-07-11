@@ -41,7 +41,7 @@ permalink: /
   border-radius: 1.1rem; box-shadow: 0 6px 24px rgba(4,51,97,0.08);
 }
 .dv-top { display: flex; gap: .45rem; justify-content: center; flex-wrap: wrap; margin-bottom: .6rem; }
-.dv-tag { font-size: .72rem; font-weight: 700; color: #043361; background: #fff; border: 1px solid #d9e2f0; border-radius: 999px; padding: .14rem .6rem; }
+.dv-tag { font-size: .72rem; font-weight: 700; color: #043361; background: #fff; border: 1px solid #d9e2f0; border-radius: 6px; padding: .14rem .6rem; }
 .dv-title { font-size: 1.7rem; font-weight: 800; color: #043361; margin: .1rem 0 .5rem; }
 .dv-desc { font-size: .98rem; color: #3a4654; line-height: 1.6; margin: 0 auto 1.1rem; max-width: 520px; }
 .dv-btns { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; }
