@@ -1,5 +1,7 @@
 ---
 title: Excellence Prize — Asan Nanum Foundation Startup Competition
+rank: 7
+tier: Excellence
 tags: [Startup, Entrepreneurship]
 style: fill
 color: success

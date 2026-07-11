@@ -1,5 +1,7 @@
 ---
 title: Seoul Mayor's Award — Drone Utilization Competition
+rank: 5
+tier: 1st Place
 tags: [Drone, 1st Place]
 style: fill
 color: primary

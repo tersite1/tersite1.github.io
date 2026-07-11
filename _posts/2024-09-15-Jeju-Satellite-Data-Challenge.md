@@ -1,5 +1,7 @@
 ---
 title: Grand Prize (Governor's Award) — Jeju Satellite Data Challenge
+rank: 6
+tier: Grand Prize
 tags: [Remote Sensing, Satellite, Grand Prize]
 style: fill
 color: primary

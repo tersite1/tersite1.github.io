@@ -1,5 +1,7 @@
 ---
 title: Joint 1st Place — 23rd AAM Tech Challenge (KASA)
+rank: 1
+tier: 1st Place
 tags: [Drone, VTOL, Search & Rescue, KASA]
 style: fill
 color: primary

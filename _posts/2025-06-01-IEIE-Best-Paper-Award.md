@@ -1,5 +1,7 @@
 ---
 title: Best Paper Award — IEIE 2025 Summer Conference
+rank: 2
+tier: Best Paper
 tags: [Paper, Spiking Neural Networks]
 style: fill
 color: success
