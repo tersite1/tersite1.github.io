@@ -2,9 +2,10 @@
 name: NeRF-Assisted Auto-Labeling Pipeline
 category: personal
 tools: [NeRF, 3D Reconstruction, Computer Vision, Machine Learning]
-description: Undergraduate research at ARIL (Autonomous Robot Intelligence Lab). A NeRF-based augmentation and auto-labeling pipeline that reconstructs objects with Instant-NGP, renders novel 2D views, auto-annotates them, and trains YOLO.
+image: /assets/img/p-nerf.png
+description: An ARIL Lab project — reconstruct with Instant-NGP, render novel views, auto-annotate, and train YOLO.
 ---
 
 ## NeRF-Assisted Auto-Labeling Pipeline
 
-Undergraduate research project at the Autonomous Robot Intelligence Lab (ARIL). I reconstructed objects from 2D images using Instant-NGP, rendered novel 2D views from the 3D model, auto-annotated the rendered views, and used the augmented dataset to train a YOLO detector (e.g., quadruped-robot detection).
+Undergraduate research at the Autonomous Robot Intelligence Lab (ARIL). I reconstruct objects from 2D images with Instant-NGP, render novel 2D views from the 3D model, auto-annotate the rendered views, and train a YOLO detector on the augmented data (e.g., quadruped-robot detection).

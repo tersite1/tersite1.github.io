@@ -21,9 +21,8 @@ permalink: /awards/
 .aw-body { flex: 1; min-width: 0; }
 .aw-head { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
 .aw-title { font-weight: 700; color: #161616; font-size: 1.04rem; line-height: 1.3; }
-.aw-link { text-decoration: none !important; }
+.aw-link { font-size: .82rem; font-weight: 700; color: var(--ac, #b8860b); text-decoration: none !important; white-space: nowrap; }
 .aw-link:hover { text-decoration: underline !important; }
-.aw-ext { color: var(--ac, #b8860b); font-size: .82em; font-weight: 700; }
 .aw-tier { font-size: .64rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: #fff; background: var(--ac, #b8860b); padding: .14rem .5rem; border-radius: 4px; white-space: nowrap; }
 .aw-meta { font-size: .78rem; font-weight: 600; color: #6f6a5e; margin: .2rem 0 .4rem; }
 .aw-desc { font-size: .9rem; color: #3a3a3a; line-height: 1.5; margin-bottom: .55rem; }
@@ -54,10 +53,10 @@ permalink: /awards/
     {% else %}{% assign ac = '#64748b' %}
   {% endcase %}
   <div class="aw-item" style="--ac: {{ ac }};">
-    <div class="aw-rank">{{ forloop.index }}</div>
     <div class="aw-body">
       <div class="aw-head">
-        {% if a.link %}<a class="aw-title aw-link" href="{{ a.link }}" target="_blank" rel="noopener">{{ a.title }} <span class="aw-ext">↗</span></a>{% else %}<span class="aw-title">{{ a.title }}</span>{% endif %}
+        <span class="aw-title">{{ a.title }}</span>
+        {% if a.link %}<a class="aw-link" href="{{ a.link }}" target="_blank" rel="noopener">(link)</a>{% endif %}
         {% if a.tier %}<span class="aw-tier">{{ a.tier }}</span>{% endif %}
       </div>
       <div class="aw-meta">{{ a.date | date: "%b %Y" }}</div>

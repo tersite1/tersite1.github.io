@@ -1,15 +1,11 @@
 ---
 name: GreenWave — Satellite Algal Bloom Detection
 category: personal
-tools: [Remote Sensing, Machine Learning, Satellite Imagery]
-image: /assets/img/news.jpg
-description: ML-based algal bloom detection from satellite imagery. Grand Prize (Governor's Award) at the Jeju Satellite Data Challenge.
+tools: [Remote Sensing, Machine Learning, Computer Vision]
+image: /assets/img/p-greenwave.png
+description: Satellite-based algal bloom detection using water segmentation, intensity heatmaps, and K-means clustering.
 ---
 
-## GreenWave — Algal Bloom Detection in Satellite Imagery
+## GreenWave — Satellite Algal Bloom Detection
 
-A machine-learning clustering pipeline for detecting algal blooms in satellite imagery. The project won the **Grand Prize (Governor's Award) at the Jeju Satellite Data Challenge**.
-
-<div class="text-center">
-<a class="btn btn-outline-primary btn-sm" href="https://github.com/tersite1/GreenWave" target="_blank">GitHub</a>
-</div>
+Satellite-based detection of algal blooms. From raw satellite imagery I segment water from land, build a log-adjusted intensity heatmap, and detect algal-bloom regions with K-means clustering. Grand Prize (Governor's Award) at the Jeju Satellite Data Challenge.

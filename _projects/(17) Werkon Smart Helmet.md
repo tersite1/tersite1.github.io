@@ -1,10 +1,12 @@
 ---
-name: "Werkon: Safety-Aware Smart Helmet with 3D Reconstruction"
+name: Werkon — Smart Safety Helmet
 category: startup
-tools: [Smart Helmet, Computer Vision, Edge AI, 3D Reconstruction, Startup]
-description: A safety-aware smart helmet performing on-device 3D reconstruction for worksite safety.
+tools: [Computer Vision, 3D Reconstruction]
+video: /assets/img/p-werkon.mp4
+image: /assets/img/p-werkon.png
+description: A smart construction helmet with on-device AI for hazard and safety-compliance detection plus 3D site reconstruction.
 ---
 
-## Werkon: Safety-Aware Smart Helmet with 3D Reconstruction
+## Werkon — Smart Safety Helmet
 
-An edge-AI smart helmet that reconstructs the worksite in 3D and provides safety-aware awareness for construction workers.
+A smart-helmet system for construction sites. The helmet runs on-device AI to detect hazards and safety compliance (for example, hardhat detection) and reconstructs the site in 3D. Funded by KAIST KITS and presented at KAIST Innocore.

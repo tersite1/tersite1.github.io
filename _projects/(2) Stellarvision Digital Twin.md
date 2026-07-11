@@ -1,11 +1,12 @@
 ---
-name: Drone SAR + LiDAR Digital Twin
-category: government-funded
-tools: [SAR, LiDAR, Sensor Fusion, NeRF, Digital Twin]
-image: /assets/img/teaser_example_2.png
-description: Digital twins generated from drone-mounted SAR imagery for landslide prevention, implemented with NeRF and exhibited at CES 2025.
+name: SAR-LiDAR Sensor-Fusion 3D
+category: startup
+tools: [SAR, LiDAR, Sensor Fusion, 3D Reconstruction, Point Cloud]
+video: /assets/img/p-sar3d.mp4
+image: /assets/img/p-sar3d.png
+description: Drone SAR and LiDAR fused into dense 3D reconstructions (Velodyne + Livox), with ground removal and point-cloud filtering. Exhibited at CES 2025.
 ---
 
-## Sensor-Fusion UAV Digital Twin for Landslide Prevention
+## SAR-LiDAR Sensor-Fusion 3D
 
-As an AI Engineer at [Stellarvision](https://stellarvision.co.kr/en/), I built a digital-twin platform that reconstructs 3D terrain from **drone-mounted SAR imagery** fused with LiDAR, targeting landslide prevention. Reconstruction was implemented with **Neural Radiance Fields (NeRF)**, and the system was **exhibited at CES 2025**.
+At Stellarvision, I fused drone-mounted SAR and LiDAR into single 3D reconstructions. I merged spinning (Velodyne) and solid-state (Livox) LiDAR, applied ground removal and point-cloud filtering, and produced dense, colorized 3D scenes. Exhibited at CES 2025.

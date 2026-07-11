@@ -1,10 +1,11 @@
 ---
-name: Sensor-Fusion-Based 3D Digital Twin for Landslide Risk Monitoring
-category: government-funded
-tools: [Sensor Fusion, Digital Twin, Landslide, 3D Visualization]
-description: A sensor-fusion 3D digital twin for monitoring and visualizing landslide risk.
+name: Landslide Risk Digital Twin
+category: personal
+tools: [Digital Twin, Sensor Fusion, Remote Sensing]
+image: /assets/img/p-landslide.png
+description: A digital twin for landslide risk, simulating rainfall scenarios from normal precipitation to flood-induced landslides.
 ---
 
-## Sensor-Fusion-Based 3D Digital Twin for Landslide Risk Monitoring
+## Landslide Risk Digital Twin
 
-Builds a 3D digital twin from fused sensor data to monitor and visualize landslide risk over time.
+A digital twin for landslide risk assessment. I modeled a target region (Ansan) and simulated rainfall scenarios, from normal precipitation to flood-induced landslides, scaling real catchment volumes to a physical model to reason about flood and landslide risk.

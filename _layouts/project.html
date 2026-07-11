@@ -1,0 +1,38 @@
+---
+layout: page
+---
+
+<style>
+.pd-back { display: inline-block; font-size: .85rem; font-weight: 600; margin-bottom: 1rem; text-decoration: none !important; }
+.pd-back:hover { text-decoration: underline !important; }
+.pd-hero { margin: 0 0 1.6rem; border-radius: .8rem; overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,.14); background: #000; }
+.pd-hero img, .pd-hero video { width: 100%; display: block; max-height: 460px; object-fit: cover; }
+.pd-tags { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 1.4rem; }
+.pd-tag { font-size: .72rem; font-weight: 700; color: #043361; background: rgba(4,51,97,.07); border: 1px solid rgba(4,51,97,.2); border-radius: 5px; padding: .12rem .55rem; }
+.pd-body { max-width: 780px; line-height: 1.7; }
+.pd-body h2 { margin-top: 0; font-size: 1.7rem; }
+.pd-body p { font-size: 1.02rem; color: #333; }
+@media (prefers-color-scheme: dark) {
+  .pd-tag { color: #8ec5ff; background: rgba(90,169,255,.1); border-color: rgba(90,169,255,.3); }
+  .pd-body p { color: #c7cad0; }
+}
+</style>
+
+<a class="pd-back" href="/projects/">&larr; Projects</a>
+
+{% if page.video %}
+<div class="pd-hero"><video src="{{ page.video | relative_url }}" autoplay muted loop playsinline {% if page.image %}poster="{{ page.image | relative_url }}"{% endif %}></video></div>
+{% elsif page.image %}
+<div class="pd-hero"><img src="{{ page.image | relative_url }}" alt="{{ page.name }}" /></div>
+{% endif %}
+
+{% assign all_tags = page.tools %}
+{% unless all_tags %}{% assign all_tags = "" | split: "" %}{% endunless %}
+{% if page.extra_tags %}{% assign all_tags = all_tags | concat: page.extra_tags %}{% endif %}
+{% if all_tags.size > 0 %}
+<div class="pd-tags">{% for t in all_tags %}<span class="pd-tag">{{ t }}</span>{% endfor %}</div>
+{% endif %}
+
+<div class="pd-body">
+{{ content }}
+</div>

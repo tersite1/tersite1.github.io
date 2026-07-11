@@ -1,11 +1,11 @@
 ---
-name: "Jeju International EV Autonomous Driving Competition: LiDAR Clustering"
+name: "Jeju International EV Autonomous Driving: LiDAR Perception"
 category: hyundai-scholarship
-tools: [LiDAR, Point Cloud, Clustering, Autonomous Driving, Robotics]
-image: /assets/img/jeju-ev.png
-description: LiDAR point-cloud obstacle clustering for autonomous driving at the Jeju International EV Autonomous Driving Competition.
+tools: [LiDAR, Point Cloud, Sensor Fusion, Robotics]
+image: /assets/img/p-jeju.png
+description: LiDAR perception for an autonomous EV — sensor fusion, ground removal, and obstacle clustering.
 ---
 
-## Jeju International EV Autonomous Driving Competition: LiDAR Clustering
+## Jeju International EV Autonomous Driving: LiDAR Perception
 
-LiDAR-based obstacle detection and point-cloud clustering for an autonomous EV, developed for the Jeju International EV Autonomous Driving Competition.
+LiDAR perception for an autonomous EV. I merged spinning (Velodyne) and solid-state (Livox) LiDAR, removed ground points, narrowed the field of view, and clustered the remaining points into obstacles for the Jeju International EV Autonomous Driving Competition.
