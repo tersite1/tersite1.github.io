@@ -2,6 +2,7 @@
 title: Grand Prize (Governor's Award) — Jeju Satellite Data Challenge
 rank: 6
 tier: Grand Prize
+link: https://www.segye.com/newsView/20241009514236?OutUrl=naver
 tags: [Remote Sensing, Satellite, Grand Prize]
 style: fill
 color: primary

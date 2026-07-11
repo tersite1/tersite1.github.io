@@ -2,6 +2,7 @@
 title: Grand Prize (Governor's Award) — World Robo Festa 2025
 rank: 4
 tier: Grand Prize
+link: https://weekly.hankooki.com/news/articleView.html?idxno=7123340
 tags: [Robotics, 3D Vision, Grand Prize]
 style: fill
 color: primary
