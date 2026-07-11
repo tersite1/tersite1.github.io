@@ -77,7 +77,7 @@ permalink: /
 
 <div class="uc-banner">
   <p class="uc-title">🚧 UNDER CONSTRUCTION · TBD 🚧</p>
-  <p class="uc-sub">This site is being updated — projects &amp; content are being added.</p>
+  <p class="uc-sub">This site is being updated. Projects &amp; content are being added.</p>
 </div>
 
 <div class="hero">
