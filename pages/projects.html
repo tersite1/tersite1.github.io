@@ -121,10 +121,11 @@ weight: 3
       {% capture tagstr %}{% for t in all_tags %}{{ t | downcase }}|{% endfor %}{% endcapture %}
       {% if project.external_url %}{% assign url = project.external_url %}{% else %}{% assign url = project.url | relative_url %}{% endif %}
       <a class="proj-card" href="{{ url }}" data-tags="{{ tagstr }}" style="--accent: {{ accent }};" {% if project.external_url and site.open_new_tab %}target="_blank" rel="noopener"{% endif %}>
+        {% assign tpos = project.thumb_pos | default: 'center' %}
         {% if project.video %}
-        <div class="proj-thumb"><video class="proj-vid" src="{{ project.video | relative_url }}" autoplay muted loop playsinline{% if project.image %} poster="{{ project.image | relative_url }}"{% endif %}></video></div>
+        <div class="proj-thumb"><video class="proj-vid" style="object-position: {{ tpos }};" src="{{ project.video | relative_url }}" autoplay muted loop playsinline{% if project.image %} poster="{{ project.image | relative_url }}"{% endif %}></video></div>
         {% elsif project.image %}
-        <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}');"></div>
+        <div class="proj-thumb" style="background-image: url('{{ project.image | relative_url }}'); background-position: {{ tpos }};"></div>
         {% else %}
         <div class="proj-thumb proj-thumb--placeholder"><span>{{ project.name }}</span></div>
         {% endif %}

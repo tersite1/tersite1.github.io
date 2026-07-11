@@ -4,6 +4,7 @@ category: startup
 tools: [Computer Vision, 3D Reconstruction]
 video: /assets/img/p-werkon.mp4
 image: /assets/img/p-werkon.png
+thumb_pos: center 72%
 description: A smart construction helmet with on-device AI for hazard and safety-compliance detection plus 3D site reconstruction.
 ---
 
