@@ -89,11 +89,12 @@ permalink: /
 <div class="dv2">
   <div class="dv2-left">
     <img class="dv2-logo" src="/assets/img/depthviz-logo.png" alt="DepthViz" />
-    <div class="dv2-eyebrow">ON-DEVICE LiDAR SLAM · iOS</div>
+    <div class="dv2-eyebrow">OPEN-SOURCE SLAM · iOS</div>
     <h2 class="dv2-title">DepthViz</h2>
     <p class="dv2-desc">
-      Free, no ads. The most accurate and robust <strong>LiDAR-SLAM scanner on iPhone</strong> — capture
-      reality-grade point clouds and sync them with your team in minutes. Now on the Apple App Store.
+      The <strong>most accurate, fastest, and most compatible</strong> LiDAR scanner on iOS — a powerful,
+      fully open-source SLAM engine that turns any iPhone into a reality-capture device. Free, no ads.<br>
+      <strong>Collaboration &amp; research inquiries are always welcome.</strong>
     </p>
     <div class="dv2-rank">#36</div>
     <div class="dv2-rank-cap">HIT CHART #36 · iOS APP STORE</div>
