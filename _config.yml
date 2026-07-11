@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : Minsuk Jang
 description         : >-
-                      Minsuk Jang — M.S. student at KAIST (Computational Intelligence Lab).
-                      Civil engineer working on LiDAR-inertial SLAM, mobile mapping, UAV remote
-                      sensing, and 3D digital twins for real-world infrastructure.
+                      Minsuk Jang, an AI researcher with a civil engineering background.
+                      M.S. in Electrical Engineering at KAIST, working on 3D, agentic AI,
+                      and physical AI to solve real-world problems.
 baseurl             : ""
 repository          : tersite1/tersite1.github.io
 remote_theme        : yousinix/portfolYOU

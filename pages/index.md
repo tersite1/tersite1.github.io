@@ -114,7 +114,7 @@ permalink: /
     <div class="dv2-eyebrow">OPEN-SOURCE SLAM · iOS</div>
     <h2 class="dv2-title">DepthViz</h2>
     <p class="dv2-desc">
-      The <strong>most accurate, fastest, and most compatible</strong> LiDAR scanner on iOS — a powerful,
+      The <strong>most accurate, fastest, and most compatible</strong> LiDAR scanner on iOS: a powerful,
       fully open-source SLAM engine that turns any iPhone into a reality-capture device. Free, no ads.<br>
       <strong>Collaboration &amp; research inquiries are always welcome.</strong>
     </p>
