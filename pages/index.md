@@ -15,9 +15,9 @@ permalink: /
 .affil-label { font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #9aa3b0; margin-bottom: .2rem; }
 .affil-items { font-size: .85rem; color: #55606b; line-height: 1.6; }
 .affil-items .pi { color: #8a93a0; }
-.affil-link { color: #043361; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(4,51,97,.28); transition: border-color .15s ease; }
-.affil-link:hover { border-bottom-color: #043361; }
-@media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } .affil-link { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.3); } .affil-link:hover { border-bottom-color: #8ec5ff; } }
+.affil-link { color: inherit; font-weight: 600; text-decoration: none; border-bottom: 1px solid transparent; transition: color .15s ease, border-color .15s ease; }
+.affil-link:hover { color: #043361; border-bottom-color: rgba(4,51,97,.45); }
+@media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } .affil-link:hover { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.5); } }
 
 /* DepthViz editorial card */
 .dv2 {
