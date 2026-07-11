@@ -2,8 +2,8 @@
 name: DepthViz — iOS LiDAR Point Cloud Scanner
 category: personal
 tools: [LiDAR, iOS, 3D Reconstruction, Point Cloud]
-video: /assets/img/dv-hero.mp4
-image: /assets/img/dv-hero.png
+image: /assets/img/dv-launch.png
+thumb_pos: center 42%
 description: The first LiDAR scanner app developed in Korea. I founded it, shipped it to the App Store (peaked at #36), and the company was acquired by a construction firm.
 ---
 

@@ -182,5 +182,14 @@ weight: 3
       if (empty) empty.style.display = shown === 0 ? 'block' : 'none';
     });
   });
+
+  // Force card thumbnail videos to play (some browsers pause off-screen / block autoplay)
+  function kick(v) { try { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+  document.querySelectorAll('.proj-vid').forEach(kick);
+  window.addEventListener('load', function () { document.querySelectorAll('.proj-vid').forEach(kick); });
+  if ('IntersectionObserver' in window) {
+    var vio = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) kick(e.target); }); }, { threshold: 0.1 });
+    document.querySelectorAll('.proj-vid').forEach(function (v) { vio.observe(v); });
+  }
 })();
 </script>

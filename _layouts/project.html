@@ -40,3 +40,16 @@ layout: page
 <div class="pd-body">
 {{ content }}
 </div>
+
+<script>
+(function () {
+  function kick(v) { try { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {} }
+  function playAll() { document.querySelectorAll('video').forEach(kick); }
+  if (document.readyState !== 'loading') playAll(); else document.addEventListener('DOMContentLoaded', playAll);
+  window.addEventListener('load', playAll);
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) kick(e.target); }); }, { threshold: 0.1 });
+    document.querySelectorAll('video').forEach(function (v) { io.observe(v); });
+  }
+})();
+</script>
