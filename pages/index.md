@@ -79,10 +79,10 @@ permalink: /
   <h1>Minsuk Jang</h1>
   <div class="hero-sub">AI Researcher &nbsp;·&nbsp; Civil Engineering Background</div>
   <p class="hero-statement">
-    I am an <strong>AI researcher with a civil engineering background</strong> — B.S. in Civil Engineering
-    at Yonsei University, and currently an M.S. in Electrical Engineering at KAIST. I'm interested in
-    <strong>physical AI, agentic AI, and remote sensing</strong>, and I love working on
-    <strong>real-world problems and applications</strong>.
+    I'm an <strong>AI researcher with a civil engineering background</strong>, currently pursuing my
+    M.S. in Electrical Engineering at KAIST. Having worked across a range of research labs and companies,
+    I now focus on <strong>3D, agentic AI, and physical AI</strong> — driven to
+    <strong>solve real-world problems</strong>.
   </p>
 </div>
 
