@@ -8,26 +8,16 @@ permalink: /
 .hero-avatar { width: 168px; height: 168px; object-fit: cover; border-radius: 50%; box-shadow: 0 6px 22px rgba(0,0,0,.18); margin-bottom: 1.1rem; }
 .hero h1 { font-size: 2.1rem; font-weight: 800; margin: .2rem 0 .15rem; }
 .hero-sub { color: #5c6066; font-size: 1.05rem; margin-bottom: .2rem; }
-.hero-statement { font-size: 1.1rem; color: #2c2c2c; line-height: 1.65; margin: 1.1rem auto 0; max-width: 650px; }
+.hero-statement { font-size: 1.1rem; color: #2c2c2c; line-height: 1.65; margin: 1.1rem auto 0; max-width: 680px; text-wrap: balance; }
 @media (prefers-color-scheme: dark) { .hero-statement { color: #d7dade; } }
 .affil { max-width: 730px; margin: 1.4rem auto 0; }
 .affil-group { margin-bottom: .55rem; }
 .affil-label { font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #9aa3b0; margin-bottom: .2rem; }
 .affil-items { font-size: .85rem; color: #55606b; line-height: 1.6; }
 .affil-items .pi { color: #8a93a0; }
-@media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } }
-
-/* Under construction banner */
-.uc-banner { max-width: 820px; margin: 1.6rem auto 0; padding: 1.5rem 1.2rem; text-align: center;
-  background: repeating-linear-gradient(45deg, #fff8e1, #fff8e1 16px, #fdecc8 16px, #fdecc8 32px);
-  border: 3px dashed #e0a800; border-radius: 1rem; }
-.uc-banner .uc-title { font-size: 2rem; font-weight: 900; color: #8a5a00; letter-spacing: .03em; margin: 0; line-height: 1.2; }
-.uc-banner .uc-sub { font-size: 1rem; color: #7a5a00; margin: .5rem 0 0; }
-@media (prefers-color-scheme: dark) {
-  .uc-banner { background: repeating-linear-gradient(45deg, #2a2410, #2a2410 16px, #35301a 16px, #35301a 32px); border-color: #b8860b; }
-  .uc-banner .uc-title { color: #ffd466; }
-  .uc-banner .uc-sub { color: #d9c48a; }
-}
+.affil-link { color: #043361; font-weight: 700; text-decoration: none; border-bottom: 1px solid rgba(4,51,97,.28); transition: border-color .15s ease; }
+.affil-link:hover { border-bottom-color: #043361; }
+@media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } .affil-link { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.3); } .affil-link:hover { border-bottom-color: #8ec5ff; } }
 
 /* DepthViz editorial card */
 .dv2 {
@@ -75,11 +65,6 @@ permalink: /
 }
 </style>
 
-<div class="uc-banner">
-  <p class="uc-title">🚧 UNDER CONSTRUCTION · TBD 🚧</p>
-  <p class="uc-sub">This site is being updated. Projects &amp; content are being added.</p>
-</div>
-
 <div class="hero">
   <img class="hero-avatar" src="/assets/img/minsuk0.png" alt="Minsuk Jang" />
   <h1>Minsuk Jang</h1>
@@ -95,15 +80,15 @@ permalink: /
     <div class="affil-group">
       <div class="affil-label">Research Labs</div>
       <div class="affil-items">
-        Computational Intelligence Lab, KAIST <span class="pi">(Prof. Changick Kim)</span> ·
-        Intelligent Unmanned Systems Lab, Yonsei <span class="pi">(Prof. Jiwon Seo)</span> ·
-        Vehicle Intelligence Lab, SNU <span class="pi">(Prof. Seoungwoo Seo)</span> ·
-        Autonomous Robot Intelligence Lab, SNU <span class="pi">(Prof. Seoung Woo Kim)</span>
+        <a class="affil-link" href="https://cilabs.kaist.ac.kr/" target="_blank" rel="noopener">Computational Intelligence Lab, KAIST</a> <span class="pi">(Prof. Changick Kim)</span> ·
+        <a class="affil-link" href="https://www.gnss.kr/" target="_blank" rel="noopener">Intelligent Unmanned Systems Lab, Yonsei</a> <span class="pi">(Prof. Jiwon Seo)</span> ·
+        <a class="affil-link" href="https://vi.snu.ac.kr/intro.php" target="_blank" rel="noopener">Vehicle Intelligence Lab, SNU</a> <span class="pi">(Prof. Seoungwoo Seo)</span> ·
+        <a class="affil-link" href="https://arisnu.squarespace.com" target="_blank" rel="noopener">Autonomous Robot Intelligence Lab, SNU</a> <span class="pi">(Prof. Seoung Woo Kim)</span>
       </div>
     </div>
     <div class="affil-group">
       <div class="affil-label">Industry</div>
-      <div class="affil-items">IDOLL Robotics · Stellarvision · XYZ Innovation · Hyundai Motor Company</div>
+      <div class="affil-items"><a class="affil-link" href="https://idoll.love/" target="_blank" rel="noopener">IDOLL Robotics</a> · <a class="affil-link" href="https://stellarvision.co.kr/english/" target="_blank" rel="noopener">Stellarvision</a> · XYZ Innovation · <a class="affil-link" href="https://www.hyundai.com/worldwide/en" target="_blank" rel="noopener">Hyundai Motor Company</a></div>
     </div>
   </div>
 </div>

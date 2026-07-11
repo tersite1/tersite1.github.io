@@ -1,7 +1,7 @@
 ---
 name: Busan Port Logistics Digital Twin
 category: personal
-tools: [LiDAR, Point Cloud, Digital Twin]
+tools: [LiDAR, Point Cloud, Digital Twin, Remote Sensing]
 image: /assets/img/p-busan.png
 description: A LiDAR point-cloud digital twin of Busan's port and logistics yard for asset tracking and monitoring.
 ---

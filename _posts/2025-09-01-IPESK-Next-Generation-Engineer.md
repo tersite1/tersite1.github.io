@@ -2,6 +2,7 @@
 title: NEXT Generation Engineering Researcher (IPESK)
 rank: 3
 tier: National Honor
+link: https://ipesk.or.kr/59/?bmode=view&idx=161055120
 tags: [Award, Research]
 style: fill
 color: success
