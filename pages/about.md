@@ -95,7 +95,6 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Work Experience
 * **[Jul. 2024 ~ Current]:** CTO @ [IDOLL Robotics](https://idoll.love/)
-* **[Jul. 2024 ~ Feb.2026]:** CTO @ [Dailymeal](https://www.dailymeal.co.kr/)
 * **[Jul. 2024 ~ Feb. 2025]:** AI Engineer @ [Stellarvision Inc.](https://stellarvision.co.kr/en/)
 
 

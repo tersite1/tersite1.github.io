@@ -10,6 +10,8 @@ weight: 3
 .proj-head { display: flex; align-items: baseline; gap: .6rem; margin-bottom: 1rem; }
 .proj-head h1 { margin: 0; font-size: 1.6rem; font-weight: 800; }
 .proj-head .proj-total { font-size: .8rem; font-weight: 700; color: #fff; background: #043361; border-radius: 5px; padding: .1rem .55rem; }
+.proj-sub { color: #6c757d; font-size: .95rem; margin: -.4rem 0 1.4rem; }
+@media (prefers-color-scheme: dark) { .proj-sub { color: #a9adb3; } }
 
 /* Tag filter bar — squared, color-coded by domain group */
 .pfilter { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 1.5rem; }
@@ -90,6 +92,7 @@ weight: 3
     <h1>Projects</h1>
     <span class="proj-total">{{ card_projects.size }}</span>
   </div>
+  <p class="proj-sub">Honestly? It's just my hobby. Doing projects with good people.</p>
 
   <div class="pfilter">
     <button class="pfilter-btn active" data-tag="__all__" style="--tc: #334155;">All</button>
