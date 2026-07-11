@@ -8,4 +8,7 @@ description: A digital twin for landslide risk, simulating rainfall scenarios fr
 
 ## Landslide Risk Digital Twin
 
-A digital twin for landslide risk assessment. I modeled a target region (Ansan) and simulated rainfall scenarios, from normal precipitation to flood-induced landslides, scaling real catchment volumes to a physical model to reason about flood and landslide risk.
+A digital twin for landslide risk assessment. I modeled a target region (Ansan), built a scaled physical model, and simulated rainfall scenarios from normal precipitation to flood-induced landslides, mapping real catchment volumes onto the model to reason about flood and landslide risk.
+
+![](/assets/img/g-land-1.png)
+![](/assets/img/g-land-2.png)

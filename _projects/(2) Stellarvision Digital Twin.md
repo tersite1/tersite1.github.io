@@ -9,4 +9,8 @@ description: Drone SAR and LiDAR fused into dense 3D reconstructions (Velodyne +
 
 ## SAR-LiDAR Sensor-Fusion 3D
 
-At Stellarvision, I fused drone-mounted SAR and LiDAR into single 3D reconstructions. I merged spinning (Velodyne) and solid-state (Livox) LiDAR, applied ground removal and point-cloud filtering, and produced dense, colorized 3D scenes. Exhibited at CES 2025.
+At Stellarvision, I fused drone-mounted SAR and LiDAR into single 3D reconstructions. I merged spinning (Velodyne) and solid-state (Livox) LiDAR on a 3D-printed mount, applied ground removal and point-cloud filtering, and produced dense, colorized 3D scenes. Exhibited at CES 2025.
+
+![](/assets/img/g-sar-1.png)
+![](/assets/img/g-sar-2.png)
+![](/assets/img/g-sar-3.png)
