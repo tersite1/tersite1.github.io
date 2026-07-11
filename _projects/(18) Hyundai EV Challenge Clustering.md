@@ -1,4 +1,5 @@
 ---
+order: 4
 name: "Jeju International EV Autonomous Driving: LiDAR Perception"
 category: hyundai-scholarship
 tools: [LiDAR, Point Cloud, Sensor Fusion, Robotics]

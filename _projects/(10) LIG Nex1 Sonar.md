@@ -1,4 +1,5 @@
 ---
+order: 93
 name: LIG Nex1 — Underwater Sonar Enhancement
 category: government-funded
 gov_funded: true

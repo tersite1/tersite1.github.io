@@ -1,4 +1,5 @@
 ---
+order: 3
 name: Werkon — Smart Safety Helmet
 category: startup
 tools: [Computer Vision, 3D Reconstruction]

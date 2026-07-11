@@ -71,7 +71,7 @@ weight: 3
 </style>
 
 {%- comment -%} Cards exclude government-funded line items (shown as text below) {%- endcomment -%}
-{% assign card_projects = site.projects | where_exp: "p", "p.gov_funded != true" %}
+{% assign card_projects = site.projects | where_exp: "p", "p.gov_funded != true" | sort: "order" %}
 {% assign gov_projects = site.projects | where: "gov_funded", true %}
 
 {%- comment -%} Collect unique tags across card projects {%- endcomment -%}

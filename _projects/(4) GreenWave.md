@@ -1,4 +1,5 @@
 ---
+order: 14
 name: GreenWave — Satellite Algal Bloom Detection
 category: personal
 tools: [Remote Sensing, Computer Vision]

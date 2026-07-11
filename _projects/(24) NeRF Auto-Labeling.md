@@ -1,4 +1,5 @@
 ---
+order: 9
 name: NeRF-Assisted Auto-Labeling Pipeline
 category: personal
 tools: [3D Reconstruction, Computer Vision]

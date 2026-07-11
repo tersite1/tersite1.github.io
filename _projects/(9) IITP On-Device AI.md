@@ -1,4 +1,5 @@
 ---
+order: 92
 name: IITP — On-Device Collaborative AI
 category: government-funded
 gov_funded: true

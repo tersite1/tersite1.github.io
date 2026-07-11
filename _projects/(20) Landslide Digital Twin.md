@@ -1,8 +1,10 @@
 ---
+order: 11
 name: Landslide Risk Digital Twin
 category: personal
 tools: [Digital Twin, Sensor Fusion, Remote Sensing]
-image: /assets/img/p-landslide.png
+video: /assets/img/p-satellite.mp4
+image: /assets/img/p-satellite.png
 description: A digital twin for landslide risk, simulating rainfall scenarios from normal precipitation to flood-induced landslides.
 ---
 

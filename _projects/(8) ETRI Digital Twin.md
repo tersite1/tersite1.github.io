@@ -1,4 +1,5 @@
 ---
+order: 91
 name: ETRI — Multimodal Digital Twin Generation
 category: government-funded
 gov_funded: true

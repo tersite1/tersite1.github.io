@@ -1,4 +1,5 @@
 ---
+order: 94
 name: SOOMVI — Precise Drone Landing
 category: government-funded
 gov_funded: true

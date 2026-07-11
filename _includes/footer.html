@@ -1,0 +1,25 @@
+<footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>{{ site.author.name | default: site.title }}</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center">{% if site.author.email %}<a class="social mx-1" href="mailto:{{ site.author.email }}"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a>{% endif %}{% if site.author.github %}<a class="social mx-1" href="https://www.github.com/{{ site.author.github }}"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a>{% endif %}{% if site.author.linkedin %}<a class="social mx-1" href="https://www.linkedin.com/in/{{ site.author.linkedin }}"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>{% endif %}</div>
+
+</footer>

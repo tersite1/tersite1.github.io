@@ -1,4 +1,5 @@
 ---
+order: 1
 name: DepthViz — iOS LiDAR Point Cloud Scanner
 category: personal
 tools: [LiDAR, iOS, 3D Reconstruction, Point Cloud]

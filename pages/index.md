@@ -90,46 +90,6 @@ permalink: /
     learning algorithms behind them. Above all, I place my highest priority on contributing to
     <strong>physical AI</strong>.
   </p>
-  <div class="xp">
-    <div class="xp-col">
-      <div class="xp-label">Research Experience</div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://cilabs.kaist.ac.kr/" target="_blank" rel="noopener">Computational Intelligence Lab, KAIST</a><span class="xp-date">Feb 2025 - Present</span></div>
-        <div class="xp-role">Graduate Research Assistant · Prof. Changick Kim</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://www.gnss.kr/" target="_blank" rel="noopener">Intelligent Unmanned Systems Lab, Yonsei</a><span class="xp-date">Jul - Sep 2024</span></div>
-        <div class="xp-role">Undergraduate Research Assistant · Prof. Jiwon Seo</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://vi.snu.ac.kr/intro.php" target="_blank" rel="noopener">Vehicle Intelligence Lab, SNU</a><span class="xp-date">Apr - Jul 2024</span></div>
-        <div class="xp-role">Undergraduate Research Assistant · Prof. Seoungwoo Seo</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://arisnu.squarespace.com" target="_blank" rel="noopener">Autonomous Robot Intelligence Lab, SNU</a><span class="xp-date">Jan - Mar 2024</span></div>
-        <div class="xp-role">Undergraduate Research Assistant · Prof. Seoung Woo Kim</div>
-      </div>
-    </div>
-    <div class="xp-col">
-      <div class="xp-label">Work Experience</div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://idoll.love/" target="_blank" rel="noopener">IDOLL Robotics</a><span class="xp-date">Apr 2025 - Present</span></div>
-        <div class="xp-role">Robotics Engineer · Ontology-based home agent robot</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://stellarvision.co.kr/english/" target="_blank" rel="noopener">Stellarvision</a><span class="xp-date">Jul 2024 - Feb 2025</span></div>
-        <div class="xp-role">AI Engineer · Drone Digital Twin Team</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><span class="xp-org">XYZ Innovation</span><span class="xp-date">Jul 2024 - Feb 2025</span></div>
-        <div class="xp-role">Robotics Engineer · Drone and LiDAR forest carbon</div>
-      </div>
-      <div class="xp-item">
-        <div class="xp-head"><a class="xp-org" href="https://www.hyundai.com/worldwide/en" target="_blank" rel="noopener">Hyundai Motor Company</a><span class="xp-date">Jan - Jul 2024</span></div>
-        <div class="xp-role">Undergraduate Research Scholarship · LiDAR perception</div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <div class="dv2">
@@ -167,16 +127,45 @@ permalink: /
   </div>
 </div>
 
-<div class="dv-social">
-  <a href="mailto:minsukjang@kaist.ac.kr" class="soc-ic" aria-label="Email">
-    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg>
-  </a>
-  <a href="https://github.com/tersite1" class="soc-ic" target="_blank" rel="noopener" aria-label="GitHub">
-    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-  </a>
-  <a href="https://www.linkedin.com/in/jadenjang/" class="soc-ic" target="_blank" rel="noopener" aria-label="LinkedIn">
-    <svg viewBox="0 0 16 16" fill="currentColor"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146Zm4.943 12.248V6.169H2.542v7.225h2.401Zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016Zm4.908 8.212V9.359c0-.216.016-.432.08-.586.174-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4Z"/></svg>
-  </a>
+<div class="xp">
+  <div class="xp-col">
+    <div class="xp-label">Research Experience</div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://cilabs.kaist.ac.kr/" target="_blank" rel="noopener">Computational Intelligence Lab, KAIST</a><span class="xp-date">Feb 2025 - Present</span></div>
+      <div class="xp-role">Graduate Research Assistant · Prof. Changick Kim</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://www.gnss.kr/" target="_blank" rel="noopener">Intelligent Unmanned Systems Lab, Yonsei</a><span class="xp-date">Jul - Sep 2024</span></div>
+      <div class="xp-role">Undergraduate Research Assistant · Prof. Jiwon Seo</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://vi.snu.ac.kr/intro.php" target="_blank" rel="noopener">Vehicle Intelligence Lab, SNU</a><span class="xp-date">Apr - Jul 2024</span></div>
+      <div class="xp-role">Undergraduate Research Assistant · Prof. Seoungwoo Seo</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://arisnu.squarespace.com" target="_blank" rel="noopener">Autonomous Robot Intelligence Lab, SNU</a><span class="xp-date">Jan - Mar 2024</span></div>
+      <div class="xp-role">Undergraduate Research Assistant · Prof. Seoung Woo Kim</div>
+    </div>
+  </div>
+  <div class="xp-col">
+    <div class="xp-label">Work Experience</div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://idoll.love/" target="_blank" rel="noopener">IDOLL Robotics</a><span class="xp-date">Apr 2025 - Present</span></div>
+      <div class="xp-role">Robotics Engineer · Ontology-based home agent robot</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://stellarvision.co.kr/english/" target="_blank" rel="noopener">Stellarvision</a><span class="xp-date">Jul 2024 - Feb 2025</span></div>
+      <div class="xp-role">AI Engineer · Drone Digital Twin Team</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><span class="xp-org">XYZ Innovation</span><span class="xp-date">Jul 2024 - Feb 2025</span></div>
+      <div class="xp-role">Robotics Engineer · Drone and LiDAR forest carbon</div>
+    </div>
+    <div class="xp-item">
+      <div class="xp-head"><a class="xp-org" href="https://www.hyundai.com/worldwide/en" target="_blank" rel="noopener">Hyundai Motor Company</a><span class="xp-date">Jan - Jul 2024</span></div>
+      <div class="xp-role">Undergraduate Research Scholarship · LiDAR perception</div>
+    </div>
+  </div>
 </div>
 
 <script>
