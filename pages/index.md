@@ -88,7 +88,7 @@ permalink: /
     I'm an <strong>AI researcher with a background in civil engineering</strong>. After a B.S. in Civil
     Engineering at Yonsei University, I'm now pursuing my M.S. in Electrical Engineering at KAIST, in the
     Computational Intelligence Laboratory (Prof. Changick Kim). Having worked across research labs and
-    companies, I focus on <strong>3D, agentic AI, and physical AI</strong>, with one goal throughout:
+    companies, I focus on <strong>3D (Gaussian Splatting, LiDAR), agentic AI, and physical AI</strong>, with one goal throughout:
     building systems that solve real problems in the real world.
   </p>
   <div class="affil">
