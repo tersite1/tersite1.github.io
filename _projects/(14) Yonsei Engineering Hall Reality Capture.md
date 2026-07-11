@@ -9,8 +9,11 @@ description: Complete 3D reconstruction of the Yonsei engineering building via N
 
 ## 3D Reconstruction of Yonsei Engineering Building
 
-I reconstructed the Yonsei engineering building end to end. I generated NeRF-based 3D models, captured the structure by direct mobile scanning, and registered the two into a single, complete 3D model of the building.
+I reconstructed the Yonsei engineering building end to end: I generated NeRF-based 3D models, captured the structure by direct mobile scanning, and registered the two into a single, complete 3D model of the building.
 
-![](/assets/img/g-eng-1.png)
-![](/assets/img/g-eng-2.png)
-![](/assets/img/g-eng-3.png)
+<figure class="pd-fig"><img src="/assets/img/g-eng-1.png" alt=""><figcaption>NeRF reconstruction of the building</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-eng-2.png" alt=""><figcaption>Direct mobile scan</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-eng-3.png" alt=""><figcaption>Registered, complete 3D model</figcaption></figure>
+

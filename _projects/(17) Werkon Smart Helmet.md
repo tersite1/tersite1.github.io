@@ -12,5 +12,7 @@ description: A smart construction helmet with on-device AI for hazard and safety
 
 A smart-helmet system for construction sites. The helmet runs on-device AI to detect hazards and safety compliance (for example, hardhat detection) and reconstructs the site in 3D. Funded by KAIST KITS and presented at KAIST Innocore.
 
-![](/assets/img/g-werk-1.png)
-![](/assets/img/g-werk-2.png)
+<figure class="pd-fig"><img src="/assets/img/g-werk-1.png" alt=""><figcaption>On-device hardhat detection</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-werk-2.png" alt=""><figcaption>The smart helmet in use</figcaption></figure>
+

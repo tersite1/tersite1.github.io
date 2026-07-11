@@ -10,8 +10,13 @@ description: LiDAR perception for an autonomous EV — sensor fusion, ground rem
 
 LiDAR perception for an autonomous EV. I merged spinning (Velodyne) and solid-state (Livox) LiDAR on a 3D-printed mount, removed ground points, narrowed the field of view, and clustered the remaining points into obstacles for the Jeju International EV Autonomous Driving Competition.
 
-![](/assets/img/g-jeju-1.png)
-![](/assets/img/g-jeju-2.png)
-![](/assets/img/g-jeju-3.png)
-![](/assets/img/g-jeju-4.png)
-![](/assets/img/g-jeju-5.png)
+<figure class="pd-fig"><img src="/assets/img/g-jeju-5.png" alt=""><figcaption>Merging Velodyne and Livox LiDAR in RViz, with ground removal</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-jeju-2.png" alt=""><figcaption>LiDAR point cloud</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-jeju-3.png" alt=""><figcaption>Clustered obstacles</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-jeju-4.png" alt=""><figcaption>Perception on the test vehicle</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-jeju-1.png" alt=""><figcaption>Autonomous EV platform</figcaption></figure>
+

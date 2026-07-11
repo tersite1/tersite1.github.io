@@ -10,5 +10,7 @@ description: Generating emergency 3D maps of disaster areas from drone data so r
 
 A prototype for generating emergency 3D maps of disaster areas from drone data. Drone imagery is reconstructed into a 3D mesh (loaded in Blender) so that swarm drones could rapidly build a 3D map of an affected area for authorities after events such as earthquakes.
 
-![](/assets/img/g-dis-1.png)
-![](/assets/img/g-dis-2.png)
+<figure class="pd-fig"><img src="/assets/img/g-dis-1.png" alt=""><figcaption>Concept: drone data to an emergency 3D map</figcaption></figure>
+
+<figure class="pd-fig"><img src="/assets/img/g-dis-2.png" alt=""><figcaption>Reconstructed disaster-area 3D mesh</figcaption></figure>
+
