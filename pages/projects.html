@@ -83,7 +83,7 @@ weight: 3
   {% assign all_project_tags = all_project_tags | concat: ptags %}
 {% endfor %}
 {% assign unique_tags = all_project_tags | uniq | sort_natural %}
-{% assign curated = "LiDAR,LiDAR SLAM,3D Reconstruction,Point Cloud,Photogrammetry,Remote Sensing,SAR,UAV,Drone,Digital Twin,Sensor Fusion,NeRF,Computer Vision,Robotics,Machine Learning" | split: "," %}
+{% assign curated = "LiDAR,SLAM,3D Reconstruction,Point Cloud,Photogrammetry,Remote Sensing,SAR,UAV,Digital Twin,Sensor Fusion,Computer Vision,Robotics" | split: "," %}
 
 <div class="proj-wrap">
   <div class="proj-head">
@@ -95,10 +95,10 @@ weight: 3
     <button class="pfilter-btn active" data-tag="__all__" style="--tc: #334155;">All</button>
     {% for tag in curated %}{% if unique_tags contains tag %}
       {% case tag %}
-        {% when 'LiDAR' or 'LiDAR SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
+        {% when 'LiDAR' or 'SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
         {% when 'Remote Sensing' or 'SAR' or 'Photogrammetry' %}{% assign tc = '#15803d' %}
-        {% when '3D Reconstruction' or 'NeRF' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
-        {% when 'UAV' or 'Drone' or 'Robotics' or 'Computer Vision' or 'Machine Learning' %}{% assign tc = '#ea580c' %}
+        {% when '3D Reconstruction' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
+        {% when 'UAV' or 'Robotics' or 'Computer Vision' %}{% assign tc = '#ea580c' %}
         {% else %}{% assign tc = '#334155' %}
       {% endcase %}
     <button class="pfilter-btn" data-tag="{{ tag | downcase }}" style="--tc: {{ tc }};">{{ tag }}</button>
@@ -135,10 +135,10 @@ weight: 3
           <div class="proj-tags">
             {% for tool in all_tags %}{% if curated contains tool %}
               {% case tool %}
-                {% when 'LiDAR' or 'LiDAR SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
+                {% when 'LiDAR' or 'SLAM' or 'Point Cloud' or 'Sensor Fusion' %}{% assign tc = '#2563eb' %}
                 {% when 'Remote Sensing' or 'SAR' or 'Photogrammetry' %}{% assign tc = '#15803d' %}
-                {% when '3D Reconstruction' or 'NeRF' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
-                {% when 'UAV' or 'Drone' or 'Robotics' or 'Computer Vision' or 'Machine Learning' %}{% assign tc = '#ea580c' %}
+                {% when '3D Reconstruction' or 'Digital Twin' %}{% assign tc = '#7c3aed' %}
+                {% when 'UAV' or 'Robotics' or 'Computer Vision' %}{% assign tc = '#ea580c' %}
                 {% else %}{% assign tc = '#043361' %}
               {% endcase %}
               <span class="proj-pill" style="--tc: {{ tc }};">{{ tool }}</span>

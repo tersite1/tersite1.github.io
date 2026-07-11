@@ -1,7 +1,7 @@
 ---
 name: Satellite Image to 3D
 category: startup
-tools: [3D Reconstruction, Remote Sensing, NeRF]
+tools: [3D Reconstruction, Remote Sensing]
 video: /assets/img/p-satellite.mp4
 image: /assets/img/p-satellite.png
 description: Turning 2D satellite imagery into high-precision 3D terrain and building models, evaluated with SSIM / PSNR.

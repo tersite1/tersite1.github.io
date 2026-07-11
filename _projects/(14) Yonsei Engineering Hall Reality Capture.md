@@ -1,7 +1,7 @@
 ---
 name: 3D Reconstruction of Yonsei Engineering Building
 category: personal
-tools: [NeRF, 3D Reconstruction, Point Cloud, Registration]
+tools: [3D Reconstruction, Point Cloud, Registration]
 video: /assets/img/p-engineering.mp4
 image: /assets/img/p-engineering.png
 description: Complete 3D reconstruction of the Yonsei engineering building via NeRF and direct mobile scanning, fused through point-cloud registration.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Awards
-weight: 6
+weight: 5
 permalink: /awards/
 ---
 
@@ -38,6 +38,22 @@ permalink: /awards/
   .aw-meta { color: #a49d8b; }
   .aw-tag { color: #d8d0bb; background: #26241e; border-color: #3a362d; }
 }
+.aw-note { margin: 2.4rem 0 1.2rem; font-size: .98rem; color: #5c6066; line-height: 1.65; }
+.aw-more-title { font-size: 1.2rem; font-weight: 700; margin: 1.4rem 0 .9rem; }
+.aw-more { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .35rem; }
+.aw-more li { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem; padding: .55rem .2rem; border-bottom: 1px solid #f0ece1; font-size: .92rem; color: #3a3a3a; line-height: 1.4; }
+.aw-more li:last-child { border-bottom: none; }
+.aw-more-tag { font-size: .6rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: #fff; background: #64748b; padding: .12rem .45rem; border-radius: 4px; flex: 0 0 auto; position: relative; top: -1px; }
+.aw-more-venue { color: #6f6a5e; font-size: .82rem; }
+.aw-more-date { margin-left: auto; font-size: .78rem; font-weight: 600; color: #9aa3b0; white-space: nowrap; }
+.aw-more a { color: #043361; text-decoration: none; border-bottom: 1px solid rgba(4,51,97,.3); }
+.aw-more a:hover { border-bottom-color: #043361; }
+@media (prefers-color-scheme: dark) {
+  .aw-note { color: #a9adb3; }
+  .aw-more li { color: #cfcbc0; border-bottom-color: #2f2c25; }
+  .aw-more-venue { color: #a49d8b; } .aw-more-date { color: #6b7480; }
+  .aw-more a { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.35); } .aw-more a:hover { border-bottom-color: #8ec5ff; }
+}
 </style>
 
 <h1><strong>Awards</strong></h1>
@@ -67,3 +83,17 @@ permalink: /awards/
   </div>
 {% endfor %}
 </div>
+
+<p class="aw-note">Beyond the honors above, I genuinely enjoy competitions and building projects, and I've collected a wide range of awards along the way, including a Seoul Mayor's Prize and several Governor's Prizes.</p>
+
+<h2 class="aw-more-title">Other Honors &amp; Selections</h2>
+<ul class="aw-more">
+  <li><span class="aw-more-tag">Winner</span> Physical AI Hackathon <span class="aw-more-venue">Cheonan</span><span class="aw-more-date">May 2025</span></li>
+  <li><span class="aw-more-tag">Winner</span> ICEE Challenge 2024 <span class="aw-more-venue">Yonsei University</span><span class="aw-more-date">Jul 2024</span></li>
+  <li><span class="aw-more-tag">Winner</span> Yonsei Student Council Idea Competition <span class="aw-more-venue">Yonsei University</span><span class="aw-more-date">Jul 2024</span></li>
+  <li><span class="aw-more-tag">Winner</span> Convergence Social Problem Solving Competition <span class="aw-more-venue">Yonsei University</span><span class="aw-more-date">Jan 2024</span></li>
+  <li><span class="aw-more-tag">Winner</span> 2nd Command Center Drone Challenge <span class="aw-more-venue">Republic of Korea Army (ROKA)</span></li>
+  <li><span class="aw-more-tag">Winner</span> Gyeonggi ESG Hackathon <span class="aw-more-venue">Gyeonggi-do Provincial Council</span></li>
+  <li><span class="aw-more-tag">Winner</span> KSCE Civil Engineering Model Competition <span class="aw-more-venue">Korea Society of Civil Engineers</span></li>
+  <li><span class="aw-more-tag">Selected</span> <a href="https://blog.naver.com/asan_nanum/223689731136" target="_blank" rel="noopener">Asan Nanum Foundation Demo Day</a></li>
+</ul>

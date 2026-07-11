@@ -50,6 +50,7 @@ I like to build end to end, from field sensing systems to the learning algorithm
     <div class="rtheme-links">
       <a href="https://github.com/tersite1/DepthViz" target="_blank">DepthViz ↗</a>
       <a href="/publications/">Related papers ↗</a>
+      <a href="/projects/">Projects ↗</a>
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 name: NeRF-Assisted Auto-Labeling Pipeline
 category: personal
-tools: [NeRF, 3D Reconstruction, Computer Vision, Machine Learning]
+tools: [3D Reconstruction, Computer Vision]
 image: /assets/img/g-nerf-2.png
 thumb_pos: right center
 description: An ARIL Lab project — reconstruct with Instant-NGP, render novel views, auto-annotate, and train YOLO.

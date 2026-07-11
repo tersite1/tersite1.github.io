@@ -2,7 +2,7 @@
 layout: page
 title: Patents
 permalink: /patents/
-weight: 5
+weight: 6
 ---
 
 <style>

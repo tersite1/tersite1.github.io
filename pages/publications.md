@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 permalink: /publications/
-weight: 7
+weight: 4
 ---
 ### ㅤ
 ## Preprints & Under Review

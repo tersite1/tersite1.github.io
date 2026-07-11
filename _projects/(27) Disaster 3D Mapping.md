@@ -1,7 +1,7 @@
 ---
 name: Emergency 3D Mapping for Disaster Response
 category: personal
-tools: [3D Reconstruction, UAV, Drone, Point Cloud]
+tools: [3D Reconstruction, UAV, Point Cloud]
 image: /assets/img/p-disaster.png
 description: Generating emergency 3D maps of disaster areas from drone data so response teams get a fast 3D view of the affected site.
 ---

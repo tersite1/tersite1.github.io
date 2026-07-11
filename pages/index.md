@@ -18,6 +18,20 @@ permalink: /
 .affil-link { color: inherit; font-weight: 600; text-decoration: none; border-bottom: 1px solid transparent; transition: color .15s ease, border-color .15s ease; }
 .affil-link:hover { color: #043361; border-bottom-color: rgba(4,51,97,.45); }
 @media (prefers-color-scheme: dark) { .affil-label { color: #6b7480; } .affil-items { color: #b3b9c2; } .affil-items .pi { color: #868e99; } .affil-link:hover { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.5); } }
+.xp { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem 2.4rem; max-width: 800px; margin: 1.8rem auto .4rem; text-align: left; }
+.xp-label { font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #9aa3b0; margin: 0 0 .7rem; padding-bottom: .35rem; border-bottom: 1px solid #ececf0; }
+.xp-item { margin-bottom: .85rem; }
+.xp-head { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; }
+.xp-org { font-size: .88rem; font-weight: 700; color: #1f2937; text-decoration: none; border-bottom: 1px solid transparent; transition: color .15s ease, border-color .15s ease; }
+.xp-org:hover { color: #043361; border-bottom-color: rgba(4,51,97,.4); }
+.xp-date { font-size: .72rem; font-weight: 600; color: #9aa3b0; white-space: nowrap; flex: 0 0 auto; }
+.xp-role { font-size: .78rem; color: #6b7280; margin-top: .12rem; line-height: 1.4; }
+@media (max-width: 640px) { .xp { grid-template-columns: 1fr; gap: 1.2rem; } }
+@media (prefers-color-scheme: dark) {
+  .xp-label { color: #6b7480; border-bottom-color: #2c2f33; }
+  .xp-org { color: #e5e7eb; } .xp-org:hover { color: #8ec5ff; border-bottom-color: rgba(142,197,255,.5); }
+  .xp-date { color: #6b7480; } .xp-role { color: #9aa0a6; }
+}
 
 /* DepthViz editorial card */
 .dv2 {
@@ -70,25 +84,50 @@ permalink: /
   <h1>Minsuk Jang</h1>
   <div class="hero-sub">AI Researcher &nbsp;·&nbsp; Civil Engineering Background</div>
   <p class="hero-statement">
-    I'm an <strong>AI researcher with a background in civil engineering</strong>. After a B.S. in Civil
-    Engineering at Yonsei University, I'm now pursuing my M.S. in Electrical Engineering at KAIST, in the
-    Computational Intelligence Laboratory (Prof. Changick Kim). Having worked across research labs and
-    companies, I focus on <strong>3D (Gaussian Splatting, LiDAR), agentic AI, and physical AI</strong>, with one goal throughout:
-    building systems that solve real problems in the real world.
+    I'm an <strong>AI researcher with a civil engineering background</strong>. My work spans
+    <strong>3D perception, Agentic AI, and AI safety</strong>, and I care most about research that leaves
+    the lab and holds up in the real world. I like to build end to end, from field sensing systems to the
+    learning algorithms behind them. Above all, I place my highest priority on contributing to
+    <strong>physical AI</strong>.
   </p>
-  <div class="affil">
-    <div class="affil-group">
-      <div class="affil-label">Research Labs</div>
-      <div class="affil-items">
-        <a class="affil-link" href="https://cilabs.kaist.ac.kr/" target="_blank" rel="noopener">Computational Intelligence Lab, KAIST</a> <span class="pi">(Prof. Changick Kim)</span> ·
-        <a class="affil-link" href="https://www.gnss.kr/" target="_blank" rel="noopener">Intelligent Unmanned Systems Lab, Yonsei</a> <span class="pi">(Prof. Jiwon Seo)</span> ·
-        <a class="affil-link" href="https://vi.snu.ac.kr/intro.php" target="_blank" rel="noopener">Vehicle Intelligence Lab, SNU</a> <span class="pi">(Prof. Seoungwoo Seo)</span> ·
-        <a class="affil-link" href="https://arisnu.squarespace.com" target="_blank" rel="noopener">Autonomous Robot Intelligence Lab, SNU</a> <span class="pi">(Prof. Seoung Woo Kim)</span>
+  <div class="xp">
+    <div class="xp-col">
+      <div class="xp-label">Research Experience</div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://cilabs.kaist.ac.kr/" target="_blank" rel="noopener">Computational Intelligence Lab, KAIST</a><span class="xp-date">Feb 2025 - Present</span></div>
+        <div class="xp-role">Graduate Research Assistant · Prof. Changick Kim</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://www.gnss.kr/" target="_blank" rel="noopener">Intelligent Unmanned Systems Lab, Yonsei</a><span class="xp-date">Jul - Sep 2024</span></div>
+        <div class="xp-role">Undergraduate Research Assistant · Prof. Jiwon Seo</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://vi.snu.ac.kr/intro.php" target="_blank" rel="noopener">Vehicle Intelligence Lab, SNU</a><span class="xp-date">Apr - Jul 2024</span></div>
+        <div class="xp-role">Undergraduate Research Assistant · Prof. Seoungwoo Seo</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://arisnu.squarespace.com" target="_blank" rel="noopener">Autonomous Robot Intelligence Lab, SNU</a><span class="xp-date">Jan - Mar 2024</span></div>
+        <div class="xp-role">Undergraduate Research Assistant · Prof. Seoung Woo Kim</div>
       </div>
     </div>
-    <div class="affil-group">
-      <div class="affil-label">Industry</div>
-      <div class="affil-items"><a class="affil-link" href="https://idoll.love/" target="_blank" rel="noopener">IDOLL Robotics</a> · <a class="affil-link" href="https://stellarvision.co.kr/english/" target="_blank" rel="noopener">Stellarvision</a> · XYZ Innovation · <a class="affil-link" href="https://www.hyundai.com/worldwide/en" target="_blank" rel="noopener">Hyundai Motor Company</a></div>
+    <div class="xp-col">
+      <div class="xp-label">Work Experience</div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://idoll.love/" target="_blank" rel="noopener">IDOLL Robotics</a><span class="xp-date">Apr 2025 - Present</span></div>
+        <div class="xp-role">Robotics Engineer · Ontology-based home agent robot</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://stellarvision.co.kr/english/" target="_blank" rel="noopener">Stellarvision</a><span class="xp-date">Jul 2024 - Feb 2025</span></div>
+        <div class="xp-role">AI Engineer · Drone Digital Twin Team</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><span class="xp-org">XYZ Innovation</span><span class="xp-date">Jul 2024 - Feb 2025</span></div>
+        <div class="xp-role">Robotics Engineer · Drone and LiDAR forest carbon</div>
+      </div>
+      <div class="xp-item">
+        <div class="xp-head"><a class="xp-org" href="https://www.hyundai.com/worldwide/en" target="_blank" rel="noopener">Hyundai Motor Company</a><span class="xp-date">Jan - Jul 2024</span></div>
+        <div class="xp-role">Undergraduate Research Scholarship · LiDAR perception</div>
+      </div>
     </div>
   </div>
 </div>
