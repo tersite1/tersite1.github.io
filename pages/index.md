@@ -82,7 +82,6 @@ permalink: /
 <div class="hero">
   <img class="hero-avatar" src="/assets/img/minsuk0.png" alt="Minsuk Jang" />
   <h1>Minsuk Jang</h1>
-  <div class="hero-sub">AI Researcher &nbsp;·&nbsp; Civil Engineering Background</div>
   <p class="hero-statement">
     I'm an <strong>AI researcher with a civil engineering background</strong>. My work spans
     <strong>3D perception, Agentic AI, and AI safety</strong>, and I care most about research that leaves
