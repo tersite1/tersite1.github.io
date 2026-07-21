@@ -8,9 +8,8 @@ permalink: /
 .hero-avatar { width: 168px; height: 168px; object-fit: cover; border-radius: 50%; box-shadow: 0 6px 22px rgba(0,0,0,.18); margin-bottom: 1.1rem; }
 .hero h1 { font-size: 2.1rem; font-weight: 800; margin: .2rem 0 .15rem; }
 .hero-sub { color: #5c6066; font-size: 1.05rem; margin-bottom: .2rem; }
-.hero-edu { font-weight: 700; color: #3a4048; font-size: .98rem; margin: .3rem 0 0; }
 .hero-statement { font-size: 1.1rem; color: #2c2c2c; line-height: 1.65; margin: 1.1rem auto 0; max-width: 680px; text-wrap: balance; }
-@media (prefers-color-scheme: dark) { .hero-statement { color: #d7dade; } .hero-edu { color: #c7cad0; } }
+@media (prefers-color-scheme: dark) { .hero-statement { color: #d7dade; } }
 .affil { max-width: 730px; margin: 1.4rem auto 0; }
 .affil-group { margin-bottom: .55rem; }
 .affil-label { font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: #9aa3b0; margin-bottom: .2rem; }
@@ -83,9 +82,10 @@ permalink: /
 <div class="hero">
   <img class="hero-avatar" src="/assets/img/minsuk0.png" alt="Minsuk Jang" />
   <h1>Minsuk Jang</h1>
-  <div class="hero-edu">B.S. Civil Engineering, Yonsei University &nbsp;·&nbsp; Currently M.S. Electrical Engineering, KAIST</div>
   <p class="hero-statement">
-    I'm an <strong>AI researcher with a civil engineering background</strong>. My work spans
+    I'm an <strong>AI researcher with a civil engineering background</strong>, holding a
+    <strong>B.S. in Civil Engineering from Yonsei University</strong> and currently pursuing an
+    <strong>M.S. in Electrical Engineering at KAIST</strong>. My work spans
     <strong>3D perception, Agentic AI, and AI safety</strong>, and I care most about research that leaves
     the lab and holds up in the real world. I like to build end to end, from field sensing systems to the
     learning algorithms behind them. Above all, I place my highest priority on contributing to
