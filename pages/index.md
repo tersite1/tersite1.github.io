@@ -9,6 +9,7 @@ permalink: /
 .hero h1 { font-size: 2.1rem; font-weight: 800; margin: .2rem 0 .15rem; }
 .hero-sub { color: #5c6066; font-size: 1.05rem; margin-bottom: .2rem; }
 .hero-statement { font-size: 1.1rem; color: #2c2c2c; line-height: 1.65; margin: 1.1rem auto 0; max-width: 680px; text-wrap: balance; }
+@media (max-width: 640px) { .hero-statement { text-align: left; text-wrap: pretty; } }
 @media (prefers-color-scheme: dark) { .hero-statement { color: #d7dade; } }
 .affil { max-width: 730px; margin: 1.4rem auto 0; }
 .affil-group { margin-bottom: .55rem; }
