@@ -1,9 +1,10 @@
 main:
-  - title: "MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Contro"
+  - title: "MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control"
     authors: Minsuk Jang, Heeseon Kim, Huicheol Yu, and Changick Kim
-    conference_short: Arxiv
-    conference: Under Review at ACL Rolling Review (ARR)
+    conference_short: EMNLP
+    conference: EMNLP Findings 2026
     image: ./assets/img/mate.png
+    page: https://tersite1.github.io/mate/
     
   - title: "Gaussianization Residual-based AI-generated Image Detection"
     authors: Minseok Son, Younghun Kim, <strong>Minsuk Jang</strong>, and Changick Kim
@@ -19,7 +20,7 @@ main:
 
 
   - title: "Detection-Driven Sonar Image Super-Resolution for Mine-Like Object Detection"
-    authors: <strong>Minsuk Jang</strong>, Byeongjun Park, Seho Kim, Kangook Ko and Changick Kim
+    authors: <strong>Minsuk Jang</strong>, Byeongjun Park, Seho Kim, Kangwook Ko and Changick Kim
     conference_short: IEEE TGRS
     conference: Under Review at IEEE Transactions on Geoscience and Remote Sensing (TGRS)
     image: ./assets/img/tgrs.png
