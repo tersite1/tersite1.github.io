@@ -5,9 +5,6 @@ permalink: /publications/
 weight: 4
 ---
 
-*Publication list is temporarily withheld while under review, to avoid conflicts with anonymous peer review. Thank you for your patience, please check back soon.*
-
-{% comment %}
 ### ㅤ
 ## Preprints & Under Review
 
