@@ -2,7 +2,7 @@ main:
   - title: "MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control"
     authors: Minsuk Jang, Heeseon Kim, Huicheol Yu, and Changick Kim
     conference_short: EMNLP
-    conference: EMNLP Findings 2026
+    conference: Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2026 Findings
     image: ./assets/img/mate.png
     page: https://tersite1.github.io/mate/
     

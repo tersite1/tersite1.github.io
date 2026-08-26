@@ -8,8 +8,6 @@ weight: 4
 ### ㅤ
 ## Preprints & Under Review
 
-- **<u>Minsuk Jang</u>**, Heeseon Kim, Huicheol Yu, Changick Kim. **_MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control._** Under Review at ACL Rolling Review (ARR), 2025.
-
 - Minseok Son, Younghun Kim, **<u>Minsuk Jang</u>**, Changick Kim. **_Gaussianization Residual-based AI-generated Image Detection._** Under Review at IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025.
 
 - **<u>Minsuk Jang</u>**, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim, Changick Kim. **_Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection._** Under Review at NeurIPS 2026.
@@ -29,6 +27,8 @@ weight: 4
 ### ㅤ
 ## Conference Papers
 
+- **<u>Minsuk Jang</u>**, Heeseon Kim, Huicheol Yu, Changick Kim. [**_MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control._**](https://tersite1.github.io/mate/) Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026 Findings.
+
 - **<u>Minsuk Jang</u>**\*, Yoonchan Lee\*, June-Kyoo Park\*, Jihwan Shin\*, Gwangmo Lee\*, Minjun Kim\*, Seohyeon Lim\*, Keunhee Cho\*, Hyukje Son\*, Sun-ho Song. [**_Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue: Design and Demonstration._**](https://github.com/user-attachments/files/25094264/vtol.pdf) Korea Robotics Society Annual Conference (KRoC), 2026. (\*Equal contribution)
 
 - **<u>Minsuk Jang</u>**, Younghun Kim, Byeongjun Park, Changick Kim. [**_LiTE ViT: Leaky Integrate-and-Fire Token Efficient Vision Transformer._**](https://github.com/user-attachments/files/21153575/_LiTE.ViT.pdf) Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2025. **(Oral, Best Paper Award)**
@@ -38,4 +38,3 @@ weight: 4
 - **<u>Minsuk Jang</u>**, Halim Lee, Jiwon Seo. [**_Point Cloud Generation Using NeRF and Google Earth: Accuracy Evaluation Through Comparison with the KITTI Dataset._**](https://github.com/user-attachments/files/21153564/_NeRF.Google.Earth.pdf) The Korean Navigation Institute (KONI) Fall Conference, 2024. (Oral)
 
 - Taehyung Kim, **<u>Minsuk Jang</u>**, Shiho Kim. **_A Method for Real-Time Target Association in a Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection._** Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2024. (Oral)
-{% endcomment %}

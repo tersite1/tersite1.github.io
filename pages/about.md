@@ -117,9 +117,6 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
 
 ## Publications
 
-*Publication list is temporarily withheld while under review, to avoid conflicts with anonymous peer review. Thank you for your patience, please check back soon.*
-
-{% comment %}
 <div class="pub-list">
 {% for link in site.data.publications.main %}
   <div class="pub-item">
@@ -144,7 +141,6 @@ I am an M.S. student at KAIST, currently in the [Computational Intelligence Labo
   </div>
 {% endfor %}
 </div>
-{% endcomment %}
 
 
 ## Patents
