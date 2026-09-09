@@ -12,9 +12,9 @@ weight: 4
 ### ㅤ
 ## Conference Papers
 
-- Hui-Cheol Yu, **<u>Minsuk Jang*</u>**, , Myoungjae Choi. Werkon: Interactive Provenance Visualization of a Multi-Agent Circuit-Design Pipeline. SIGGRAPH ASIA 2026 (Poster)
+- Hui-Cheol Yu, **<u>Minsuk Jang</u>**, , Myoungjae Choi. Werkon: Interactive Provenance Visualization of a Multi-Agent Circuit-Design Pipeline. SIGGRAPH ASIA 2026 (Poster)
   
-- **<u>Minsuk Jang*</u>**, Hui-Cheol Yu, Myoungjae Choi. Mobile-LIO: Lightweight, Real-Time Correction LiDAR Intertial Odometry for the World’s Best-Selling LiDAR. SIGGRAPH ASIA 2026 (Poster)
+- **<u>Minsuk Jang</u>**, Hui-Cheol Yu, Myoungjae Choi. Mobile-LIO: Lightweight, Real-Time Correction LiDAR Intertial Odometry for the World’s Best-Selling LiDAR. SIGGRAPH ASIA 2026 (Poster)
 
 
 
