@@ -16,8 +16,6 @@ weight: 4
   
 - **<u>Minsuk Jang</u>**, Hui-Cheol Yu, Myoungjae Choi. Mobile-LIO: Lightweight, Real-Time Correction LiDAR Intertial Odometry for the World’s Best-Selling LiDAR. SIGGRAPH ASIA 2026 (Poster)
 
-
-
 - **<u>Minsuk Jang*</u>**, Hee-Seon Kim*, Hui-Cheol Yu*, Changick Kim. [**_MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control._**](https://tersite1.github.io/mate/) Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026 Findings.
 
 - **<u>Minsuk Jang</u>**\*, Yoonchan Lee\*, June-Kyoo Park\*, Jihwan Shin\*, Gwangmo Lee\*, Minjun Kim\*, Seohyeon Lim\*, Keunhee Cho\*, Hyukje Son\*, Sun-ho Song. [**_Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue: Design and Demonstration._**](https://github.com/user-attachments/files/25094264/vtol.pdf) Korea Robotics Society Annual Conference (KRoC), 2026. (\*Equal contribution)
