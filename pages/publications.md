@@ -43,10 +43,10 @@ weight: 4
 
 ### ㅤ
 ## Selected Talks /& Academic Services
-- Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics **2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** (Poster Presentation)
+- Poster Presentation, Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics **2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** 
 - Reviewer, AAAI 2026, 2026
 - Reviewer, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
-- REviewer, Winter Conference on Applications of Computer Vision (WACV) 2027
+- Reviewer, Winter Conference on Applications of Computer Vision (WACV) 2027
 
 
 
