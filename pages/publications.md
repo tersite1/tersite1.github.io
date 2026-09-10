@@ -23,9 +23,9 @@ weight: 4
 - **<u>Minsuk Jang</u>**, Taehyung Kim, Shiho Kim. [**_Building Automation Labeling Pipeline Utilizing Neural Radiance Fields._**](https://github.com/tersite1/tersite1/files/15329640/NeRF.pdf) Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2024. (Oral)
 
 - **<u>Minsuk Jang</u>**, Halim Lee, Jiwon Seo. [**_Point Cloud Generation Using NeRF and Google Earth: Accuracy Evaluation Through Comparison with the KITTI Dataset._**](https://github.com/user-attachments/files/21153564/_NeRF.Google.Earth.pdf) The Korean Navigation Institute (KONI) Fall Conference, 2024. (Oral)
-- 
+  
 - **<u>Minsuk Jang</u>** et al., Sun-ho Song. [**_Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue: Design and Demonstration._**](https://github.com/user-attachments/files/25094264/vtol.pdf) Korea Robotics Society Annual Conference (KRoC), 2024.
-- 
+  
 - Taehyung Kim, **<u>Minsuk Jang</u>**, Shiho Kim. **_A Method for Real-Time Target Association in a Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection._** Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2024. (Oral)
 
 
