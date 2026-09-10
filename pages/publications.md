@@ -18,7 +18,7 @@ weight: 4
 
 - **<u>Minsuk Jang*</u>**, Hee-Seon Kim*, Hui-Cheol Yu*, Changick Kim. [**_MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control._**](https://tersite1.github.io/mate/) Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026 Findings.
 
-- **<u>Minsuk Jang</u>**\*, Yoonchan Lee\*, June-Kyoo Park\*, Jihwan Shin\*, Gwangmo Lee\*, Minjun Kim\*, Seohyeon Lim\*, Keunhee Cho\*, Hyukje Son\*, Sun-ho Song. [**_Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue: Design and Demonstration._**](https://github.com/user-attachments/files/25094264/vtol.pdf) Korea Robotics Society Annual Conference (KRoC), 2026. (\*Equal contribution)
+- **<u>Minsuk Jang</u>**\ et al., Sun-ho Song. [**_Quad-Tiltrotor VTOL Drone for Autonomous Search and Rescue: Design and Demonstration._**](https://github.com/user-attachments/files/25094264/vtol.pdf) Korea Robotics Society Annual Conference (KRoC), 2026. 
 
 - **<u>Minsuk Jang</u>**, Byeongjun Park, Younghun Kim, Changick Kim. [**_LiTE ViT: Leaky Integrate-and-Fire Token Efficient Vision Transformer._**](https://github.com/user-attachments/files/21153575/_LiTE.ViT.pdf) Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2025. **(Oral, Best Paper Award)**
 
