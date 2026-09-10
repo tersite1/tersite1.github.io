@@ -12,9 +12,9 @@ weight: 4
 ### ㅤ
 ## Conference Papers
 
-- Hui-Cheol Yu, **<u>Minsuk Jang</u>**, , Myoungjae Choi. Werkon: Interactive Provenance Visualization of a Multi-Agent Circuit-Design Pipeline. SIGGRAPH ASIA 2026 (Poster)
+- Hui-Cheol Yu, **<u>Minsuk Jang</u>**, , Myoungjae Choi. **_Werkon: Interactive Provenance Visualization of a Multi-Agent Circuit-Design Pipeline._** SIGGRAPH ASIA 2026 (Poster)
   
-- **<u>Minsuk Jang</u>**, Hui-Cheol Yu, Myoungjae Choi. [Mobile-LIO: Lightweight, Real-Time Correction LiDAR Intertial Odometry for the World’s Best-Selling LiDAR.](github.com/tersite1/DepthViz) SIGGRAPH ASIA 2026 (Poster)
+- **<u>Minsuk Jang</u>**, Hui-Cheol Yu, Myoungjae Choi. **_[Mobile-LIO: Lightweight, Real-Time Correction LiDAR Intertial Odometry for the World’s Best-Selling LiDAR.](github.com/tersite1/DepthViz)_** SIGGRAPH ASIA 2026 (Poster)
 
 - **<u>Minsuk Jang*</u>**, Hee-Seon Kim*, Hui-Cheol Yu*, Changick Kim. [**_MATE: Mobile Agent Trustworthy Execution for Safe and Efficient Mobile Control._**](https://tersite1.github.io/mate/) Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026 Findings.
 
