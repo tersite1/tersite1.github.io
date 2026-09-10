@@ -46,10 +46,9 @@ weight: 4
 
 - **<u>Minsuk Jang</u>**, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim, Changick Kim. **_Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection._** Under Review at NeurIPS 2026.
 
-- **<u>Minsuk Jang</u>**, Byeongjun Park, Seho Kim, Kangook Ko, Changick Kim. **_Detection-Driven Sonar Image Super-Resolution for Mine-Like Object Detection._** Under Review at IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2025.
+- **<u>Minsuk Jang</u>**, Byeongjun Park, Seho Kim, Kangwook Ko, Changick Kim. **_Detection-Driven Sonar Image Super-Resolution for Mine-Like Object Detection._** Under Review at IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026.
 
 - Seho Kim\*, Inyong Koo\*, **<u>Minsuk Jang</u>**, Changick Kim. **_Gaussian Indexing: Multi-granular Instantiation for Open-Vocabulary 3D Scene Understanding._** Submitted at Neurips 2026. (\*Equal contribution)
 
-- **<u>Minsuk Jang</u>**, Kihyun Seol, Hyeonseo Jeong, Changick Kim. **_Timing Matters Too: Temporal Attention Gating for Spiking Neural Networks._** Submitted at ICIP 2026.
 
 
