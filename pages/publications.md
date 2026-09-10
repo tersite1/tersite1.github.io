@@ -28,14 +28,6 @@ weight: 4
   
 - Taehyung Kim, **<u>Minsuk Jang</u>**, Shiho Kim. **_A Method for Real-Time Target Association in a Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection._** Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2024. (Oral)
 
-
-
-### ㅤ
-## Selected Talks
-- Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics
-**2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** (Poster Presentation)
-
-
 ### ㅤ
 ## Preprints & Under Review
 
@@ -48,6 +40,16 @@ weight: 4
 - **<u>Minsuk Jang</u>**, Byeongjun Park, Seho Kim, Kangwook Ko, Changick Kim. **_Detection-Driven Sonar Image Super-Resolution for Mine-Like Object Detection._** Under Review at IEEE Transactions on Geoscience and Remote Sensing (TGRS), 2026.
 
 - Seho Kim\*, Inyong Koo\*, **<u>Minsuk Jang</u>**, Changick Kim. **_Gaussian Indexing: Multi-granular Instantiation for Open-Vocabulary 3D Scene Understanding._** Submitted at Neurips 2026. (\*Equal contribution)
+
+### ㅤ
+## Selected Talks /& Academic Services
+- Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics **2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** (Poster Presentation)
+- Reviewer, AAAI 2026, 2026
+- Reviewer, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+- REviewer, Winter Conference on Applications of Computer Vision (WACV) 2027
+
+
+
 
 
 
