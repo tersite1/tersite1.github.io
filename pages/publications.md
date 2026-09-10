@@ -42,7 +42,7 @@ weight: 4
 - Seho Kim\*, Inyong Koo\*, **<u>Minsuk Jang</u>**, Changick Kim. **_Gaussian Indexing: Multi-granular Instantiation for Open-Vocabulary 3D Scene Understanding._** Submitted at Neurips 2026. (\*Equal contribution)
 
 ### ㅤ
-## Selected Talks /& Academic Services
+## Selected Talks & Academic Services
 - Poster Presentation, Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics **2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** 
 - Reviewer, AAAI 2026, 2026
 - Reviewer, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
