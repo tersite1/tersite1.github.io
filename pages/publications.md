@@ -28,11 +28,18 @@ weight: 4
 
 - Taehyung Kim, **<u>Minsuk Jang</u>**, Shiho Kim. **_A Method for Real-Time Target Association in a Smart Vessel's Surround Camera System Using Geometric Relationships and SIFT Feature Point Detection._** Institute of Electronics and Information Engineers (IEIE) Summer Conference, 2024. (Oral)
 
+
+### ㅤ
+## Selected Talks
+- Embodied Design Intelligence: A Self-Verifying Agent That Reasons from Task Specifications to Fabricable Robot Electronics
+**2026 Nature Conference: Autonomous Robotics, KAIST, Daejeon, Republic of Korea, Oct. 13, 2026** (Poster Presentation)
+
+
 ### ㅤ
 ## Preprints & Under Review
 
 - **<u>Minsuk Jang</u>**, Hyeonseo Jeong, Minseok Son, Changick Kim. [**_Masked AutoEncoders Are Latent Image Detectors (CINEMAE)._**](https://arxiv.org/abs/2511.06325) Submitted at WACV 2027.
-- 
+
 - Minseok Son, Younghun Kim, **<u>Minsuk Jang</u>**, Changick Kim. **_Gaussianization Residual-based AI-generated Image Detection._** Under Review at AAAI, 2026.
 
 - **<u>Minsuk Jang</u>**, Yujin Yang, Heeseon Kim, Minseok Son, Younghun Kim, Changick Kim. **_Spiking Neural Networks as Learnable Temporal Integrators for AI-Generated Video Detection._** Under Review at NeurIPS 2026.
